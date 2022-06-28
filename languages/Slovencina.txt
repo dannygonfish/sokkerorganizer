@@ -1,0 +1,466 @@
+#! Slovenian text file
+langver=0.91
+translator_name=pipco
+englishname=slovenian
+
+#. Menus
+data=\u00fadaje
+config=Konfigur\u00e1cia
+downloadall=Stiahnu\u0165 v\u0161etko
+downloadbasic=Stiahnu\u0165 z\u00e1kladn\u00e9 \u00fadaje
+tt_downloadbasic=T\u00fdm info, Hr\u00e1\u010Di, Tr\u00e9nery, \u0161tadi\u00f3n
+downloadleaguem=Stiahnu\u0165 Ligu a Z\u00e1pasy
+downloadhistoric=Stiahnu\u0165 hist\u00f3riu z\u00e1pasov
+import=Importuj...
+importxml=XML s\u00fabor(y)
+importhtml=HTML s\u00fabor(y)
+importext=z extern\u00e9ho programu...
+sendtontdb=Po\u0161li \u00fadaje do "SoNTDB" str\u00e1nok
+options=Vo\u013Eby
+exit=Koniec
+formulas=Tabu\u013Eka
+info=Info
+credits=Credits
+reports=Spr\u00e1vy
+utils=N\u00e1stroje
+curconvert=Prev\u00e1dza\u010D meny
+checknewversion=Skontroluj nov\u00fa verziu SO
+
+#. Tabs
+squad=Mu\u017estvo
+lineup=Lineup Manager
+playerstats=\u0161tatistiky hr\u00e1\u010Dov
+datamanager=Data Manager
+settings=Nastavenia
+juniorschool=Dorast
+stadium=\u0161tadi\u00f3n
+leaguetable=Ligova tabu\u013Eka
+flagcollection=Zbierka vlajok
+training=Tr\u00e9ning
+matches=Z\u00e1pasy
+
+#. Table Column Headers
+ch_name=Meno
+ch_age=Vek
+ch_bestposition=Najlep\u0161ia poz\u00edcia
+ch_form=FORMA
+ch_tactdiscip=Taktick\u00e1 vyspelos\u0165
+ch_experience=Sk\u00fasenosti
+ch_teamwork=T\u00fdmovos\u0165
+ch_stamina=Kond\u00edcia
+ch_pace=R\u00fdchlos\u0165
+ch_technique=Technika
+ch_passing=Prihr\u00e1vky
+ch_keeper=Brank\u00e1r
+ch_defender=Obranca
+ch_playmaker=Tvorba hry
+ch_scorer=Strelec
+ch_matches=Z\u00e1pasy
+ch_goals=G\u00f3ly
+ch_assists=Asistencie
+ch_state=Stav
+ch_value=Hodnota
+ch_salary=Plat
+ch_id=ID
+ch_weeks=T\u00fd\u017edne
+ch_skill=Vlastnosti
+ch_skillup_count=Skoky
+ch_average_weeks_per_skillup=Talent
+ch_projected_level=Predpokladan\u00e1 \u00farove\u0148
+ch_initial_weeks=od za\u010Diatku
+ch_initial_skill=Pri vstupe
+ch_weeks_since_pop=Skoky od za\u010Diatku:
+ch_money_spent=Minut\u00e9 peniaze
+ch_date=\u00dadaje
+ch_rating=Hodnotenie
+ch_position=Poz\u00edcia
+ch_order=Odohral ako
+ch_time=\u010cas
+ch_shots=Strely
+ch_fouls=Fauly
+ch_offpercent=\u00dat %
+ch_defpercent=Obr %
+ch_squad=Mu\u017estvo
+ch_playedinlastmastch=HvPZ
+ch_sendtontdb=po\u0161li do NTDB
+
+#. Table Header ToolTip
+tt_tableheader=Click na usporiadanie; Shift-Click pre zoradenie v opa\u010Dnom porad\u00ed; Control-Click pridanie sekund\u00e1rn\u00fdch krit\u00e9ri\u00ed
+tt_ch_weeks=Cas zost\u00e1vaj\u00faci do skon\u010Denia v doraste
+tt_ch_skill=Schopnos\u0165 juniora, ktor\u00e1 je sumou celkov\u00fdch vlastnost\u00ed
+tt_ch_skillup_count=Po\u010Det skokov
+tt_ch_average_weeks_per_skillup=priemer t\u00fd\u017eed\u0148ov na skok
+tt_ch_projected_level=Predpokladan\u00e1 \u00farove\u0148 pri ukon\u010Den\u00ed dorastu podla prv\u00e9ho skoku
+tt_ch_initial_weeks=Pocet t\u00fd\u017eed\u0148ov v doraste
+tt_ch_initial_skill=Porovnanie s\u00fa\u010dastnej a za\u010Diato\u010Dnej \u00farovne
+tt_ch_weeks_since_pop=po\u010det t\u00fd\u017ed\u0148ov od posledn\u00e9ho skoku
+tt_ch_money_spent=Celkovo minut\u00e9 peniaze na juniora
+
+#. Connection
+connecting=Prip\u00e1jam...
+login=Login
+username=meno
+password=Heslo
+downloadingxml=Downloading XML
+beginsession=Zaciatok sez\u00f3ny
+dl_team=\u00dadaje o mu\u017estve
+dl_players=Hr\u00e1\u010di
+dl_juniors=Juniory
+dl_league=Ligov\u00e1 tabulka
+dl_training=atr\u00e9ningov\u00e9 \u00fadaje
+dl_economy=Financn\u00e9 \u00fadaje
+dl_matches=Z\u00e1pasov\u00e9 \u00fadaje
+dl_matchid=Z\u00e1pas %
+logoff=Odhl\u00e1senie
+useproxy=Pou\u017ei HTTP proxy
+proxyhost=Proxy hostname (or IP)
+proxyport=Proxy port
+useproxyauth=Pou\u017ei HTTP proxy authentification
+proxyusername=Proxy meno
+proxypassword=Proxy heslo
+
+#. Errors
+err_unknownhost=Unknown Host. Could not resolve %.
+err_invaliddate=Invalid date
+err_loginfailed=LOGIN FAILED!
+err_nocountryset=Before doing this make sure you have properly set your country settings in the Options.
+err_nocurrencyrate=No currency conversion rate for % is defined.
+
+#. Dialog titles
+error=Error
+inputdate=Input date
+
+#. Country Names
+c_71=Andora
+c_19=Argent\u00edna
+c_6=Austr\u00e1lia
+c_46=Bielorusko
+c_28=Belgicko
+c_57=Bol\u00edvia
+c_47=Bosna a Hercegovina
+c_21=Bras\u00edlia
+c_54=Bulharsko
+c_5=Kanada
+c_13=\u010cesk\u00e1 republika
+c_42=\u010cile
+c_36=Kolumbia
+c_70=Costa Rica
+c_40=Cyprus
+c_29=D\u00e1nsko
+c_15=Nemecko
+c_58=Ekv\u00e1dor
+c_33=Eesti
+c_3=Anglicko
+c_17=\u0161panielsko
+c_16=Franc\u00fazko
+c_66=Hayastan
+c_49=Hellas
+c_68=Honduras
+c_60=Hong Kong
+c_34=Chorv\u00e1tsko
+c_51=India
+c_65=Indon\u00e9zia
+c_32=Irsko
+c_63=Island
+c_52=Izrael
+c_10=Taliansko
+c_23=Litva
+c_8=Ma\u010farsko
+c_56=Maced\u00f3nia
+c_59=Malajzia
+c_67=Malta
+c_18=Mexico
+c_69=Moldavsko
+c_12=Holansko
+c_2=Nov\u00fd Z\u00e9land
+c_38=Nig\u00e9ria
+c_62=Japonsko
+c_27=N\u00f3rsko
+c_30=Rak\u00fasko
+c_72=Paraguaj
+c_37=Per\u00fa
+c_1=Po\u013Esko
+c_20=Portugalsko
+c_61=Dominik\u00e1nska Republika
+c_9=Romunsko
+c_43=Rusko
+c_24=\u0161vaj\u010diarsko
+c_7=\u0161k\u00f3tsko
+c_53=Shqip\u00ebria
+c_26=Slovinsko
+c_14=Slovensko
+c_22=Ju\u017en\u00e1 Afrika
+c_39=Srbsko
+c_25=\u0161v\u00e9dsko
+c_31=\u0161v\u00e9dsko
+c_41=Turecko
+c_35=Urugvaj
+c_4=USA
+c_44=Venezuela
+
+#. Skill and supporter levels
+skill_0=tragick\u00fd
+skill_1=z\u00fafal\u00fd
+skill_2=neuspokojiv\u00fd
+skill_3=\u00faboh\u00fd
+skill_4=slab\u00fd
+skill_5=priemern\u00fd
+skill_6=adekv\u00e1tny
+skill_7=dobr\u00fd
+skill_8=solidn\u00fd
+skill_9=ve\u013Emi dobr\u00fd
+skill_10=excelentn\u00fd
+skill_11=impozantn\u00fd
+skill_12=vynikaj\u00faci
+skill_13=neuveriteln\u00fd
+skill_14=brilantn\u00fd
+skill_15=magick\u00fd
+skill_16=nadpozemsk\u00fd
+skill_17=bo\u017esk\u00fd
+mood_1=rozz\u00faren\u00fd
+mood_2=stratili n\u00e1dej
+mood_3=v depresii
+mood_4=veria vo svoj klub
+mood_5=s\u00fa spokojn\u00fd
+mood_6=nad\u0161en\u00fd v\u00fdkonom svojho mu\u017estva
+mood_7=\u0161ialene zamilovan\u00fd do svojeho klubu
+
+#. Squad Summary Panel
+averageage=Priemern\u00fd vek:
+averageform=Priemern\u00e1 forma:
+totalplayers=Spolu hr\u00e1\u010Dov:
+natplayers=Reprezentanti:
+fgnplayers=Legion\u00e1ry:
+totalsalary=Celkovo platy:
+averagesalary=Priemern\u00fd plat:
+totalvalue=Spolu hodnota:
+averagevalue=Priemern\u00e1 hodnota:
+money=Peniaze:
+rank=Hodnotenie v bodoch:
+fans=Fan\u00fa\u0161ikovia:
+fanclubmood=N\u00e1lada fan\u00fa\u0161ikov:
+
+#. Options dialog
+language=Jazyk
+country=Krajina
+currencyrate=Koeficient konverzie meny
+currencysymbol=Symbol meny
+lowskill=Prah n\u00edzkej schopnosti
+tt_lowskill=Schopnosti od tejto \u00farovne s\u00fa "n\u00edzky"
+highskill=Prah vysokej schopnosti
+tt_highskill=Schopnosti od tejto \u00farovne s\u00fa "vysok\u00fd"
+seasonreference=Reference season
+seasonreferencestart=Ref. season start
+tt_seasonreference=Reference season for the calendars. The entered number represents the Sokker season in your country that begins at the date indicated below.
+tt_seasonreferencestart=Reference season starting date. The reference season begins at this date in your country.
+autosendtontdb=Automatick\u00e9 posielani \u00fadajov do NTDB.
+tt_autosendtontdb=Automaticky posielaj \u00fadaje o vybrat\u00fdch hr\u00e1\u010dov do NTDB's URL (set in resources/ntdb_urls.txt)
+autochecknewversion=Skontroluj nov\u00fa verziu pri \u0161tarte
+tt_autochecknewversion=Automaticky kontroluj nov\u00fa verziu SO pri spusten\u00ed
+
+#. Position's short names
+pos_20=OBR
+pos_30=ZAL
+pos_40=UTO
+pos_10=BR
+pos_21=SK
+pos_22=SO
+pos_23=ST
+pos_31=OZ
+pos_32=SZ
+pos_33=UZ
+pos_35=OF
+pos_41=UT
+pos_42=ZAK
+pos_left=L%
+pos_right=R%
+
+#. Position's long (extended) names
+posext_20=obr\u00e1nca
+posext_30=z\u00e1lo\u017en\u00edk
+posext_40=\u00fato\u010Dn\u00edk
+posext_10=brank\u00e1r
+posext_21=stiahnut\u00e9 kr\u00eddlo
+posext_22=stredn\u00fd obr\u00e1nca
+posext_23=stop\u00e9r
+posext_31=defenz\u00edvny z\u00e1lo\u017en\u00edk
+posext_32=stredov\u00fd z\u00e1lo\u017en\u00edk
+posext_33=\u00fato\u010Dn\u00fd z\u00e1lo\u017en\u00edk
+posext_35=ofenz\u00edvny z\u00e1lo\u017en\u00edk
+posext_41=\u00fato\u010Dn\u00edk
+posext_42=zakon\u010Dovate\u013E
+posext_left=\u013Eav\u00fd %
+posext_right=prav\u00fd %
+
+#. Misc
+season=Sez\u00f3na
+comparedata=Porovna\u0165 \u00fadaje
+weeksingraph=t\u00fd\u017ede\u0148 v grafe
+managernotes=Pozn\u00e1mka mana\u017eera
+savesnapshot=Ulo\u017e obr\u00e1zok
+deleteforever=Definit\u00edvne zmaza\u0165
+confirmdelete=Potvr\u010f zmazanie
+
+#. skill names
+skn_form=Forma
+skn_stamina=Kond\u00edcia
+skn_pace=R\u00fdchlos\u0165
+skn_technique=Technika
+skn_passing=Prihr\u00e1vanie
+skn_keeper=Brank\u00e1r
+skn_defender=Obranca
+skn_playmaker=Tvorca hry
+skn_scorer=Uto\u010Dn\u00edk
+skn_experience=Taktick\u00e1 vyspelos\u0165
+skn_teamwork=Team-work
+skn_tactdiscip=Tactical discipline
+
+#. Formula Editor
+formmodifier=\u00faprava formy (\%)
+player=Hr\u00e1\u010D
+ratingforpos=Hodnotenie na poz\u00edciu
+withform=s Formou
+withoutform=bez Formi
+set=nadstav
+tt_set=Set formula to these values
+undo=spat
+tt_undo=Reset formula to saved values
+reset=Reset
+tt_reset=Reset formula to default. THIS CANNOT BE UNDONE!
+
+#. Credits
+author=Author
+translator=Translator
+
+#. League Table Panel
+ch_team=Mu\u017eestvo
+ch_matchesplayed=Po\u010Det z\u00e1pasov
+ch_matchwins=V\u00fdhry
+ch_matchdraws=Rem\u00edzy
+ch_matchlosses=Prehry
+ch_goalsfavour=G\u00f3lov dal
+ch_goalsagainst=G\u00f3lov dostal
+ch_goaldiff=Rozdiel
+ch_points=Body
+tt_round=Kolo
+tt_place=Miesto
+graph=Graf
+fixture=Rozpis
+deletetable=Zmaza\u0165 tabu\u013eku
+exportxml=Export do XML
+
+#. reports
+trainingreport=t\u00fd\u017edenn\u00fd tr\u00e9ning
+juniorreport=Juniorsk\u00e9 skoky
+playerreport=Player record
+generate=Generate
+schoolreport=Sprava z juniorskej zakladne
+flagsreport=Spr\u00e1va o zbierke vlajok 
+
+#. SokkerMon Importer
+unrecogskill=Unrecognized skill level: %
+
+#. Flags Plugin
+fp_flag=vlajka$vlajky
+fp_player=hr\u00e1\u010d$hr\u00e1\u010di
+fp_visited=Nav\u0161t\u00edven\u00e9 krajiny
+fp_hosted=Hos\u0165uj\u00face krajiny
+fp_tripto=V\u00fdlety do %
+fp_visitsfrom=N\u00e1v\u0161tevy z %
+fp_currentpflags=Z\u00e1stavy aktu\u00e1lnych hr\u00e1\u010dov
+fp_formerpflags=B\u00fdval\u00ed hr\u00e1\u010di Straten\u00e9 vlajky
+fp_currentpfrom=Aktu\u00e1lny hr\u00e1\u010di z %
+fp_formerpfrom=B\u00fdval\u00ed hr\u00e1\u010di z %
+fp_newflags=Nov\u00e9 vlajky
+fp_newvisited=Nov\u00e9 nav\u0161t\u00edven\u00e9 krajiny
+fp_newhosted=Nov\u00e9 hos\u0165\u00faj\u00face krajiny
+fp_notvisitedyet=Krajiny e\u0161te nenav\u0161t\u00edven\u00e9
+fp_nothostedyet=Krajiny e\u0161te nehos\u0165uj\u00face
+fp_addflags=pridaj tieto
+fp_removeflags=odober tieto
+fp_updateflags=Aktualiz\u00e1cia vlajok
+tt_fp_updateflags=Vlajky bud\u00fa aktualizovan\u00e9 pod\u013ea \u00fadajov v DB
+
+#. Match IDs list importer
+inputmatchids=Vlo\u017e ID z\u00e1pasu
+typematchidshere=Nap\u00ed\u0161 ID z\u00e1pasu sem a stla\u010d ENTER
+dragmatcheshere=Natiahni (alebo kop\u00edruj-vlo\u017e) tvoju online.sokker.org odkaz z\u00e1pasu sem
+
+#. Text Editing
+cut=Vystrihni
+copy=Kop\u00edruj
+paste=Prilep
+bold=Bold
+italic=Italic
+underline=Podtrhnut\u00e9
+
+#. Player stats Panel
+filter_allskills=V\u0161etky zru\u010dnosti
+filter_overall=Celkov\u00fd n\u00e1rast
+
+#. Updater
+newversion=Nov\u00e1 verzia % dostupn\u00e1!
+langupdates=Dostupn\u00e1 jazykov\u00e1 verzia!
+update=Aktualiz\u00e1cia
+dl_updatingso=Aktualiz\u00e1cia SO
+restart=Restart
+restartmsg=Pros\u00edm v\u00e1s znovu spus\u0165te SO pre aktualiz\u00e1ciu zmien
+
+#. Training Panel
+trainerjob=Job
+job0=\u017eiadny
+job1=Hlavn\u00fd tr\u00e9ner
+job2=Asistent
+job3=Dorast
+ch_trainerskill=UNIVERZ\u00c1LNY
+changetraining=St\u00e1le meni\u0165 tr\u00e9novan\u00e9 poz\u00edcie
+tt_changetraining=Dvojklil na zmenu tr\u00e9ningu na tento t\u00fd\u017ede\u0148
+datastatus=\u00dadaje z %
+datasetmanually=Manu\u00e1lne nastavenie \u00fadajov
+week=T\u00fd\u017ede\u0148
+order=Pr\u00edkaz
+trainlevel=\u00darov\u0148 tr\u00e9ningu
+residuallevel=Zvy\u0161n\u00fd tr\u00e9ning
+assistantstotal=S\u00fa\u010det asistentov k hlavn\u00e9mu
+minutestrained=Tr\u00e9noval min\u00fat
+orderplayed=Hral v porad\u00ed
+
+#. Matches Panel
+competition=Odveta
+weather=Po\u010dasie
+opponent=S\u00faper
+spectators=Div\u00e1ci
+score=V\u00fdsledok
+victory=V\u00fdhra
+draw=Rem\u00edza
+defeat=Prehra
+national=N\u00e1rodn\u00fd
+internat=Medzin\u00e1rodn\u00fd
+local=Dom\u00e1ci
+visitor=N\u00e1v\u0161teva
+official=Ofici\u00e1lny
+friendly=Priate\u013esk\u00fd
+league=Liga
+cup=Poh\u00e1r
+quali=Kvalifik\u00e1cia
+totalmatches=Celkovo z\u00e1pasov
+matcheswon=V\u00fdhry
+matchesdrawn=Rem\u00edzy
+matcheslost=Prehry
+goalsfavour=G\u00f3lov dal
+goalsagainst=G\u00f3lov dostal
+goaldiff=G\u00f3lov\u00fd rozdiel
+shots=Strely
+fouls=Fauly
+yellowcards=\u017dlt\u00e9 karty
+redcards=\u010cerven\u00e9 karty
+shootefficiency=Efektivita striel
+avgattendance=Priemerne div\u00e1kov
+avgpossession=Priemern\u00e9 dr\u017eanie
+avgplayinhalf=Priemern\u00e1 hra za pol\u010das
+avgscoring=Priemerne sk\u00f3re
+avgpassing=Priemerne prihr\u00e1vky
+avgdefending=Priemerne obrana
+datebegin=Za\u010diatok
+dateend=Koniec
+

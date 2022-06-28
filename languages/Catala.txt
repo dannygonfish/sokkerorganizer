@@ -1,0 +1,371 @@
+#! Catalan language file
+langver=0.811
+translator_name=ArnauDuran
+englishname=catalan
+
+#. Menus
+data=Dades
+config=Configuraci\u00f3
+downloadall=Descarregar tot
+tt_downloadbasic=Informaci\u00f3 de l'equip, Jugadors, Entrenadors, Estadi
+downloadbasic=Descarregar dades b\u00e0siques
+downloadleaguem=Descarregar lliga i partits
+downloadhistoric=Descarregar historial de partits
+import=Importar...
+importxml=Arxiu(s) XML
+importhtml=Arxiu(s) HTML
+importext=des de programa extern...
+sendtontdb=Enviar dades als llocs"SoNTDB"
+options=Opcions
+exit=Sortir
+formulas=F\u00f2rmules
+info=Info
+credits=Cr\u00e8dits
+reports=Reportatges
+utils=Utilitats
+curconvert=Convertidor de moneda
+checknewversion=Buscar nova versi\u00f3 de SO
+
+#. Tabs
+squad=Plantilla de jugadors
+lineup=Alineaci\u00f3
+playerstats=Estad\u00edstiques dels jugadors
+datamanager=Administrador de dades
+settings=Opcions
+juniorschool=Escola de juvenils
+stadium=Estadi
+leaguetable=Classificaci\u00f3 lliga
+flagcollection=Col\u00b7lecci\u00f3 de banderes
+training=Entrenament
+matches=Partits
+
+#. Table Column Headers
+ch_name=Nom
+ch_age=Edat
+ch_bestposition=Pos.Ideal
+ch_form=FORMA
+ch_tactdiscip=D.T.
+ch_teamwork=T.E.
+ch_experience=Exp
+ch_stamina=RESI
+ch_pace=RAP
+ch_technique=T\u00c8C
+ch_passing=PAS
+ch_keeper=POR
+ch_defender=DEF
+ch_playmaker=CRE
+ch_scorer=ANO
+ch_matches=Partits
+ch_goals=Gols
+ch_assists=Assist\u00e8ncies
+ch_state=Estat
+ch_value=Valor
+ch_salary=Sou
+ch_id=ID
+ch_weeks=Setmanes
+ch_skill=Nivell
+ch_skillup_count=Millores
+ch_average_weeks_per_skillup=Mitjana de setmanes/millora
+ch_projected_level=Nivell projectat
+ch_initial_weeks=Setmanes inicials
+ch_initial_skill=Nivell inicial
+ch_weeks_since_pop=Setmanes des de millora
+ch_money_spent=Diners gastats
+ch_date=Data
+ch_rating=Qualificaci\u00f3
+ch_position=Pos
+ch_order=Ordre
+ch_time=Temps
+ch_shots=Xuts
+ch_fouls=Faltes
+ch_offpercent=Ofe \%
+ch_defpercent=Def \%
+ch_squad=Aline.
+ch_playedinlastmastch=JUP
+ch_sendtontdb=Enviar a NTDB
+
+#. Table Header ToolTip
+tt_tableheader=Clic per ordenar; Shift+Clic per ordenar en ordre invers; Control+Clic per afegir criteri d'ordre secundari.
+tt_ch_initial_skill=Nivell inicial
+tt_ch_skillup_count=Millores
+tt_ch_weeks=Setmanes
+tt_lowskill=Habilitat baixa
+tt_ch_weeks_since_pop=Setmanes des de millora
+tt_ch_money_spent=Diners gastats
+tt_ch_skill=Habilitat
+tt_highskill=Habilitat alta
+tt_ch_average_weeks_per_skillup=Mitjana de setmanes/millora
+tt_ch_initial_weeks=Setmanes inicials
+tt_ch_projected_level=Nivell projectat
+
+#. Connection
+connecting=Connectant...
+login=Identificaci\u00f3
+username=Nom d'usuari
+password=Contrasenya
+downloadingxml=Descarregant XML
+beginsession=Comen\u00e7ar sessi\u00f3
+dl_league=Classificaci\u00f3
+dl_training=Dades d'entrenament
+dl_economy=Dades d'economia
+dl_matches=Dades de partits
+dl_matchid=Partit %
+dl_team=Dades de l'equip
+dl_players=Jugadors
+dl_juniors=Juvenils
+logoff=Desconnectar
+useproxy=Fer servir proxy HTTP
+proxyhost=Nom del servidor proxy (o IP)
+proxyport=Port del proxy
+useproxyauth=Fer servir autentificaci\u00f3 proxy HTTP
+proxyusername=Usuari del proxy
+proxypassword=Contrasenya del proxy
+
+#. Errors
+err_unknownhost=Servidor desconegut. No s'ha pogut resoldre %.
+err_invaliddate=Data inv\u00e0lida.
+err_loginfailed=Identificaci\u00f3 fallada
+err_nocountryset=Abans de fer aix\u00f2 assegura't que has posat b\u00e9 el teu pa\u00eds a les opcions.
+err_nocurrencyrate=La taxa de conversi\u00f3 per a % no est\u00e0 definida.
+
+#. Dialog titles
+error=Error
+inputdate=Ingressi data
+
+#. Country Names
+
+#. Skill and supporter levels
+skill_0=tr\u00e0gic
+skill_1=terrible
+skill_2=deficient
+skill_3=pobre
+skill_4=d\u00e8bil
+skill_5=regular
+skill_6=acceptable
+skill_7=bo
+skill_8=s\u00f2lid
+skill_9=molt bo
+skill_10=excel\u00b7lent
+skill_11=formidable
+skill_12=destacat
+skill_13=incre\u00efble
+skill_14=brillant
+skill_15=m\u00e0gic
+skill_16=extraterrestre
+skill_17=div\u00ed
+mood_1=furiosos
+mood_2=perdent l'esperan\u00e7a
+mood_3=deprimits
+mood_4=creuen en el club
+mood_5=satisfets
+mood_6=encantats
+mood_7=bojament enamorats del club!
+
+#. Squad Summary Panel
+averageage=Edat mitjana:
+averageform=Forma mitjana:
+totalplayers=Total de jugadors:
+natplayers=Jugadors nacionals:
+fgnplayers=Jugadors estrangers:
+totalsalary=Sou total:
+averagesalary=Sou mitj\u00e0:
+totalvalue=Valor total:
+averagevalue=Valor mitj\u00e0:
+money=Diners:
+rank=Punts del r\u00e0nquing:
+fans=Socis:
+fanclubmood=Humor dels socis:
+
+#. Options dialog
+language=Idioma
+country=Pa\u00eds
+currencyrate=Taxa de conversi\u00f3 de moneda
+currencysymbol=S\u00edmbol monetari
+lowskill=L\u00edmit d'habilitat inferior
+highskill=L\u00edmit d'habilitat superior
+seasonreference=Temporada referencial
+tt_seasonreference=Temporada de refer\u00e8ncia
+seasonreferencestart=Inici de la temporada ref.
+tt_seasonreferencestart=Comen\u00e7ament de la temporada de refer\u00e8ncia
+autosendtontdb=Auto-enviar dades dels jugadors a la NTDB.
+tt_autosendtontdb=Enviar autom\u00e0ticament les dades dels jugadors seleccionats a la URL de la NTDB's (especificada a resources/ntdb_urls.txt)
+autochecknewversion=Buscar nova versi\u00f3 al comen\u00e7ar
+tt_autochecknewversion=Buscar autom\u00e0ticament una versi\u00f3 nova de SO quan el programa comenci
+
+#. Position's short names
+pos_20=DEF
+pos_30=MED
+pos_40=ATA
+pos_10=PO
+pos_21=DL
+pos_22=DC
+pos_23=LL
+pos_31=MD
+pos_32=MC
+pos_33=MO
+pos_35=LA
+pos_41=MP
+pos_42=DA
+pos_left=%I
+pos_right=%D
+
+#. Position's long (extended) names
+posext_20=defensa
+posext_30=migcampista
+posext_40=atacant
+posext_10=porter
+posext_21=defensa lateral
+posext_22=defensa central
+posext_23=lliure
+posext_31=mig defensiu
+posext_32=mig central
+posext_33=mig ofensiu
+posext_35=lateral
+posext_41=mitjapunta
+posext_42=davanter
+posext_left=% esquerre
+posext_right=% dreta
+
+#. misc
+season=Temporada
+comparedata=Comparar dades
+weeksingraph=Setmanes en el gr\u00e0fic
+newversion=Nova versi\u00f3 % disponible!
+managernotes=Notes del m\u00e0nager
+savesnapshot=Guardar captura de pantalla
+
+#. skill names
+skn_form=Forma
+skn_stamina=Resist\u00e8ncia
+skn_pace=Velocitat
+skn_technique=T\u00e8cnica
+skn_passing=Passades
+skn_keeper=Porteria
+skn_defender=Defensa
+skn_playmaker=Creaci\u00f3
+skn_scorer=Anotaci\u00f3
+skn_experience=Experi\u00e8ncia
+skn_teamwork=Treball en equip
+skn_tactdiscip=Disciplina t\u00e0ctica
+
+#. Formula Editor
+formmodifier=Modificador de forma (\%)
+player=Jugador
+ratingforpos=Marques per posici\u00f3
+withform=Amb forma
+withoutform=Sense forma
+set=Set
+tt_set=Posar f\u00f2rmula per aquests valors
+undo=Desfer
+tt_undo=Reinicia la f\u00f2rmula als valors guardats
+reset=Reset
+tt_reset=Reinicia la f\u00f2rmula als valors per defecte. IRREVERSIBLE
+
+#. Credits
+author=Autor
+translator=Traductor
+
+#. League Table Panel
+ch_team=Equip
+ch_matchesplayed=PJ
+ch_matchwins=V
+ch_matchdraws=E
+ch_matchlosses=D
+ch_goalsfavour=gF
+ch_goalsagainst=gC
+ch_goaldiff=Dif. gols
+ch_points=Pts
+tt_round=Jornada
+tt_place=Lloc
+graph=Gr\u00e0fic
+fixture=Calendari
+deletetable=Esborrar taula
+exportxml=Exportar a XML
+
+#. reports
+trainingreport=Resum de l'entrenament
+juniorreport=Desenvolupament dels juvenils
+playerreport=Resum del jugador
+generate=Generar
+
+#SokkerMon Importer
+unrecogskill=Nivell desconegut: %
+
+#. Flags Plugin
+fp_flag=bandera$banderes
+fp_player=jugador$jugadors
+fp_visited=Pa\u00efsos visitats
+fp_hosted=Pa\u00efsos acollits
+fp_tripto=Viatges a %
+fp_visitsfrom=Visites de %
+fp_currentpflags=Banderes de jugadors actuals
+fp_formerpflags=Banderes de jugadors que has tingut
+fp_currentpfrom=Jugadors actuals de %
+fp_formerpfrom=Jugadors que has tingut de %
+fp_newflags=Noves banderes
+fp_newvisited=Nous pa\u00efsos visitats
+fp_newhosted=Nous pa\u00efsos acollits
+fp_notvisitedyet=Pa\u00efsos sense visitar
+fp_nothostedyet=Pa\u00efsos sense acollir
+fp_addflags=afegir-les
+fp_removeflags=esborrar-les
+fp_updateflags=Actualitzar banderes
+tt_fp_updateflags=Les banderes seran actualitzades d'acord amb les dades dels partits de la BD
+
+#. Match IDs list importer
+inputmatchids=Entra les IDs dels partits
+typematchidshere=Escriu una ID de partit aqu\u00ed i apreta ENTER
+dragmatcheshere=Arrossega (o copia-enganxa) el text de la p\u00e0gina dels partits de online.sokker.org aqu\u00ed
+
+#. Text Editing
+cut=Tallar
+copy=Copiar
+paste=Enganxar
+bold=Negreta
+italic=Cursiva
+underline=Subratllat
+
+#. Player stats Panel
+filter_allskills=Totes les habilitats
+filter_overall=Millora general
+
+#. Updater
+langupdates=Actualitzaci\u00f3 d'idioma disponible!
+update=Actualitzar
+dl_updatingso=Actualitzant SO
+restart=Recomen\u00e7ar
+restartmsg=Siusplau, reinicia SO perqu\u00e8 els canvis facin efecte
+
+#. Training Panel
+trainerjob=Feina
+job0=cap
+job1=Principal
+job2=Assistent
+job3=Juvenils
+ch_trainerskill=GENERAL
+changetraining=Canviar permanentment les ordres d'entrenament
+tt_changetraining=Doble clic per canviar l'entrenament d'aquesta setmana
+datastatus=Data de %
+datasetmanually=La data ha estat entrada manualment
+week=Setmana
+order=Ordre
+
+#. Matches Panel
+competition=Competici\u00f3
+weather=Clima
+opponent=Oponent
+spectators=P\u00fablic
+score=Resultat
+victory=Vict\u00f2ria
+draw=Empat
+defeat=Derrota
+national=Nacional
+internat=Internacional
+local=Local
+visitor=Visitant
+official=Oficial
+friendly=Amist\u00f3s
+league=Lliga
+cup=Copa
+quali=Promoci\u00f3
+

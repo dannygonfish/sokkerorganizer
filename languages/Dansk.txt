@@ -1,0 +1,401 @@
+#! Danish text file
+langver=0.91
+translator_name=mwerner
+englishname=danish
+
+#. Menus
+data=Data
+config=Ops\u00e6tning
+downloadall=Download alt
+downloadbasic=Download basic data
+tt_downloadbasic=Hold info, Spillere, Tr\u00e6nere, Stadion
+downloadleaguem=Download Liga og kampe
+downloadhistoric=Download \u00e6ldre kampe
+import=Import...
+importxml=XML fil(er)
+importhtml=HTML fil(er)
+importext=fra eksternt program...
+sendtontdb=Send data til "SoNTDB" sites
+options=Indstillinger
+exit=Afslut
+formulas=Formler
+info=Info
+credits=Credits
+reports=Rapport
+utils=V\u00e6rkt\u00f8j
+curconvert=Valuta kalkulator
+checknewversion=Check for ny SO version
+
+#. Tabs
+squad=Trup
+lineup=Opstillingshj\u00e6lp
+playerstats=Spillerstatistik
+datamanager=Datamanager
+settings=Indstillinger
+juniorschool=Juniorskole
+stadium=Stadion
+leaguetable=Ligatabel
+flagcollection=Flagsamling
+training=Tr\u00e6ning
+matches=Kampe
+
+#. Table Column Headers
+ch_name=Navn
+ch_age=Alder
+ch_bestposition=B.Pos
+ch_form=FORM
+ch_tactdiscip=T.D.
+ch_experience=Erfar.
+ch_teamwork=T.W.
+ch_stamina=UDH
+ch_pace=HURT
+ch_technique=TEKN
+ch_passing=PASN
+ch_keeper=M\u00c5LM
+ch_defender=FORS
+ch_playmaker=MIDT
+ch_scorer=ANGR
+ch_matches=Kampe
+ch_goals=M\u00e5l
+ch_assists=Assist
+ch_state=Status
+ch_value=V\u00e6rdi
+ch_salary=L\u00f8n
+ch_id=ID
+ch_weeks=Uger
+ch_skill=F\u00e6rdighed
+ch_skillup_count=Pops
+ch_average_weeks_per_skillup=Snit Uger/pop
+ch_projected_level=Beregnet niveau
+ch_initial_weeks=Start Uger
+ch_initial_skill=Start Niveau
+ch_weeks_since_pop=Ingen pop i:
+ch_money_spent=Penge anvendt
+ch_date=Dato
+ch_rating=Rang
+ch_position=Pos
+ch_order=Ordre
+ch_time=Tid
+ch_shots=Skud
+ch_fouls=Frispark
+ch_offpercent=Off \%
+ch_defpercent=Def \%
+ch_squad=Trup
+ch_playedinlastmastch=SSK
+ch_sendtontdb=send til NTDB
+
+#. Table Header ToolTip
+tt_tableheader=Klik for sortering; Shift-klik for sortering i omvendt r\u00e6kkef\u00f8lge; Control-Klik for at tilf\u00f8je yderlig sorterings kriterie
+tt_ch_weeks=Uger tilbage i Juniorskole
+tt_ch_skill=Junior niveau. Summen af spillerens samlede f\u00e6rdigheder vil ca. v\u00e6re 3 gange denne v\u00e6rdi.
+tt_ch_skillup_count=Pop t\u00e6ller
+tt_ch_average_weeks_per_skillup=Snit uger/pop
+tt_ch_projected_level=Beregnet slut niveau considering average weeks/pop since the first pop, compared to current skill
+tt_ch_initial_weeks=Oprindelig antal uger
+tt_ch_initial_skill=Start niveau, sammenlignet med nuv\u00e6rende niveau
+tt_ch_weeks_since_pop=Uger siden sidste pop
+tt_ch_money_spent=Penge brugt p\u00e5 denne junior
+
+#. Connection
+connecting=Forbinder...
+login=Login
+username=Brugernavn
+password=Password
+downloadingxml=Downloading XML
+beginsession=Begynd Session
+dl_league=Liga Tabel
+dl_training=Tr\u00e6ningsdata
+dl_economy=\u00d8konomidata
+dl_matches=Kampdata
+dl_matchid=Kamp %
+dl_team=Hold data
+dl_players=Spillere
+dl_juniors=Juniorer
+logoff=Log af
+useproxy=Anvend HTTP proxy
+proxyhost=Proxy hostname (eller IP)
+proxyport=Proxy port
+useproxyauth=Anvend HTTP proxy godkendelse
+proxyusername=Proxy brugernavn
+proxypassword=Proxy password
+
+#. Errors
+err_unknownhost=Ukendt Host. Could not resolve %.
+err_invaliddate=Ugyldig dato
+err_loginfailed=LOGIN MISLYKKET!
+err_nocountryset=F\u00f8r du g\u00f8r dette skal ops\u00e6tningen af land v\u00e6re udf\u00f8rt. V\u00e6r opm\u00e6rksom p\u00e5 at du har indstillet lande ops\u00e6tning i Indstillinger.
+err_nocurrencyrate=Ingen valuta rate er defineret for %
+
+#. Dialog titles
+error=Fejl
+inputdate=Input date
+
+#. Country Names
+
+#. Skill and supporter levels
+skill_0=tragisk
+skill_1=h\u00e5bl\u00f8s
+skill_2=utilfredsstillende
+skill_3=d\u00e5rlig
+skill_4=svag
+skill_5=middelm\u00e5dig
+skill_6=acceptabel
+skill_7=god
+skill_8=solid
+skill_9=meget god
+skill_10=udm\u00e6rket
+skill_11=formidabel
+skill_12=fremragende
+skill_13=utrolig
+skill_14=genial
+skill_15=magisk
+skill_16=ud\u00f8delig
+skill_17=guddommelig
+mood_1=er rasende
+mood_2=mister h\u00e5bet
+mood_3=er deprimerede
+mood_4=tror p\u00e5 klubben
+mood_5=er tilfredse
+mood_6=er henrykte over klubbens pr\u00e6stationer
+mood_7=dine supportere elsker deres klub over alt p\u00e5 jorden
+
+#. Squad Summary Panel
+averageage=Gennemsnit alder:
+averageform=Gennemsnit form:
+totalplayers=Antal spillere:
+natplayers=Nationale spillere:
+fgnplayers=Udenlandske spillere:
+totalsalary=L\u00f8n ialt:
+averagesalary=Gennemsnits l\u00f8n:
+totalvalue=Total v\u00e6rdi:
+averagevalue=Gennemsnits v\u00e6rdi:
+money=Penge:
+rank=Rank point:
+fans=Fans:
+fanclubmood=Fan klub hum\u00f8r:
+
+#. Options dialog
+language=Sprog
+country=Land
+currencyrate=Valuta kurs
+currencysymbol=Valuta symbol
+lowskill=Lav skill markering
+tt_lowskill=Skills op til dette niveau (inklusiv) ben\u00e6vnes som "Lav"
+highskill=High skill threshold
+tt_highskill=Skills fra dette niveau og op ben\u00e6vnes som "H\u00f8j"
+seasonreference=Referense s\u00e6son
+seasonreferencestart=Ref. s\u00e6son start
+tt_seasonreference=Referense s\u00e6son for kalenderen. Nummeret repr\u00e6senterer Sokker se\u00e6sonen i dit land som starter p\u00e5 datoen nedenfor.
+tt_seasonreferencestart=Referense s\u00e6son start dato. Referense s\u00e6sonen starter p\u00e5 denne dato i dit land.
+autosendtontdb=Auto-send spillerdata til NTDB.
+tt_autosendtontdb=Send Automatisk udvalgte spillers data til den tilh\u00f8rende NTDB's URL (Indsat i resources/ntdb_urls.txt)
+autochecknewversion=Kontroler for ny version ved start
+tt_autochecknewversion=Automatisk kontrol for en ny SO version ved program start
+
+#. Position's short names
+pos_20=DEF
+pos_30=MID
+pos_40=ATT
+pos_10=M\u00e5lM
+pos_21=WB
+pos_22=CB
+pos_23=SW
+pos_31=DM
+pos_32=CM
+pos_33=OM
+pos_35=WM
+pos_41=FW
+pos_42=ST
+pos_left=V%
+pos_right=H%
+
+#. Position's long (extended) names
+posext_20=forsvar
+posext_30=midtbane
+posext_40=angriber
+posext_10=m\u00e5lmandr
+posext_21=wingback
+posext_22=centreback
+posext_23=sweeper
+posext_31=defensive midtbane
+posext_32=central midtbane
+posext_33=offensiv midtbane
+posext_35=wing
+posext_41=forward
+posext_42=striker
+posext_left=venstre %
+posext_right=h\u00f8jre %
+
+#. Misc
+season=S\u00e6son
+comparedata=Sammenlign data
+weeksingraph=Uger i grafen
+newversion=Ny version % tilg\u00e6ngelig
+managernotes=Manager notater
+savesnapshot=Gem snapshot
+deleteforever=Slet for altid
+confirmdelete=Bekr\u00e6ft sletning
+
+#. skill names
+skn_form=Form
+skn_stamina=Udholdenhed
+skn_pace=Pace
+skn_technique=Teknik
+skn_passing=Aflevering
+skn_keeper=M\u00e5lmand
+skn_defender=Forsvarer
+skn_playmaker=Playmaker
+skn_scorer=Scorer
+skn_experience=Erfaring
+skn_teamwork=Team-work
+skn_tactdiscip=Tactical discipline
+
+#. Formula Editor
+formmodifier=Form modifier (\%)
+player=Spiller
+ratingforpos=Rating for position
+withform=med Form
+withoutform=uden Form
+set=Indstil
+tt_set=Indstil formler til disse v\u00e6rdier
+undo=Fortryd
+tt_undo=Nulstil formler til gemte v\u00e6rdier
+reset=Nulstil
+tt_reset=Nulstil formler til default. DETTE KAN IKKE FORTRYDES
+
+#. Credits
+author=Forfatter
+translator=Overs\u00e6tter
+
+#. League Table Panel
+ch_team=Hold
+ch_matchesplayed=Kamp
+ch_matchwins=V
+ch_matchdraws=U
+ch_matchlosses=T
+ch_goalsfavour=M+
+ch_goalsagainst=M-
+ch_goaldiff=M Dif
+ch_points=Point
+tt_round=Runde
+tt_place=Plasering
+graph=Graf
+fixture=Fixture
+deletetable=Slet tabel
+exportxml=Eksporter til XML
+
+#. reports
+trainingreport=Ugentlig tr\u00e6ning
+juniorreport=Junior udvikling
+playerreport=Spiller udvikling
+schoolreport=Junior-skole rapport
+generate=Gener\u00e9r
+flagsreport=Flagsamling rapport
+
+#. SokkerMon Importer
+unrecogskill=Ukendt skill niveau: %
+
+#. Flags Plugin
+fp_flag=flag$flag
+fp_player=spiller$spillere
+fp_visited=bes\u00f8gte lande
+fp_hosted=bes\u00f8g fra lande
+fp_tripto=Rejser til %
+fp_visitsfrom=Bes\u00f8g fra %
+fp_currentpflags=Nuv\u00e6rende spilleres flag
+fp_formerpflags=Forhenv\u00e6rende spilleres mistede Flag
+fp_currentpfrom=Nuv\u00e6rende spillere fra %
+fp_formerpfrom=Forhenv\u00e6rende spillere fra %
+fp_newflags=Nye flag
+fp_newvisited=Nye bes\u00f8gte lande
+fp_newhosted=Nye bes\u00f8g fra lande
+fp_notvisitedyet=Lande ej bes\u00f8gt
+fp_nothostedyet=Ej bes\u00f8g fra lande
+fp_addflags=tilf\u00f8j disse
+fp_removeflags=fjern disse
+fp_updateflags=Opdater flag
+tt_fp_updateflags=Flag bliver opdateres iht. kampe i DB
+
+#. Match IDs list importer
+inputmatchids=Indtast Kamp IDs
+typematchidshere=Indtast kamp ID her og tryk ENTER
+dragmatcheshere=Tr\u00e6k (eller copy-paste) din online.sokker.org kamp side tekst hertil
+
+#. Text Editing
+cut=Klip
+copy=Kopi
+paste=Inds\u00e6t
+bold=Fed
+italic=Italic
+underline=Understreg
+
+#. Player stats Panel
+filter_allskills=Alle f\u00e6rdigheder
+filter_overall=V\u00e6kst ialt
+
+#. Updater
+langupdates=Sprog opdatering findes!
+update=Opdater
+dl_updatingso=Opdatererg SO
+restart=Genstart
+restartmsg=V\u00e6r venlig at genstarte SO for at \u00e6ndringer sl\u00e5r igennem
+
+#. Training Panel
+trainerjob=Job
+job0=Ingen
+job1=Cheftr\u00e6ner
+job2=Assistenttr\u00e6ner
+job3=Juniortr\u00e6ner
+ch_trainerskill=GENEREL
+changetraining=\u00c6ndre tr\u00e6ning permanent
+tt_changetraining=Dobbelt-klik for at skifte tr\u00e6ning for denne uge
+trainlevel=Prim\u00e6r tr\u00e6nings niveau
+residuallevel=Sekund\u00e6r tr\u00e6ning niveau
+assistantstotal=Sum af assistenttr\u00e6neres niveau
+minutestrained=Minutter tr\u00e6net
+orderplayed=F\u00e6rdighed tr\u00e6net
+datastatus=V\u00e6rdier fra %
+datasetmanually=V\u00e6rdier var opsat manuelt
+week=Uge
+order=Ordre
+
+#. Matches Panel
+competition=Kamp
+weather=Vejr
+opponent=Modstander
+spectators=Tilskuerer
+score=Score
+victory=Vundet
+draw=Uafgjort
+defeat=Tabt
+national=National
+internat=International
+local=Hjemmehold
+visitor=Udehold
+official=Officiel
+friendly=Venskab
+league=Liga
+cup=Cup
+quali=Kvalifikation
+totalmatches=Total kampe
+matcheswon=Kampe vundet
+matchesdrawn=Kampe uafgjort
+matcheslost=Kampe tabt
+goalsfavour=M\u00e5l scoret
+goalsagainst=M\u00e5l imod
+goaldiff=M\u00e5l forskel
+shots=Skud
+fouls=Frispark
+yellowcards=Gule kort
+redcards=R\u00f8de kort
+shootefficiency=Skud effektivitet
+avgattendance=Gennemsnit tilskuere
+avgpossession=Bold besiddelse gennemsnit
+avgplayinhalf=Spil fordeling gennemsnit
+avgscoring=Afslutninger gennemsnit
+avgpassing=Aflevering gennemsnit
+avgdefending=Forsvar gennemsnit
+datebegin=Start dato
+dateend=Slut dato
+
+

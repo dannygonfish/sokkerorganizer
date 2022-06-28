@@ -1,0 +1,374 @@
+# Swedish text file
+langver=0.82
+translator_name=Bursa, Jonas Sj\u00f6blom
+englishname=swedish
+
+#Menus
+data=Data
+config=Konfiguering
+downloadall=Ladda ned all data
+downloadbasic=Ladda ned basdata
+tt_downloadbasic=Lag-info, Spelare, Tr\u00e4nare, Arena
+downloadleaguem=Ladda ned tabell och matcher
+downloadhistoric=Ladda ned hisoriska matcher
+import=Importerar...
+importxml=XML fil(er)
+importhtml=HTML fil(er)
+importext=fr\u00e5n extern k\u00e4lla...
+options=Alternativ
+exit=Avsluta
+formulas=Formler
+info=Info
+credits=Tack till
+reports=Rapporter
+utils=Verktyg
+curconvert=Valutaomvandlare
+sendtontdb=Skicka data till "SoNTDB" sidor
+checknewversion=Kontrollera efter ny SO version
+
+#Tabs
+squad=Lag
+lineup=LagutagningsVerktyg
+playerstats=Spelarstatistik
+datamanager=Statistikverktyg
+settings=Inst\u00e4llningar
+juniorschool=Juniorskolan
+stadium=Arenan
+leaguetable=Ligatabellen
+flagcollection=Flaggsamling
+training=Tr\u00e4ning
+matches=Matcher
+
+#Table Column Headers
+ch_name=Namn
+ch_age=\u00c5lder
+ch_bestposition=B.Pos
+ch_form=Form
+ch_tactdiscip=Takt.Discip
+ch_experience=Erfarenhet
+ch_teamwork=Lagsammarbete
+ch_stamina=Kondition
+ch_pace=Snabbhet
+ch_technique=Teknik
+ch_passing=Passning
+ch_keeper=M\u00e5lvakt
+ch_defender=F\u00f6rsvar
+ch_playmaker=Speluppl\u00e4ggning
+ch_scorer=M\u00e5lg\u00f6rare
+ch_matches=Matcher
+ch_goals=M\u00e5l
+ch_assists=Assists
+ch_state=Tillst\u00e5nd
+ch_value=V\u00e4rde
+ch_salary=L\u00f6n
+ch_id=ID
+ch_weeks=Veckor
+ch_skill=F\u00e4rdigheter
+ch_skillup_count=Pops
+ch_average_weeks_per_skillup=Snitt Vecka/pop
+ch_projected_level=Uppskattad slutniv\u00e5
+ch_initial_weeks=Veckor fr\u00e5n b\u00f6rjan
+ch_initial_skill=F\u00e4rdighet fr\u00e5n b\u00f6rjan
+ch_weeks_since_pop=Ingen \u00f6kning p\u00e5:
+ch_money_spent=Pengar spenderade
+ch_date=Datum
+ch_rating=Ranking
+ch_position=Pos
+ch_order=Order
+ch_time=Tid
+ch_shots=Skott
+ch_fouls=Avbl\u00e5sningar
+ch_offpercent=Off %
+ch_defpercent=Def %
+ch_squad=Trupp
+ch_playedinlastmastch=PiLM
+ch_sendtontdb=skicka till NTDB
+
+#Table Header ToolTip
+tt_tableheader=Klicka f\u00f6r att sortera; Shift-Klicka f\u00f6r att sortera i motsatt ordning; Control-klicka f\u00f6r att l\u00e4gga till en till sorteringskriterie
+tt_ch_weeks=Tid kvar innan han kan tas upp i A-laget
+tt_ch_skill=Juniorens niv\u00e5. Summan av hans f\u00f6rm\u00e5ga kommer vara ungef\u00e4r 3 g\u00e5nger det h\u00e4r v\u00e4rdet.
+tt_ch_skillup_count=Niv\u00e5\u00f6kning
+tt_ch_average_weeks_per_skillup=Snitt antal veckor mellan h\u00f6jningarna
+tt_ch_projected_level=F\u00f6rmodad niv\u00e5 r\u00e4knat p\u00e5 snittet mellan veckor/pop sen hans f\u00f6rsta pop, j\u00e4mf\u00f6rt med hans nuvarande niv\u00e5
+tt_ch_initial_weeks=Antal Veckor
+tt_ch_initial_skill=Startniv\u00e5, j\u00e4mf\u00f6rt med nuvarande niv\u00e5
+tt_ch_weeks_since_pop=Veckor sedan f\u00f6rra popen
+tt_ch_money_spent=Pengar spenderade p\u00e5 denna junior
+
+#Connection
+connecting=Connecting...
+login=Logga in
+username=Anv\u00e4ndarnamn
+password=L\u00f6senord
+downloadingxml=Laddar ned XML
+beginsession=B\u00f6rjar Session
+dl_league=Ligatabell
+dl_training=Tr\u00e4ningsrapport
+dl_economy=Ekonomirapport
+dl_matches=Matchrapport
+dl_matchid=Match %
+dl_team=Lagrapport
+dl_players=Spelare
+dl_juniors=Juniorer
+logoff=Logga ut
+useproxy=Anv\u00e4nd HTTP proxy
+proxyhost=Proxy hostname (or IP)
+proxyport=Proxy port
+useproxyauth=Use HTTP proxy authentification
+proxyusername=Proxy username
+proxypassword=Proxy password
+
+#Errors
+err_unknownhost=Unknown Host. Could not resolve %.
+err_invaliddate=Invalid date.
+err_loginfailed=LOGIN FAILED!
+err_nocountryset=Before doing this make sure you have properly set your country settings in the Options.
+err_nocurrencyrate=No currency conversion rate for % is defined.
+err_nocurrencyrate=N\u00e3o est\u00e1 definida nenhuma taxa de convers\u00e3o para %.
+
+#Dialog titles
+error=Error
+inputdate=Input date
+
+#Country Names
+
+#Skill and supporter levels
+skill_0=tragisk
+skill_1=hoppl\u00f6s
+skill_2=usel
+skill_3=d\u00e5lig
+skill_4=svag
+skill_5=medelm\u00e5ttig
+skill_6=hyfsad
+skill_7=ordin\u00e4r
+skill_8=bra
+skill_9=ypperlig
+skill_10=enast\u00e5ende
+skill_11=f\u00f6rtr\u00e4fflig
+skill_12=legendarisk
+skill_13=briljant
+skill_14=gudaben\u00e5dad
+skill_15=magisk
+skill_16=mytomspunnen
+skill_17=gudomlig
+mood_1=rasande
+mood_2=f\u00f6rlorar hoppet
+mood_3=deprimerade
+mood_4=tror p\u00e5 klubben
+mood_5=n\u00f6jd
+mood_6=\u00f6velycklig \u00f6ver klubbens nuvarande spel
+mood_7=\u00e4r helt galet f\u00f6r\u00e4lskade i klubben
+
+#Squad Summary Panel
+averageage=Snitt\u00e5lder:
+averageform=Snittform:
+totalplayers=Totalt antal spelare:
+natplayers=Inhemska spelare:
+fgnplayers=Utl\u00e4ndska spelare:
+totalsalary=Total l\u00f6nekostnad:
+averagesalary=Snittl\u00f6n:
+totalvalue=Totalt v\u00e4rde:
+averagevalue=Snittv\u00e4rde:
+money=Pengar:
+rank=Rank Po\u00e4ng:
+fans=Fans:
+fanclubmood=Fansens Hum\u00f6r:
+
+#Options dialog
+language=Spr\u00e5k
+country=Land
+currencyrate=valutaomvandlar rate
+currencysymbol=valutasymbol
+lowskill=L\u00e4gsta f\u00f6rm\u00e5gagr\u00e4ns
+tt_lowskill=F\u00f6rm\u00e5ga upp till och med den h\u00e4r niv\u00e5n ses som "l\u00e5g"
+highskill=H\u00f6gsta f\u00f6rm\u00e5gagr\u00e4ns
+tt_highskill=F\u00f6rm\u00e5ga fr\u00e5n och med den h\u00e4r niv\u00e5n ses som "h\u00f6g"
+seasonreference=Referenss\u00e4ssong
+seasonreferencestart=Ref. ss\u00e4ssongstart
+tt_seasonreference=Refferenss\u00e4ssong f\u00f6r kalendrarna.Det angivna numret representerar vilken sokkers\u00e4ssong i ditt land som b\u00f6rjar det datumet nedan.
+tt_seasonreferencestart=Refferenss\u00e4ssong startdatum. Refferenss\u00e4ssongen startar det h\u00e4r datumet i ditt land.
+autosendtontdb=Skicka spelarnas data automatiskt till NTDB.
+tt_autosendtontdb=Skicka automatiskt vald spelares data till motsvarande NTDB's URL (set in resources/ntdb_urls.txt)
+autochecknewversion=Leta efter ny version vid uppstart
+tt_autochecknewversion=Leta automatiskt efter ny SO version vid uppstart
+
+#Position's short names
+pos_20=F\u00d6R
+pos_30=MIT
+pos_40=FOR
+pos_10=MV
+pos_21=YB
+pos_22=MB
+pos_23=SW
+pos_31=DM
+pos_32=CM
+pos_33=OM
+pos_35=YM
+pos_41=FW
+pos_42=ST
+pos_left=L%
+pos_right=R%
+
+#Position's long (extended) names
+posext_20=F\u00f6rsvar
+posext_30=Mittf\u00e4lt
+posext_40=Forward
+posext_10=M\u00e5lvakt
+posext_21=Ytterback
+posext_22=Mittback
+posext_23=Sweeper
+posext_31=Defensiv mittf\u00e4ltare
+posext_32=Central mittf\u00e4ltare
+posext_33=Offensiv mittf\u00e4ltare
+posext_35=Yttermittf\u00e4ltare
+posext_41=Forward
+posext_42=Striker
+posext_left=left %
+posext_right=right %
+
+#Misc
+season=S\u00e4ssong
+comparedata=J\u00e4mf\u00f6r data
+weeksingraph=Veckor i grafer
+managernotes=Noteringar
+savesnapshot=Spara bild
+deleteforever=Ta bort detta permanent
+confirmdelete=Ta bort?
+
+#skill names
+skn_form=Form
+skn_stamina=Kondition
+skn_pace=Snabbhet
+skn_technique=Teknik
+skn_passing=Passningar
+skn_keeper=M\u00e5lvakt
+skn_defender=F\u00f6rsvar
+skn_playmaker=Spelf\u00f6rdelning
+skn_scorer=M\u00e5lg\u00f6rare
+skn_experience=Erfarenhet
+skn_teamwork=Lagsammarbete
+skn_tactdiscip=Taktisk diciplin
+
+#Formula Editor
+formmodifier=Form \u00e4ndrare (\%)
+player=Spelare
+ratingforpos=Rating f\u00f6r position
+withform=Med Form
+withoutform=Utan Form
+set=V\u00e4lj
+tt_set=V\u00e4lj formel till dessa v\u00e4rden
+undo=\u00c5ngra
+tt_undo=Ta bort formula och g\u00e5 tillbaka till ordinare v\u00e4rden (Senast sparae)
+reset=Nollst\u00e4ll
+tt_reset=Nollst\u00e4ll till defaultv\u00e4rdet. DET H\u00c4R G\u00c5R INTE ATT \u00c5NGRA!
+
+#Credits
+author=Upphovsman
+translator=\u00d6vers\u00e4ttare
+
+#League Table Panel
+ch_team=Lag
+ch_matchesplayed=Spelade
+ch_matchwins=V
+ch_matchdraws=O
+ch_matchlosses=F
+ch_goalsfavour=MF
+ch_goalsagainst=IM
+ch_goaldiff=M\u00c5LSK
+ch_points=Po\u00e4
+tt_round=Omg\u00e5ng
+tt_place=Placering
+graph=Graf
+fixture=Omg\u00e5ng
+deletetable=Ta bort tabell
+exportxml=Exportera till XML
+
+#reports
+trainingreport=Veckotr\u00e4ning
+juniorreport=Juniorernas utveckling
+playerreport=Spelarrapport
+generate=Genererar
+
+#SokkerMon Importer
+unrecogskill=Ok\u00e4nd f\u00f6rm\u00e5goniv\u00e5: %
+
+#Flags Plugin
+fp_flag=flagg$flaggor
+fp_player=spelare$spelare
+fp_visited=Bes\u00f6kta l\u00e4nder
+fp_hosted=L\u00e4nder som varit p\u00e5 bes\u00f6k
+fp_tripto=Rest till %
+fp_visitsfrom=Bes\u00f6k fr\u00e5n %
+fp_currentpflags=Nuvarande sp. fl.
+fp_formerpflags=Tidigare sp. fl.
+fp_currentpfrom=Nuvarande spelare fr\u00e5n %
+fp_formerpfrom=Tidigare spelare fr\u00e5n %
+fp_newflags=Nya flaggor
+fp_newvisited=Nya bes\u00f6kta l\u00e4nder
+fp_newhosted=Nya v\u00e4rdl\u00e4nder
+fp_notvisitedyet=Ej bes\u00f6kta l\u00e4nder
+fp_nothostedyet=Ej varit v\u00e4rd f\u00f6r
+fp_addflags=l\u00e4gg till dessa
+fp_removeflags=ta bort dessa
+fp_updateflags=Uppdatera flaggor
+tt_fp_updateflags=Flaggorna kommer att bli uppdaterade enligt matchdata i DB
+
+#. Match IDs list importer
+inputmatchids=Mata in match id
+typematchidshere=Skriv ett matchid och tryck ENTER
+dragmatcheshere=Dra (eller kopiera-klistra in) dina sokkermatchutdrag h\u00e4r
+
+#. Text Editing
+cut=Klipp ut
+copy=Kopiera
+paste=Klistra in
+bold=Fet
+italic=Kursivt
+underline=Understruket
+
+#. Player stats Panel
+filter_allskills=Alla f\u00e4rdigheter
+filter_overall=Total tillv\u00e4xt
+
+#. Updater
+newversion=Ny version % tillg\u00e4nglig!
+langupdates=Spr\u00e5kuppdateringar tillg\u00e4ngliga!
+update=Uppdatera
+dl_updatingso=Uppdaterar SO
+restart=Omstart
+restartmsg=Starta om SO f\u00f6r att \u00e4ndringarna ska fungera
+
+#. Training Panel
+trainerjob=Jobb
+job0=ingen
+job1=Huvudtr\u00e4nare
+job2=Hj\u00e4lptr\u00e4nare
+job3=Undomslaget
+ch_trainerskill=ALLM\u00c4N
+changetraining=\u00c4ndra tr\u00e4ningsordern permanent
+tt_changetraining=Dubbelklicka f\u00f6r att \u00e4ndra denna veckas tr\u00e4ning
+datastatus=Data fr\u00e5n %
+datasetmanually=Data sattes manuellt
+week=Vecka
+order=Order
+
+#. Matches Panel
+competition=T\u00e4vling
+weather=V\u00e4der
+opponent=Motst\u00e5ndare
+spectators=\u00c5sk\u00e5dare
+score=Po\u00e4ng
+victory=Seger
+draw=Oavgjort
+defeat=F\u00f6rlust
+national=Nationell
+internat=Internationell
+local=Hem
+visitor=Bes\u00f6kare
+official=Officiell
+friendly=V\u00e4nskapsmatch
+league=Liga
+cup=Cup
+quali=Kvalificering
+

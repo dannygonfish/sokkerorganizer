@@ -1,0 +1,317 @@
+#Dutch file
+langver=0.5
+translator_name=Luitzen Hietkamp (luuut)
+englishname=dutch
+
+#Menus
+data=Bestand
+config=Instellingen
+downloadall=Alles downloaden
+tt_downloadbasic=Team info, Spelers, Trainers en Stadion
+import=Openen
+importxml=XML bestand(en)
+importhtml=HTML bestand(en)
+importext=van een extern programma
+options=Opties
+exit=Afsluiten
+formulas=Formules
+info=Info
+credits=Credits
+reports=Rapportages
+
+#Tabs
+squad=Team
+lineup=Opstelling
+playerstats=Spelerstatistieken
+datamanager=Data Manager
+settings=instellingen
+juniorschool=Jeugdopleiding
+stadium=Stadion
+leaguetable=Competitietabel
+
+#Table Column Headers
+ch_name=Naam
+ch_age=Leeftijd
+ch_bestposition=Beste Positie
+ch_form=vorm
+ch_tactdiscip=T.D.
+ch_experience=Exp
+ch_teamwork=T.W.
+ch_stamina=conditie
+ch_pace=snelheid
+ch_technique=techniek
+ch_passing=passen
+ch_keeper=keepen
+ch_defender=verdedigen
+ch_playmaker=positiespel
+ch_scorer=scoren
+ch_matches=wedstrijden
+ch_goals=doelpunten
+ch_assists=assists
+ch_state=status
+ch_value=waarde
+ch_salary=salaris
+ch_id=ID
+ch_weeks=Weken
+ch_skill=Vaardigheid
+ch_skillup_count=Pops
+ch_average_weeks_per_skillup=Gemiddeld aantal weken per pop
+ch_initial_weeks=Weken bij binnenkomst
+ch_initial_skill=Vaardigheid bij binnenkomst
+ch_projected_level=Berekende eindvaardigheid
+ch_weeks_since_pop=Aantal weken zonder pop
+ch_money_spent=Geld uitgegeven
+
+#Table Header ToolTip
+tt_tableheader=[Klik]=Rangschikken; [Shift]+[Klik]=Van laag naar hoog rangschikken; [Control]+[Klik]=als secundair rangschikkings criterium toe voegen
+tt_ch_initial_skill=Initiele vaardigheid, tov huidige vaardigheid
+tt_ch_skillup_count=Skillup count
+tt_ch_weeks_since_pop=Weken sinds laatste pop
+tt_ch_weeks=Aantal weken te gaan voordat de speler in de selectie kan worden opgenomen
+tt_ch_money_spent=Geld in de jeugdopleiding ge\u00efnvesteerd
+tt_ch_skill=Jeugdvaardigheid. De som van zijn vaardigheden zal ongeveer 3 keer deze waarde zijn
+tt_ch_average_weeks_per_skillup=Gemiddeld aantal weken per pop
+tt_ch_initial_weeks=Initiele aantal weken
+tt_ch_projected_level=Geschatte vaardigheid bij het verlaten van de jeugdopleiding. Met het gemiddelde aantal weken/pop en de huidige vaardigheid is rekening gehouden.
+
+#Connection
+connecting=Verbinding maken...
+login=Log in
+username=Gebruikersnaam
+password=Wachtwoord
+downloadingxml=XML wordt gedownload
+beginsession=Beginnen van sessie
+dl_league=Reekstabel
+dl_training=Trainingsdata
+dl_economy=Economie
+dl_matches=Wedstrijddata
+dl_matchid=Wedstrijd ID
+dl_team=Team gegevens
+dl_players=Spelers
+dl_juniors=Jeugdspelers
+logoff=Afmelden
+useproxy=Gebruik een HTTP proxy
+proxyhost=Proxy hostnaam (of IP)
+proxyport=Proxypoort
+useproxyauth=Gebruik HTTP proxy authentificatie
+proxyusername=Proxygebruikersnaam
+proxypassword=Proxy wachtwoord
+
+#Errors
+err_unknownhost=Unknown host. Could not resolve %.
+err_invaliddate=Ongeldige datum
+err_loginfailed=Het inloggen is mislukt
+err_nocountryset=Zorg ervoor dat je landsinstellingen in het optie menu goed zijn, voordat je verdergaat.
+
+#Dialog titles
+error=Error
+inputdate=Input date
+
+#Country Names
+c_19=Argentini\u00eb
+c_6=Australi\u00eb
+c_46=Wit Rusland
+c_28=Belgi\u00eb
+c_57=Bolivia
+c_47=Bosni\u00eb-Hercegovina
+c_21=Brazili\u00eb
+c_54=Bulgarije
+c_5=Canada
+c_13=Tsjechi\u00eb
+c_42=Chili
+c_36=Colombia
+c_40=Wales
+c_29=Denemarken
+c_15=Duitsland
+c_58=Ecuador
+c_33=Estland
+c_3=Engeland
+c_17=Spanje
+c_16=Frankrijk
+c_49=Griekenland
+c_60=Hong Kong
+c_34=Kroati\u00eb
+c_51=India
+c_32=Ierland
+c_63=IJsland
+c_52=Isra\u00ebl
+c_10=Itali\u00eb
+c_23=Litouwen
+c_8=Hongarije
+c_59=Maleisi\u00eb
+c_18=Mexico
+c_12=Nederland
+c_2=Nieuw Zeeland
+c_38=Nigeria
+c_62=Japan
+c_27=Noorwegen
+c_30=Oostenrijk
+c_37=Peru
+c_1=Polen
+c_20=Portugal
+c_61=Dominicaanse Republiek
+c_9=Roemeni\u00eb
+c_43=Rusland
+c_24=Zwitserland
+c_7=Schotland
+c_26=Sloveni\u00eb
+c_14=Slowakije
+c_22=Zuid Afrika
+c_39=Servi\u00eb
+c_25=Finland
+c_31=Zweden
+c_41=Turkije
+c_35=Uruguay
+c_4=Verenigde Staten
+c_44=Venezuela
+c_67=Malta
+c_53=Albani\u00eb
+c_65=Indonesi\u00eb
+c_68=Honduras
+c_66=Armeni\u00eb
+c_50=Ghana
+c_45=Letland
+c_56=Macedoni\u00eb
+c_64=Ukra\u00efne
+
+#Skill and supporter levels
+skill_0=tragisch
+skill_1=hopeloos
+skill_2=waardeloos
+skill_3=slecht
+skill_4=zwak
+skill_5=matig
+skill_6=redelijk
+skill_7=goed
+skill_8=solide
+skill_9=zeer goed
+skill_10=uitstekend
+skill_11=formidabel
+skill_12=uitmuntend
+skill_13=wonderbaarlijk
+skill_14=briljant
+skill_15=magisch
+skill_16=buitenaards
+skill_17=goddelijk
+mood_1=zijn woedend
+mood_2=verliezen de hoop
+mood_3=teleurgestel
+mood_4=geloven in hun club
+mood_5=zijn tevreden
+mood_6=zijn gelukkig met de resultaten
+mood_7=zijn dolgelukkig met hun club
+
+#Squad Summary Panel
+averageage=Gemiddelde leeftijd:
+averageform=Gemiddelde vorm:
+totalplayers=Totaal aantals spelers:
+natplayers=Aantal spelers uit eigen land:
+fgnplayers=Aantal buitenlandse spelers:
+totalsalary=Totale salaris:
+averagesalary=Gemiddeld salaris:
+totalvalue=Totale waarde:
+averagevalue=Gemiddelde waarde:
+
+#Options dialog
+language=Taal
+country=Land
+currencyrate=Wisselkoers
+currencysymbol=Munteenheid
+lowskill=Bovengrens 'normale' vaardigheden
+highskill=Bovengrens 'normale' vaardigheden
+seasonreference=Referentie seizoen
+seasonreferencestart=Begindatum referentieseizoen
+
+#Position's short names
+pos_20=DEF
+pos_30=MID
+pos_40=ATT
+pos_10=GK
+pos_21=WB
+pos_22=CB
+pos_23=SW
+pos_31=DM
+pos_32=CM
+pos_33=AM
+pos_35=WM
+pos_41=FW
+pos_42=ST
+pos_left=L%
+pos_right=R%
+
+#Position's long (extended) names
+posext_20=verdediger
+posext_30=middenvelder
+posext_40=aanvaller
+posext_10=keeper
+posext_21=vleugelverdediger
+posext_22=centreback
+posext_23=sweeper
+posext_31=verdedigende middenvelder
+posext_32=centrale middenvelder
+posext_33=aanvallende middenvelder
+posext_35=vleugelspeler
+posext_41=forward
+posext_42=striker
+posext_left=left %
+posext_right=right %
+
+#misc
+season=Seizoen
+comparedata=Vergelijk downloads
+weeksingraph=Weken in grafiek
+
+#. skill names
+skn_form=Vorm
+skn_stamina=conditie
+skn_pace=snelheid
+skn_technique=techniek
+skn_passing=passen
+skn_keeper=keepen
+skn_defender=verdedigen
+skn_playmaker=positiespel
+skn_scorer=scoren
+skn_tactdiscip=Tactische discipline
+skn_experience=Ervaring
+skn_teamwork=Teamwork
+
+#Formula Editor
+formmodifier=\% vorm
+player=Kies een speler:
+ratingforpos=Rating voor positie:
+withform=Met vorm:
+withoutform=Zonder form:
+set=Opslaan
+tt_set=Huidige instellingen opslaan
+undo=Ongedaan maken
+tt_undo=Terug gaan naar opgeslagen instellingen
+reset=Herstel
+tt_reset=Standaard instellingen herstellen
+
+#Credits
+author=Maker
+translator=Vertaler
+
+#League Table Panel
+ch_team=Team
+ch_matchesplayed=wedstrijden
+ch_matchwins=overwinningen
+ch_matchdraws=gelijkspel
+ch_matchlosses=verloren
+ch_goalsfavour=doelpunten voor
+ch_goalsagainst=doelpunten tegen
+ch_goaldiff=doelsaldo
+ch_points=punten
+tt_round=ronde
+tt_place=plaats
+graph=grafiek
+fixture=speelschema
+
+# reports
+trainingreport=Wekelijkse training
+juniorreport=Ontwikkeling van jeugdspelers
+playerreport=Player record
+generate=Genereer
+
+#. SokkerMon Importer
+unrecogskill=Niveau van vaardigheid niet herkend: %

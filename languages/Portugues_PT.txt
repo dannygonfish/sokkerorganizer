@@ -1,0 +1,322 @@
+# Portuguese text file
+langver=0.77
+translator_name= S\u00e9rgio Rua (Lowmem)
+englishname=portuguese-PT
+
+#Menus
+data=Dados
+config=Configura\u00e7\u00e3o
+downloadbasic=Download dados básicos
+tt_downloadbasic=Info da equipa, Jogadores, Treinadores, Est\u00e1dio
+downloadleaguem=Download da liga e jogos
+downloadhistoric=Download do histórico de jogos
+import=Importar...
+importxml=ficheiro(s) XML
+importhtml=ficheiro(s) HTML
+importext=de programa externo...
+options=Op\u00e7\u00f5es
+exit=Sair
+formulas=Formulas
+credits=Creditos
+info=Info
+reports=Relat\u00f3rios
+utils=Utilitários
+curconvert=Conversor de moeda
+downloadall=Descarregar tudo
+sendtontdb=enviar dados para site de selec\u00e7\u00e3o Nacional(NTBD)
+checknewversion=Verificar se h\u00e1 nova vers\u00e3o
+
+#Tabs
+squad=Equipa
+lineup=Assistente de forma\u00e7\u00e3o
+playerstats=Estatisticas do jogador
+datamanager=Assitente de dados
+settings=Configura\u00e7\u00e3o
+juniorschool=Juniores
+stadium=Est\u00e1dio
+leaguetable=Tabela classificativa
+flagcollection=Colec\u00e7\u00e3o de Bandeiras
+
+#Table Column Headers
+ch_name=Nome
+ch_age=Idade
+ch_bestposition=M.Pos
+ch_form=FORM
+ch_tactdiscip=D.T.
+ch_experience=Exp
+ch_teamwork=Ent
+ch_stamina=RES
+ch_pace=VEL
+ch_technique=TEC
+ch_passing=PASS
+ch_keeper=GR
+ch_defender=DEF
+ch_playmaker=MED
+ch_scorer=AVA
+ch_matches=Jogos
+ch_goals=Golos
+ch_assists=Assistencias
+ch_state=Estado
+ch_value=Valor
+ch_salary=Sal\u00e1rio
+ch_id=ID
+ch_weeks=Semanas
+ch_skill=Nivel
+ch_skillup_count=Pops
+ch_average_weeks_per_skillup=M\u00e9d.semanas/pop
+ch_initial_weeks=semanas iniciais
+ch_initial_skill=Nivel inicial
+ch_weeks_since_pop=N\u00e3o sobe desde:
+ch_projected_level=N\u00edvel previsto
+ch_money_spent=Dinheiro gasto
+ch_date=Data
+ch_rating=Rating
+ch_position=Pos
+ch_order=Ordem
+ch_time=Tempo
+ch_shots=Remates
+ch_fouls=Faltas
+ch_offpercent=Ofe %
+ch_defpercent=Def %
+ch_squad=Equipa
+ch_playedinlastmastch=Jogou
+ch_sendtontdb=Enviar para NTBD
+
+#Table Header ToolTip
+tt_tableheader=Clique para organizar; Shift+Clique para ordem inversa; Control+Clique para adicionar crit\u00e9rio secundario de organiza\u00e7\u00e3o
+tt_ch_initial_skill=Comparar atributo inicial com actual
+tt_ch_skillup_count=N\u00ba de subidas de atributos
+tt_ch_weeks=Tempo restante de junior
+tt_ch_weeks_since_pop=Semanas desde a \u00faltima subida
+tt_ch_money_spent=Dinheiro gasto neste junior.
+tt_ch_skill=Nivel de junior. A soma dos n\u00edveis futuros ser\u00e1 aproximadamente 3 vezes este valoer.
+tt_ch_average_weeks_per_skillup=M\u00e9dia de semana por subida
+tt_ch_initial_weeks=Semanas iniciais
+tt_ch_projected_level=N\u00edvel estimado de sa\u00edda, considerando a m\u00e9dia de subidas/semana desde a primeira subida, e comparando com o n\u00edvel actual
+
+#Connection
+connecting=A ligar...
+login=Login
+username=Nome de utilizador
+password=Palavra-passe
+downloadingxml=A descarregar XML
+beginsession=Come\u00e7ar sess\u00e3o
+dl_training=Dados de treino
+dl_league=Tabela classificativa
+dl_matches=Dados dos jogos
+dl_matchid=Jogo %
+dl_economy=Dados econ\u00f3micos
+dl_team=Dados da Equipa
+dl_players=Jogadores
+dl_juniors=Juniores
+logoff=Sair
+useproxy=Usar HTTP proxy
+proxyhost=Proxy hostname (or IP)
+proxyport=Proxy port
+useproxyauth=Usar HTTP proxy authentification
+proxyusername=Proxy username
+proxypassword=Proxy password
+
+#Errors
+err_unknownhost=Host desconhecido. N\u00e3o pode resolver %.
+err_invaliddate=Data inv\u00e1lida.
+err_loginfailed=LOGIN FAILED!
+err_nocountryset=Antes de fazer isto, tenha a certeza que colocou correctamente os dados sobre o seu pa\u00eds nas op\u00e7\u00f5es.
+err_nocurrencyrate=N\u00e3o está definida nenhuma taxa de convers\u00e3o para %.
+
+#Dialog titles
+error=Erro
+inputdate=Input date
+
+#Country Names
+
+#Skill and supporter levels
+skill_0=Terr\u00edvel
+skill_1=P\u00e9ssimo
+skill_2=Insatisfat\u00f3rio
+skill_3=Ruim
+skill_4=Fraco
+skill_5=Mediano
+skill_6=Razo\u00e1vel
+skill_7=Bom
+skill_8=S\u00f3lido
+skill_9=Muito Bom
+skill_10=Excelente
+skill_11=Formid\u00e1vel
+skill_12=Fenomenal
+skill_13=Incr\u00edvel
+skill_14=Brilhante
+skill_15=Magn\u00edfico
+skill_16=Sobrenatural
+skill_17=Lend\u00e1rio
+mood_1=Furiosos
+mood_2=Desiludidos
+mood_3=Irritados
+mood_4=Calmos
+mood_5=Satisfeitos
+mood_6=Radiantes
+mood_7=Em estado de gra\u00e7a
+
+#Squad Summary Panel
+averageage=M\u00e9dia de idade:
+averageform=M\u00e9dia de Forma:
+totalplayers=Total de jogadores:
+natplayers=Jogadores na sele\u00e7\u00e3o:
+fgnplayers=Jogadores Estrangeiros:
+totalsalary=Salario Total:
+averagesalary=M\u00e9dia de Salario:
+totalvalue=Valor Total:
+averagevalue=M\u00e1dia de valor:
+money=Balan\u00e7o:
+rank=Pontos no Ranking:
+fans=N\u00famero de s\u00f3cios:
+fanclubmood=Estado de esp\u00edrito dos adeptos:
+
+#Options dialog
+language=Idioma
+country=Pa\u00eds
+currencyrate=Convers\u00e3o de Moeda
+currencysymbol=S\u00edmbolo da Moeda
+lowskill=Low skill treshold
+tt_lowskill=Subidas at\u00e9 este n\u00edvel (inclusive) s\u00e3o consideradas "baixas"
+highskill=High skill threshold
+tt_highskill=A partir deste n\u00edvel, consideram-se n\u00edveis "altos"
+seasonreference=\u00c9poca de refer\u00eancia
+tt_seasonreference=\u00c9poca de refer\u00eancia para o calend\u00e1rio. O n\u00famero representa a \u00e9poca do Sokker no teu pa\u00eds que come\u00e7a na data indicada abaixo.
+seasonreferencestart=Ref. come\u00e7o da \u00e9poca
+tt_seasonreferencestart=Data de in\u00edcio da \u00e9poca de refer\u00eancia. A \u00e9poca come\u00e7as nesta data no pa\u00eds escolhido.
+autosendtontdb=Enviar autom\u00e1ticamente dados de jogadores para NTBD.
+tt_autosendtontdb=Enviar autom\u00e1ticamente dados dos jogadores seleccionados para o endere\u00e7o da NTBD URL (definir em: resources/ntdb_urls.txt)
+autochecknewversion=Verificar actualiza\u00e7\u00f5es no arranque
+tt_autochecknewversion=Verificar autom\u00e1ticamente actualiza\u00e7\u00f5es no arranque
+
+#Position's short names
+pos_20=DEF
+pos_30=MED
+pos_40=ATA
+pos_10=GR
+pos_21=DL
+pos_22=DC
+pos_23=TRI
+pos_31=MD
+pos_32=MC
+pos_33=MO
+pos_35=ALA
+pos_41=AD
+pos_42=A
+pos_left=E%
+pos_right=D%
+
+#Position's long (extended) names
+posext_20=Defesa
+posext_30=meio-campo
+posext_40=Avan\u00e7ado
+posext_10=Guarda Redes
+posext_21=Defesa-lateral
+posext_22=Defesa-central
+posext_23=Trinco
+posext_31=Medio-defensivo
+posext_32=Medio-central
+posext_33=Medio-ofensivo
+posext_35=Ala
+posext_41=Avan\u00e7ado defensivo
+posext_42=Avan\u00e7ado
+posext_left=esquerda %
+posext_right=direita %
+
+#misc
+season=\u00c9poca
+comparedata=Comparar dados
+weeksingraph=Semanas no gr\u00e1fico
+newversion=Nova vers\u00e3o % disponivel!
+managernotes=Notas do treinador
+savesnapshot=Gravar imagem
+
+#skill names
+skn_form=Forma
+skn_stamina=Resist\u00eancia
+skn_pace=Velocidade
+skn_technique=T\u00e9cnica
+skn_passing=Passe
+skn_keeper=Guarda Redes
+skn_defender=Defesa
+skn_playmaker=M\u00e9dio
+skn_scorer=Avan\u00e7ado
+skn_experience=Experi\u00eancia
+skn_teamwork=Entrosamento
+skn_tactdiscip=Disciplina T\u00e1tica
+
+#Formula Editor
+formmodifier=Modificador da forma (\%)
+player=Jogador
+ratingforpos=Rating da posi\u00e7\u00e3o
+withform=com Forma
+withoutform=sem Forma
+set=Definir
+tt_set=Definir f\u00f3rmula com estes valores
+undo=Anular
+tt_undo=Repor f\u00f3rmula para valor guardados
+reset=Limpar
+tt_reset=Repor valores de origem. ISTO N\u00c3O PODE SER ANULADO!
+
+#Credits
+author=Autor
+translator=Tradutor
+
+#League Table Panel
+ch_team=Equipa
+ch_matchesplayed=JJ
+ch_matchwins=V
+ch_matchdraws=E
+ch_matchlosses=D
+ch_goalsfavour=g
+ch_goalsagainst=gS
+ch_goaldiff=Dif
+ch_points=Pts
+tt_place=Lugar
+tt_round=Jornada
+graph=Gr\u00e1fico
+fixture=Fixture
+
+# reports
+trainingreport=Rel\u00e1torio de treinos
+juniorreport=Desenvolvimento dos Juniores
+playerreport=Dados do jogador
+generate=Gerar
+
+#SokkerMon Importer
+unrecogskill=N\u00edvel desconhecido: %
+
+#. Flags Plugin
+fp_flag=bandeira$bandeiras
+fp_player=jogador$jogadores
+fp_visited=Pa\u00edses Visitados
+fp_hosted=Pa\u00edses Recebidos
+fp_tripto=Viagem a %
+fp_visitsfrom=Visita de%
+fp_currentpflags=Nacionalidade dos jogadores actuais
+fp_formerpflags=Nacionalidade de jogadores antigos
+fp_currentpfrom=Jogadores actuais de %
+fp_formerpfrom=Antigos jogadores de %
+fp_newflags=Novas bandeiras
+fp_newvisited=Novos pa\u00edses visitados
+fp_newhosted=Novos pa\u00edses recebidos
+fp_notvisitedyet=Pa\u00edses aina n\u00e3o visitados
+fp_nothostedyet=Pa\u00edses ainda n\u00e3o recebidos
+fp_addflags=adicionar estas
+fp_removeflags=remover estas
+fp_updateflags=Actualizar bandeiras
+tt_fp_updateflags=As bandeiras ser\u00e3o actualizadas segundo os dados constantes na BD
+
+#. Match IDs list importer
+inputmatchids=Introduzir ID do jogo
+typematchidshere=Escreva ID aqui e carregue em ENTER
+dragmatcheshere=Arraste (ou copie-cole) o texto da p\u00e1gina de jogos de online.sokker.org aqui
+
+#. Text Editing
+cut=Cortar
+copy=Copiar
+paste=Colar
+bold=Negrito
+italic=Italico
+underline=Sublinhado

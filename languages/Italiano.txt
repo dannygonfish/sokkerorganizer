@@ -1,0 +1,398 @@
+#Italian text file
+langver=0.85
+translator_name=Ettore Macri (macrea), naonis
+englishname=italian
+
+#Menus
+data=Dati
+config=Configurazione
+downloadall=Scarica tutto
+downloadbasic=Scarica dati base
+tt_downloadbasic=Info squadra, Giocatori, Allenatori, Stadio
+downloadleaguem=Scarica Torneo e Partite
+downloadhistoric=Scarica vecchie Partite
+import=Importa
+importxml=file XML
+importhtml=file(s) HTML
+importext=da un programma esterno...
+sendtontdb=Invia dati ai siti "SoNTDB".
+options=Opzioni
+exit=Esci
+formulas=Formule
+info=Info
+credits=Credits
+reports=Reports
+utils=Utilit\u00e0
+curconvert=Convertitore di Valuta
+checknewversion=Controlla aggiornamenti SO
+
+#Tabs
+squad=Squadra
+lineup=Formazione
+playerstats=Statistiche giocatori
+datamanager=Data Manager
+settings=Impostazioni
+juniorschool=Giovanili
+stadium=Stadio
+leaguetable=Classifica
+flagcollection=Collezione Bandiere
+training=Allenamento
+matches=Partite
+
+#Table Column Headers
+ch_name=Nome
+ch_age=eta'
+ch_bestposition=ruolo ideale
+ch_form=FORMA
+ch_tactdiscip=D.T.
+ch_experience=Esp
+ch_teamwork=L.S.
+ch_stamina=RES
+ch_pace=VEL
+ch_technique=TECN
+ch_passing=PASS
+ch_keeper=PAR
+ch_defender=DIF
+ch_playmaker=REG
+ch_scorer=ATT
+ch_matches=Partite
+ch_goals=Goal
+ch_assists=Assist
+ch_state=Stato
+ch_value=Valore
+ch_salary=Salario
+ch_id=ID
+ch_weeks=settimane
+ch_skill=abilita'
+ch_skillup_count=Scatti
+ch_average_weeks_per_skillup=Media.settimane/scatti
+ch_projected_level=Livello stimato
+ch_initial_weeks=Settimana iniziale
+ch_initial_skill=Abilita' iniziale
+ch_weeks_since_pop=Nessuno scatto in:
+ch_money_spent=Denaro speso
+ch_date=Data
+ch_rating=Voto
+ch_position=Pos
+ch_order=Ordine
+ch_time=Minuti
+ch_shots=Tiri
+ch_fouls=Falli
+ch_offpercent=Off \%
+ch_defpercent=Def \%
+ch_squad=Squadra
+ch_playedinlastmastch=GUP
+ch_sendtontdb=invia al NTDB
+
+#Table Header ToolTip
+tt_tableheader=Click per ordinare; Shift-Click per ordinare inversamente; Control-Click per aggiungere altri criteri di ordinamento
+tt_ch_weeks=Settimane rimanenti all'entrata in squadra
+tt_ch_skill=Livello giovane. La somma delle sue previste skill sar\u00e0 approssimativamente 3 volte questo valore.
+tt_ch_skillup_count=Calcolo incremento skill
+tt_ch_average_weeks_per_skillup=Media settimane per incremento skill
+tt_ch_projected_level=Livello stimato di uscita considerato la media settimane/scatti sin dal primo scatto, confrontato con la skill attuale
+tt_ch_initial_weeks=Settimane iniziali
+tt_ch_initial_skill=skill iniziale, confrontata alla skill attuale
+tt_ch_weeks_since_pop=settimane dall'ultimo scatto
+tt_ch_money_spent=Cifra spesa per questo giovane
+
+#Connection
+connecting=Connessione...
+login=Login
+username=Username
+password=Password
+downloadingxml=Downloading XML
+beginsession=Inizio sessione
+dl_league=Classifica
+dl_training=Allenamenti
+dl_economy=Economia
+dl_matches=Partite
+dl_matchid=Partita %
+dl_team=Dati Squadra
+dl_players=Giocatori
+dl_juniors=Giovani
+logoff=Log off
+useproxy=Usa un proxy HTTP
+proxyhost=hostname Proxy (o IP)
+proxyport=porta Proxy
+useproxyauth=Usa autenticazione HTTP proxy
+proxyusername=nome utente Proxy
+proxypassword=password Proxy
+
+#Errors
+err_unknownhost=Host sconosciuto. Impossibile risolvere %.
+err_invaliddate=data non valida.
+err_loginfailed=LOGIN NON RIUSCITO!
+err_nocountryset=Prima di fare ci\u00f2 assicurati di aver settato correttamente i valori della tua nazione nelle Opzioni.
+err_nocurrencyrate=Nessun tasso di cambio definito per % .
+
+#Dialog titles
+error=Errore
+inputdate=inserire la data
+
+#Country Names
+
+#Skill and supporter levels
+skill_0=tragico
+skill_1=tremendo
+skill_2=insoddisfacente
+skill_3=scarso
+skill_4=debole
+skill_5=medio
+skill_6=accettabile
+skill_7=buono
+skill_8=solido
+skill_9=ottimo
+skill_10=eccellente
+skill_11=formidabile
+skill_12=straordinario
+skill_13=incredibile
+skill_14=splendido
+skill_15=magico
+skill_16=sovrumano
+skill_17=divino
+mood_1=ti hanno sfregiato la macchina
+mood_2=minacciano di sfregiarti la macchina
+mood_3=sono gi\u00fa di morale
+mood_4=credono nella squadra
+mood_5=sono soddisfatti
+mood_6=sono entusiasti per le performance della squadra
+mood_7=sono pazzamente innamorati della squadra
+
+#Squad Summary Panel
+averageage=Eta' media:
+averageform=Forma media:
+totalplayers=Totale giocatori:
+natplayers=Giocatori nazionali:
+fgnplayers=Giocatori stranieri:
+totalsalary=Salario totale:
+averagesalary=Salario medio:
+totalvalue=Valore totale:
+averagevalue=Valore medio:
+money=Bilancio:
+rank=Punti Rank:
+fans=Tifosi:
+fanclubmood=Umore Tifosi:
+
+#Options dialog
+language=Lingua
+country=Nazione
+currencyrate=Tasso di conversione della valuta
+currencysymbol=Simbolo di valuta
+lowskill=Limite inferiore dell'abilita'
+tt_lowskill=Le skill sotto questo livello (incluso) sono considerate "basse"
+highskill=Limite superiore dell'abilita'
+tt_highskill=Le skill da questo livello in su sono considerate "alte"
+seasonreference=Stagione di riferimento
+tt_seasonreference=Stagione di riferiemnto per i calendari. Il numero inserito rappresenta la stagione di Sokker nella tua Nazione che inizia alla data sottoindicata.
+seasonreferencestart=inizio stag di riferimento
+tt_seasonreferencestart=Data inizio stagione di riferimento. La stagione di riferimento inizia in questa data nella tua nazione.
+autosendtontdb=Auto-invio dati giocatori al NTDB.
+tt_autosendtontdb=Invia automaticamente i dati dei giocatori selezionati alla corrispondente URL del NTDB (impostata in resources/ntdb_urls.txt)
+autochecknewversion=Controlla aggiornamenti all'avvio
+tt_autochecknewversion=Controlla automaticamente gli aggiornamenti di SO all'avvio del programma
+
+#Position's short names
+pos_20=DiF
+pos_30=CEN
+pos_40=ATT
+pos_10=POR
+pos_21=TER
+pos_22=DC
+pos_23=LI
+pos_31=CD
+pos_32=CC
+pos_33=CO
+pos_35=CL
+pos_41=ALA
+pos_42=ATT
+pos_left=S%
+pos_right=D%
+
+#Position's long (extended) names
+posext_20=dinfensore
+posext_30=centrocampista
+posext_40=attaccante
+posext_10=portiere
+posext_21=terzino
+posext_22=difensore centrale
+posext_23=libero
+posext_31=centrocampista difensivo
+posext_32=centrocampista centrale
+posext_33=centrocampista offensivo
+posext_35=centrocampista laterale
+posext_41=ala
+posext_42=attaccante
+posext_left=sinistra %
+posext_right=destra %
+
+#misc
+season=Stagione
+comparedata=Compara i dati
+weeksingraph=settimane nel grafico
+managernotes=note del presidente
+savesnapshot=Cattura schermata
+deleteforever=Cancella definitivamente
+confirmdelete=Conferma cancellazione
+
+#skill names
+skn_form=Forma
+skn_stamina=Resistenza
+skn_pace=Velocit\u00e0
+skn_technique=Tecnica
+skn_passing=Passaggi
+skn_keeper=Parate
+skn_defender=Difesa
+skn_playmaker=Regia
+skn_scorer=Attacco
+skn_experience=Esperienza
+skn_teamwork=Lavoro di squadra
+skn_tactdiscip=Disciplina Tattica
+
+#Formula Editor
+formmodifier=modificatore di Forma (%)
+player=Giocatori
+ratingforpos=Valutazione per posizione
+withform=con Forma
+withoutform=senza Forma
+set=Setta
+tt_set=Setta la formula con questi valori
+undo=Annulla
+tt_undo=Resetta la formula ai valori salvati
+reset=Reset
+tt_reset=Resetta formula ai valori di default. QUESTA OPERAZIONE E' IRREVERSIBILE!
+
+#Credits
+author=Autore
+translator=Traduttore
+
+#League Table Panel
+ch_team=Squadra
+ch_matchesplayed=PG
+ch_matchwins=v
+ch_matchdraws=N
+ch_matchlosses=P
+ch_goalsfavour=gF
+ch_goalsagainst=gS
+ch_goaldiff=Diff
+ch_points=Pts
+tt_round=Giornata
+tt_place=Luogo
+graph=Grafico
+fixture=Calendario
+deletetable=Cancella tabella
+exportxml=Esporta in XML
+
+# reports
+trainingreport=allenamento settimanale
+juniorreport=Sviluppo giovanili
+playerreport=Report giocatore
+schoolreport=Rapporto Giovanili
+generate=Generare
+
+#SokkerMon Importer
+unrecogskill=Livello skill non riconosciuto: %
+
+#. Flags Plugin
+fp_flag=bandiera$bandiere
+fp_player=giocatore$giocatori
+fp_visited=Nazioni Visitate
+fp_hosted=Nazioni Ospitate
+fp_tripto=Viaggi in %
+fp_visitsfrom=Visite da %
+fp_currentpflags=Bandiere Giocatori
+fp_formerpflags=Bandiere Vecchi Giocatori
+fp_currentpfrom=Giocatori proveninente da %
+fp_formerpfrom=Vecchi giocatori provenienti da %
+fp_newflags=Nuove Bandiere
+fp_newvisited=Nuove nazioni visitate
+fp_newhosted=Nuove nazioni ospitate
+fp_notvisitedyet=Nazioni non ancora visitate
+fp_nothostedyet=Nazioni non ancora ospitate
+fp_addflags=aggiungi queste
+fp_removeflags=rimuovi queste
+fp_updateflags=Aggiorna bandiere
+tt_fp_updateflags=Le bandiere saranno aggiornate in accordo alle partite nel DB
+
+#. Match IDs list importer
+inputmatchids=Inserisci gli ID delle partite
+typematchidshere=Digita l'ID della partita e premi INVIO
+dragmatcheshere=Trascina (o copia-incolla) qui il testo della pagina delle partite su online.sokker.org
+
+#. Text Editing
+cut=Taglia
+copy=Copia
+paste=Incolla
+bold=Grassetto
+italic=Corsivo
+underline=Sottolineato
+
+#. Player stats Panel
+filter_allskills=Tutte le skills
+filter_overall=Crescita complessiva
+
+#. Updater
+newversion=Una nuova versione (%) \u00e8 disponibile!
+langupdates=Aggiornamenti linguaggio disponibili!
+update=Aggiorna
+dl_updatingso=Aggiornamento in corso
+restart=Riavvia
+restartmsg=E' necessario riavviare SO affinch\u00e8 gli aggiornamenti abbiano effetto
+
+#. Training Panel
+trainerjob=Ruolo
+job0=nessuno
+job1=Allenatore principale
+job2=Assistente
+job3=Giovanili
+ch_trainerskill=GENERALE
+changetraining=Cambia allenamento
+tt_changetraining=Doppio click per cambiare l'allenamento di questa settimana
+datastatus=Dati da %
+datasetmanually=Dati inseriti manualmente
+week=Settimana
+order=Reparto
+trainlevel=Livallo Allenamento
+residuallevel=Livello Residuo
+assistantstotal=Somma valutazione generale assistenti
+minutestrained=Minuti allenati
+orderplayed=Reparto allenato
+
+#. Matches Panel
+competition=Competizione
+weather=Meteo
+opponent=Avversario
+spectators=Spettatori
+score=Punteggio
+victory=Vittoria
+draw=Pareggio
+defeat=Sconfitta
+national=Nazionali
+internat=Internazionali
+local=In casa
+visitor=Fuori casa
+official=Ufficiale
+friendly=Amichevole
+league=Torneo
+cup=Coppa
+quali=Spareggio
+totalmatches=Partite totali
+matcheswon=Partite vinte
+matchesdrawn=Partite pareggiate
+matcheslost=Partite perse
+goalsfavour=Goal segnati
+goalsagainst=Goal subiti
+goaldiff=Differenza reti
+shots=Tiri
+fouls=Falli
+yellowcards=Cartellini gialli
+redcards=Cartellini rossi
+shootefficiency=Efficienza tiro
+avgattendance=Media pubblico
+avgpossession=Media possesso
+avgplayinhalf=Media zone gioco
+avgscoring=Media Tiri
+avgpassing=Media Passaggi
+avgdefending=Media Difesa
+
+

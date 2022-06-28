@@ -1,0 +1,136 @@
+0.95  - height, superdivine
+
+0.94  - bugfixes.
+      - import from apollo 2.0
+      - updated countries, flags and currencies.
+0.91  - implemented backups for savefiles.
+      - added Cuba.
+      - Matches Panel: implemented filter by Date.
+      - Squad Panel: Skills column headers now show a sums total for skill variations.
+      - Flag collection report.
+      - Fixed Junior School Report bbCode, to match the new bbCode scripts in the forums.
+0.9   - Lineup manager tab implemented
+      - Implemented manual overrides.
+      - Team manager notes.
+      - Juniors Table is now sortable.
+      - Litte bugfixes and preemptive code.
+0.86  - Support for Chinese language.
+      - Implemented import from Sokker Viewer XML files
+0.85  - Matches Panel: Filters (by league and opponent) and statistics.
+      - Junior school report.
+      - Updated NimRod L&F (skin).
+0.84  - visual improvements to Training Panel.
+0.83  - implemented player training analysis table in Training Panel
+0.82  - included regular friendlies in Matches Panel
+      - can erase an old junior from database (by right-clicking on his name in the table).
+0.81  - Added Matches Panel
+      - few bugfixes in training panel
+0.8   - Added Training Panel
+      - colorified Ratings table in PlayerStatsPanel, according to match type.
+      - NT matches can now be imported (with F9)
+      - NT players marked with a small star
+0.79  - implemented auto-update feature
+0.78  - implemented shorcut key for killing program (CTRL+ALT+K).
+      - implemented import from Apollo XML files (experimental).
+0.772 - Fix for (yet another) inter-season bug.
+      - Reimplemented download progress bar as to prevent weird bug with custom Windows XP theme.
+0.77  - Added "Matches" curve to player graph (matches played per week).
+      - Code optimization.
+0.762 - Fix another bug in weekly training report
+      - Implemented progress display in loading window
+0.761 - Fix small bug in weekly training report 
+0.76  - Graph in Junior School Panel now resizable.
+      - Restored "Value" curve to graph in Player Stats.
+      - implemented label selection filters for graph in Players Stats.
+0.75  - minor bugfixes; implemented data storage for coaches
+      - added graph to Junior School Panel
+      - snapshot images of player and junior graphs can be saved
+0.74  - player stats graph: changed "value" for "experience"
+      - SO updater now lists version changes
+      - implemented flag updater for flags plugin
+      - added manager notes for players
+0.73  - improved Logo Maker with new options.
+      - implemented feature to download matches by a list if IDs.
+      - minimum time to be considered as Played in a Match reduced to 30 minutes.
+      - coloured shirt icons to distinguish positions played in last match (PilM).
+0.72  - implemented "check new version" feature. internal tweaks.
+      - import Sokkermon 5 juniors files (.jun)
+0.71  - Support for NTDB interface.
+0.7   - Added a table viewer for former youths in junior school.
+      - support for Java Web Start.
+0.65  - fix calendar bug. added new countries.
+0.64  - SquadPanel: added columns for putting a player in a sqaud (A, B, C, etc) and for displaying whether he played in last match or not.
+      - PlayerStatsPanel: implemented table for viewing player individual marks on matches.
+0.62  - fix for invalid unicode characters in XMLs.
+0.61  - re-enabled import from SokkerMon 5 player files. Implemented SO Census.
+0.6   - added Flag Collection Tab and Logo Maker.
+0.503 - fix for matches that belong to a deleted league. Fixed display of injured players.
+0.502 - fix for rare bug concerning juniors having wrong pop week data
+0.501 - implemented workaround for Sokker's DoS protection when downloading too many XMLs in a row
+0.5   - implemented support for new Sokker XML interface.
+0.45  - added Currency Converter Tool
+0.44  - fixed upside-down league graph bug and Sokker Calendar week mismatch
+0.43  - fixed inter-season league table bug
+      - implemented Tactical Discipline
+      - optimized data storage (needs reimporting data)
+0.42  - fixed end of season league table bug
+0.41  - implemented Fixture projector in League Table Panel
+      - Squad Panel layout is now resizable
+0.4   - BETA public release. implemented http connection through proxy
+0.39  - Import from Sokkermon player files (.sok)
+0.38  - fixed bug: progress bar not dissapearing when login failed
+0.37  - improved overlapping lines in PlayerStats graph
+      - fixed bug: incorrect league parsing for PLUS users with a league link in their Announcements
+0.361 - fixed bug: nameless youth players were not parsed
+0.36  - weekly training report
+0.35  - implemented League Table Panel graph
+0.34  - bug fixes
+0.33  - PLaFs support
+0.32  - implemented League Table Panel
+0.31  - implemented league parsing
+0.3   - code optimization. Public release.
+-------------------------------------------------
+0.26  - mejoras de interfaz al gráfico de Player Stats.
+      - mejorada columna "sumanas/subida promedio" en Escuela de Juveniles
+0.25  - implementado grafico en Player Stats Panel.
+0.24  - implementadas caras de los jugadores. Player Stats Panel.
+0.23  - agregada columnas de "semanas desde ultimo pop" y "dinero gastado" en escuela de juveniles
+      - agregados tooltips a los encabezados de columnas en escuela de juveniles
+      - mejorada columna "Nivel Proyectado"
+0.22  - agregado combobox con lista de paises en las opciones
+      - implementado parsing de Coaches
+0.21  - agregada columna "Nivel Proyectado" en la Escuela de Juveniles
+      - Implementado acceso a paginas HTML de Sokker
+      - más ToolTips
+      - implementado parsing de Arena
+
+0.2   - BETA public release
+
+0.19  - Implementado el Editor de Formulas
+
+0.182 - bug fixes
+0.181 - bug fixes
+0.18  - arreglado un bug de la carga del archivo de texto desde el jar
+
+0.17  - añadidas varias opciones a la configuración
+
+0.16  - añadido el calendario para comparar datos de jugadores. Indica semana y temporada.
+      - splash screen.
+
+0.15  - añadido JDateChooser y JCalendar para elegir fecha de XML con nombre incorrecto.
+
+0.14  - Implementada columna "Posicion Ideal", además de las fórmulas para la posiciones.
+
+0.13  - Implementado menú opciones
+
+0.12  - Optimizacion de las estructuras de datos, reduccion del tamaño de archivo de datos
+
+0.11  - Retoques visuales
+
+0.1   - Habilitada pestaña de Juveniles
+      - Implementados ToolTips con el correspondiente nombre equivalente para habilidades numéricas.
+      - Jugadores con tarjeta roja o lesionados se marcan con el nombre en rojo.
+
+0.02  - Implementado símbolo de moneda.
+      - Chequear existencia de DATA_DIR al bajar datos.
+      - directorio donde se guardan los xml es ahora data/xml

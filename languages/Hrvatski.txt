@@ -1,0 +1,403 @@
+#! Croatian text file
+langver=0.91
+translator_name=Hobotshy
+englishname=croatian
+
+#. Menus
+data=Podaci
+config=Postavke
+downloadall=Skini sve
+downloadbasic=Skini osnovne podatke
+tt_downloadbasic=Klub, Igra\u010di, Treneri, Stadion
+downloadleaguem=Skini podatke o ligi i utakmicama
+downloadhistoric=Skini podatke o prija\u0161njim utakmicama
+import=Importiraj...
+importxml=XML datoteke
+importhtml=HTML datoteke
+importext=iz vanjskog programa...
+sendtontdb=Po\u0161alji podatke "SoNTDB" NT bazama
+options=Opcije
+exit=Izlaz
+formulas=Formule
+info=Info
+credits=Zasluge
+reports=Izvje\u0161taji
+utils=Alati
+curconvert=Pretvara\u010d Valuta
+checknewversion=Provjeri da li postoji nova verzija SO-a
+
+#. Tabs
+squad=Mom\u010dad
+lineup=Pomo\u0107nik Postave
+playerstats=Igra\u010di
+datamanager=Manager Podataka
+settings=Postavke
+juniorschool=Juniorska \u0160kola
+stadium=Stadion
+leaguetable=Liga\u0161ka Tablica
+flagcollection=Kolekcija Zastavica
+training=Trening
+matches=Utakmice
+
+#. Table Column Headers
+ch_name=Ime
+ch_age=Starost
+ch_bestposition=Pozicija
+ch_form=FORM
+ch_tactdiscip=Tak.D.
+ch_experience=Isks.
+ch_teamwork=Mom.R.
+ch_stamina=IZDR
+ch_pace=BRZ
+ch_technique=TEH
+ch_passing=DODA
+ch_keeper=VRAT
+ch_defender=OBR
+ch_playmaker=VEZA
+ch_scorer=NAP
+ch_matches=Utakmice
+ch_goals=Golovi
+ch_assists=Asistencije
+ch_state=Status
+ch_value=Vrijednost
+ch_salary=Pla\u0107a
+ch_id=ID
+ch_weeks=Tjedana
+ch_skill=Vje\u0161tina
+ch_skillup_count=Ukupno skokova
+ch_average_weeks_per_skillup=Talent
+ch_projected_level=Izlazi kao:
+ch_initial_weeks=Po\u010detnih tjedana
+ch_initial_skill=Po\u010detna vje\u0161tina
+ch_weeks_since_pop=Bez skoka:
+ch_money_spent=Ulo\u017eeno novaca
+ch_date=Datum
+ch_rating=Ocjena
+ch_position=Pozicija
+ch_order=Naredba
+ch_time=Vrijeme
+ch_shots=Udarci
+ch_fouls=Prekr\u0161aji
+ch_offpercent=Off \%
+ch_defpercent=Def \%
+ch_squad=Postava
+ch_playedinlastmastch=Igrao
+ch_sendtontdb=\u0161alji u NTDB
+
+#. Table Header ToolTip
+tt_tableheader=Klikni za sortiranje; Shift-Klikni za obrnuto sortiranje; Control-Klikni za zadavanje sekundarnog kriterija
+tt_ch_weeks=Preostalo tjedana do izlaska iz juniorske \u0161kole.
+tt_ch_skill=Stupanj vje\u0161tine. Ukupni zbroj svih njegovih izlaznih vje\u0161tine biti \u0107e otprilike 3 puta ve\u0107i od ove razine.
+tt_ch_skillup_count=Ukupan broj skokova.
+tt_ch_average_weeks_per_skillup=Prosje\u010dno tjedana potrebno za skok.
+tt_ch_projected_level=Predvi\u0111ena izlazna vje\u0161tina, u ovisnosti o broju tjedana potrebnom za skok i trenuta\u010dnoj vje\u0161tini.
+tt_ch_initial_weeks=Po\u010detnih tjedana.
+tt_ch_initial_skill=Po\u010detna vje\u0161tina, u usporedbi sa sada\u0161njom.
+tt_ch_weeks_since_pop=Tjedana od pro\u0161log skoka.
+tt_ch_money_spent=Koli\u010dina novca utro\u0161ena na ovog juniora.
+
+#. Connection
+connecting=Spajam se...
+login=Login
+username=Login
+password=\u0160ifra
+downloadingxml=Skidam XML
+beginsession=Zapo\u010dinjem sa radom
+dl_league=Liga\u0161ka Tablica
+dl_training=Podaci o Treningu
+dl_economy=Podaci o Ekonomiji
+dl_matches=Podaci o Utakmicama
+dl_matchid=Utakmica %
+dl_team=Klub
+dl_players=Igra\u010di
+dl_juniors=Juniori
+logoff=Zav\u0161etak rada
+useproxy=Upotreba HTTP proxy
+proxyhost=Proxy hostname (ili IP)
+proxyport=Proxy port
+useproxyauth=Upotrijebi HTTP proxy authentification
+proxyusername=Proxy username
+proxypassword=Proxy \u0161ifra
+
+#. Errors
+err_unknownhost=Nepoznat Host. Could not resolve %.
+err_invaliddate=Neispravni podaci
+err_loginfailed=ODBIJENO LOGIRANJE!
+err_nocountryset=Molimo unaprijed provjerite da li ste ispravno konfigurirali va\u0161e Postavke.
+err_nocurrencyrate=Nije definirana stopa za % .
+
+#. Dialog titles
+error=Gre\u0161ka
+inputdate=Ulazni podaci
+
+#. Country Names
+
+#. Skill and supporter levels
+skill_0=tragi\u010dan
+skill_1=o\u010dajan
+skill_2=nedovoljan
+skill_3=lo\u0161
+skill_4=slab
+skill_5=prosje\u010dan
+skill_6=dovoljan
+skill_7=dobar
+skill_8=solidan
+skill_9=vrlo dobar
+skill_10=odli\u010dan
+skill_11=impresivan
+skill_12=izvanredan
+skill_13=sjajan
+skill_14=briljantan
+skill_15=\u010daroban
+skill_16=izvanzemaljski
+skill_17=bo\u017eanski
+mood_1=vrlo ljutiti
+mood_2=gube nadu
+mood_3=gutaju apaurine
+mood_4=vjeruju u svoj klub
+mood_5=zadovoljni
+mood_6=odu\u0161evljeni sa stanjem u klubu
+mood_7=ludo zaljubljeni u svoj klub
+
+#. Squad Summary Panel
+averageage=Prosje\u010dna starost:
+averageform=Prosje\u010dna forma:
+totalplayers=Ukupno igra\u010da:
+natplayers=Nacionalnih igra\u010da:
+fgnplayers=Stranih igra\u010da:
+totalsalary=Ukupno za pla\u0107e:
+averagesalary=Prosje\u010dna pla\u0107a:
+totalvalue=Ukupna vrijednost:
+averagevalue=Prosje\u010dna vrijednost:
+money=Stanje ra\u010duna:
+rank=Rank bodovi:
+fans=Broj navija\u010da:
+fanclubmood=Raspolo\u017eenje navija\u010da:
+
+#. Options dialog
+language=Jezik
+country=Zemlja
+currencyrate=Stopa pretvorbe valute
+currencysymbol=Simbol valute
+lowskill=Donja granica \u017eeljene razine vje\u0161tina
+tt_lowskill=Vje\u0161tine do ove razine (uklju\u010duju\u0107i) se smatraju "niske"
+highskill=Gornja granica \u017eeljene razine vje\u0161tina
+tt_highskill=Vje\u0161tine iznad ove razine (uklju\u010duju\u0107i) se smatraju "visoke"
+seasonreference=Referentna sezona
+seasonreferencestart=Po\u010detak referentne sezone
+tt_seasonreference=Referentna kalendarska sezona. Uneseni broj predstavlja Sokker sezonu za va\u0161u zemlju, koja po\u010dinje sa ni\u017ee prikazanim datumom.
+tt_seasonreferencestart=Datum po\u010detka referentne sezone. Referentna sezona u va\u0161oj zemlji po\u010dinje sa ovim datumom.
+autosendtontdb=Automatski \u0161alji igra\u010de u NTDB
+tt_autosendtontdb=Automatski \u0161alji podatke o igra\u010dima u NTDB's URL (postavljeno u resursima/ntdb_urls.txt)
+autochecknewversion=Na po\u010detku provjeri da li postoji nova verzija
+tt_autochecknewversion=Automatski provjeri da li postoji nova verzija SO-a
+
+#. Position's short names
+pos_20=DEF
+pos_30=MID
+pos_40=ATT
+pos_10=GK
+pos_21=WB
+pos_22=CB
+pos_23=SW
+pos_31=DM
+pos_32=CM
+pos_33=AM
+pos_35=WM
+pos_41=FW
+pos_42=ST
+pos_left=L%
+pos_right=D%
+
+#. Position's long (extended) names
+posext_20=brani\u010d
+posext_30=vezni
+posext_40=napada\u010d
+posext_10=vratar
+posext_21=bek
+posext_22=stoper
+posext_23=libero
+posext_31=obrambeni vezni
+posext_32=centralni vezni
+posext_33=ofenzivni vezni
+posext_35=krilo
+posext_41=napada\u010d
+posext_42=\u0161pica
+posext_left=lijevo %
+posext_right=desno %
+
+#. Misc
+season=Sezona
+comparedata=Usporedi podatke
+weeksingraph=Tjedni na grafu
+managernotes=Osobne bilje\u0161ke
+savesnapshot=Snimi kao sliku
+deleteforever=Trajno izbri\u0161i
+confirmdelete=Potvrdi brisanje
+
+#. skill names
+skn_form=Forma
+skn_stamina=u izdr\u017eljivosti
+skn_pace=u brzini
+skn_technique=u tehnici
+skn_passing=u dodavanju
+skn_keeper=na vratima
+skn_defender=u obrani
+skn_playmaker=u vezi
+skn_scorer=u napadu
+skn_experience=u iskustvu
+skn_teamwork=u mom\u010dadskom radu
+skn_tactdiscip=u takti\u010dkoj disciplini
+
+#. Formula Editor
+formmodifier=utjecaj Forme (\%)
+player=Igra\u010d
+ratingforpos=Ocjena za poziciju
+withform=uklju\u010duju\u0107i Formu
+withoutform=isklju\u010duju\u0107i Formu
+set=Postavi
+tt_set=Postavi formulu za ove vrijednosti
+undo=Poni\u0161ti (Undo)
+tt_undo=Vrati formulu na snimljene vrijednosti
+reset=Resetiraj
+tt_reset=Vrati formulu na standardne vrijednosti. NE MO\u017dE SE PONI\u0160TITI (UNDO)!
+
+#. Credits
+author=Autor
+translator=Prevoditelj
+
+#. League Table Panel
+ch_team=Klub
+ch_matchesplayed=Utak
+ch_matchwins=Pob
+ch_matchdraws=Neod
+ch_matchlosses=Izg
+ch_goalsfavour=Gol+
+ch_goalsagainst=Gol-
+ch_goaldiff=Gol+-
+ch_points=Bodovi
+tt_round=Kolo
+tt_place=Pozicija
+graph=Graf
+fixture=Raspored
+deletetable=Obri\u0161i tablicu
+exportxml=Eksportiraj u XML
+
+#. reports
+trainingreport=Tjedni trening
+juniorreport=Trening Juniora
+playerreport=Osobna iskaznica
+schoolreport=Pregled juniorske \u0161kole
+generate=Generiraj
+flagsreport=Izvje\u0161taj o zastavicama
+
+
+#. SokkerMon Importer
+unrecogskill=Neprepoznata razina vje\u0161tine: %
+
+#. Flags Plugin
+fp_flag=zastavica$zastavica
+fp_player=igra\u010d$igra\u010di
+fp_visited=Posje\u0107ene zemlje
+fp_hosted=Ugo\u0161\u0107ene zemlje
+fp_tripto=Putovanja u %
+fp_visitsfrom=Posjete iz %
+fp_currentpflags=Zastave sada\u0161njih Igra\u010da
+fp_formerpflags=Zastave biv\u0161ih Igra\u010da
+fp_currentpfrom=Sada\u0161nji igra\u010di iz %
+fp_formerpfrom=Biv\u0161i igra\u010di iz %
+fp_newflags=Nove zastavice
+fp_newvisited=Novoposje\u0107ene zemlje
+fp_newhosted=Novougo\u0161\u0107ene zemlje
+fp_notvisitedyet=Jo\u0161 neposje\u0107ene zemlje
+fp_nothostedyet=Jo\u0161 neugo\u0161\u0107ene zemlje
+fp_addflags=dodaj ove
+fp_removeflags=ukloni ove
+fp_updateflags=Dodaj zastavice
+tt_fp_updateflags=Zastavice \u0107e se dodavati sukladno podacima u Bazi
+
+#. Match IDs list importer
+inputmatchids=Unesi Match IDs
+typematchidshere=Unesite match ID ovdje i pritisnite ENTER
+dragmatcheshere=Dovucite (ili copy-paste) va\u0161 online.sokker.org izvje\u0161taj sa utakmice ovdje
+
+#. Text Editing
+cut=Cut
+copy=Copy
+paste=Paste
+bold=Bold
+italic=Italic
+underline=Underline
+
+#. Player stats Panel
+filter_allskills=Sve vje\u0161tine
+filter_overall=Ukupni napredak
+
+#. Updater
+newversion=Nova verzija % dostupna!
+langupdates=Nova verzija prijevoda dostupna!
+update=A\u017euriraj
+dl_updatingso=A\u017euriranje SO-a
+restart=Ponovno pokretanje
+restartmsg=Molimo ponovno pokrenite SO kako bi uklju\u010dili promjene
+
+#. Training Panel
+trainerjob=Zadu\u017eenje
+job0=nezaposlen
+job1=Glavni trener
+job2=Pomo\u0107nik
+job3=Trener juniora
+ch_trainerskill=Ocjena
+changetraining=Trajno promijeni trening naredbe
+tt_changetraining=Klikni dva puta kako bi promijenio trening za ovaj tjedan
+datastatus=Podaci od %
+datasetmanually=Podaci su postavljeni ru\u010dno
+datastatus=Podaci od %
+datasetmanually=Podaci su postavljeni ru\u010dno
+week=Tjedan
+order=Pozicija
+trainlevel=Trening razina
+residuallevel=Zajedni\u010dki trening
+assistantstotal=Zbroj op\u0107e procjene Pomo\u0107nika
+minutestrained=Trening minute
+orderplayed=Naredba na utakmici
+
+#. Matches Panel
+competition=Natjecanje
+weather=Vrijeme
+opponent=Suparnik
+spectators=Gledatelji
+score=Rezultat
+victory=Pobjeda
+draw=Nerije\u0161eno
+defeat=Poraz
+national=Nacionalni
+internat=Internacionalni
+local=Doma\u0107in
+visitor=Gost
+official=Slu\u017ebena
+friendly=Prijateljska
+league=Liga
+cup=Kup
+quali=Kvalifikacije
+totalmatches=Ukupno utakmica
+matcheswon=Dobivene utakmice
+matchesdrawn=Nerije\u0161ene utakmice
+matcheslost=Izgubljene utakmice
+goalsfavour=Postignuto golova
+goalsagainst=Primljeno golova
+goaldiff=Gol razlika
+shots=Udarci
+fouls=Prekr\u0161aji
+yellowcards=\u017duti kartoni
+redcards=Crveni kartoni
+shootefficiency=Gol u\u010dinkovitost
+avgattendance=Posje\u0107enost pr.
+avgpossession=Posjed lopte pr.
+avgplayinhalf=Igra na polovici pr.
+avgscoring=Napad pr.
+avgpassing=Dodavanje pr.
+avgdefending=Obrana pr.
+datebegin=Po\u010detak
+dateend=Kraj
+

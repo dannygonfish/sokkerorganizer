@@ -1,0 +1,10 @@
+# Cached entries for HTML parsing
+#Wed Mar 28 22:19:08 CLT 2007
+solid=8
+excellent=10
+formidable=11
+outstanding=12
+good=7
+average=5
+adequate=6
+very\ good=9

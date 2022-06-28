@@ -1,0 +1,400 @@
+#! English text file
+langver=0.91
+translator_name=Daniel Gonz\u00e1lez Fisher
+englishname=english
+
+#. Menus
+data=Data
+config=Config
+downloadall=Download all
+downloadbasic=Download basic data
+tt_downloadbasic=Team info, Players, Coaches, Arena
+downloadleaguem=Download League and Matches
+downloadhistoric=Download Historic Matches
+import=Import...
+importxml=XML file(s)
+importhtml=HTML file(s)
+importext=from external program...
+sendtontdb=Send data to "SoNTDB" sites
+options=Options
+exit=Exit
+formulas=Formulas
+info=Info
+credits=Credits
+reports=Reports
+utils=Tools
+curconvert=Currency Converter
+checknewversion=Check for new SO version
+
+#. Tabs
+squad=Squad
+lineup=Lineup Manager
+playerstats=Player Stats
+datamanager=Data Manager
+settings=Settings
+juniorschool=Junior School
+stadium=Stadium
+leaguetable=League Table
+flagcollection=Flag Collection
+training=Training
+matches=Matches
+
+#. Table Column Headers
+ch_name=Name
+ch_age=Age
+ch_bestposition=B.Pos
+ch_form=FORM
+ch_tactdiscip=T.D.
+ch_experience=Exp
+ch_teamwork=T.W.
+ch_stamina=STAM
+ch_pace=PACE
+ch_technique=TECH
+ch_passing=PASS
+ch_keeper=KEEP
+ch_defender=DFND
+ch_playmaker=PLMK
+ch_scorer=STRK
+ch_matches=Matches
+ch_goals=Goals
+ch_assists=Assists
+ch_state=State
+ch_value=Value
+ch_salary=Salary
+ch_id=ID
+ch_weeks=Weeks
+ch_skill=Skill
+ch_skillup_count=Pops
+ch_average_weeks_per_skillup=Avg.Weeks/pop
+ch_projected_level=Projected Level
+ch_initial_weeks=Init. Weeks
+ch_initial_skill=Initial Skill
+ch_weeks_since_pop=No pop in:
+ch_money_spent=Money spent
+ch_date=Date
+ch_rating=Rating
+ch_position=Pos
+ch_order=Order
+ch_time=Time
+ch_shots=Shots
+ch_fouls=Fouls
+ch_offpercent=Off \%
+ch_defpercent=Def \%
+ch_squad=Squad
+ch_playedinlastmastch=PiLM
+ch_sendtontdb=send to NTDB
+
+#. Table Header ToolTip
+tt_tableheader=Click to sort; Shift-Click to sort in reverse order; Control-Click to add secondary sorting criteria
+tt_ch_weeks=Time remaining to join the main team
+tt_ch_skill=Junior level. The sum of his outcoming skills will be approximately 3 times this value.
+tt_ch_skillup_count=Skillup count
+tt_ch_average_weeks_per_skillup=Average Weeks per skillup
+tt_ch_projected_level=Estimated outcoming level considering average weeks/pop since the first pop, compared to current skill
+tt_ch_initial_weeks=Initial Weeks
+tt_ch_initial_skill=Initial skill, compared to current skill
+tt_ch_weeks_since_pop=Weeks since last pop
+tt_ch_money_spent=Amount of money spent in this junior
+
+#. Connection
+connecting=Connecting...
+login=Login
+username=Username
+password=Password
+downloadingxml=Downloading XML
+beginsession=Begin Session
+dl_league=League Table
+dl_training=Training Data
+dl_economy=Economy Data
+dl_matches=Matches Data
+dl_matchid=Match %
+dl_team=Team Data
+dl_players=Players
+dl_juniors=Juniors
+logoff=Log off
+useproxy=Use an HTTP proxy
+proxyhost=Proxy hostname (or IP)
+proxyport=Proxy port
+useproxyauth=Use HTTP proxy authentification
+proxyusername=Proxy username
+proxypassword=Proxy password
+
+#. Errors
+err_unknownhost=Unknown Host. Could not resolve %.
+err_invaliddate=Invalid date
+err_loginfailed=LOGIN FAILED!
+err_nocountryset=Before doing this make sure you have properly set your country settings in the Options.
+err_nocurrencyrate=No currency conversion rate for % is defined.
+
+#. Dialog titles
+error=Error
+inputdate=Input date
+
+#. Country Names
+
+#. Skill and supporter levels
+skill_0=tragic
+skill_1=hopeless
+skill_2=unsatisfactory
+skill_3=poor
+skill_4=weak
+skill_5=average
+skill_6=adequate
+skill_7=good
+skill_8=solid
+skill_9=very good
+skill_10=excellent
+skill_11=formidable
+skill_12=outstanding
+skill_13=incredible
+skill_14=brilliant
+skill_15=magical
+skill_16=unearthly
+skill_17=divine
+mood_1=furious
+mood_2=losing hope
+mood_3=depressed
+mood_4=believe in their club
+mood_5=satisfied
+mood_6=delighted with their club's performance
+mood_7=are madly in love with their club
+
+#. Squad Summary Panel
+averageage=Average age:
+averageform=Average form:
+totalplayers=Total players:
+natplayers=National players:
+fgnplayers=Foreign players:
+totalsalary=Total salary:
+averagesalary=Average salary:
+totalvalue=Total value:
+averagevalue=Average value:
+money=Money:
+rank=Rank points:
+fans=Fans:
+fanclubmood=Fan Club Mood:
+
+#. Options dialog
+language=Language
+country=Country
+currencyrate=Currency conversion rate
+currencysymbol=Currency symbol
+lowskill=Low skill threshold
+tt_lowskill=Skills up to this level (inclusive) are considered "low"
+highskill=High skill threshold
+tt_highskill=Skills from this level and up are considered to be "high"
+seasonreference=Reference season
+seasonreferencestart=Ref. season start
+tt_seasonreference=Reference season for the calendars. The entered number represents the Sokker season in your country that begins at the date indicated below.
+tt_seasonreferencestart=Reference season starting date. The reference season begins at this date in your country.
+autosendtontdb=Auto-send players data to NTDB.
+tt_autosendtontdb=Automatically send selected players data to corresponding NTDB's URL (set in resources/ntdb_urls.txt)
+autochecknewversion=Check for new versions on startup
+tt_autochecknewversion=Automatically check for a new SO version on program startup
+
+#. Position's short names
+pos_20=DEF
+pos_30=MID
+pos_40=ATT
+pos_10=GK
+pos_21=WB
+pos_22=CB
+pos_23=SW
+pos_31=DM
+pos_32=CM
+pos_33=AM
+pos_35=WM
+pos_41=FW
+pos_42=ST
+pos_left=L%
+pos_right=R%
+
+#. Position's long (extended) names
+posext_20=defense
+posext_30=midfielder
+posext_40=attacker
+posext_10=goalkeeper
+posext_21=wingback
+posext_22=centreback
+posext_23=sweeper
+posext_31=defensive midfielder
+posext_32=central midfielder
+posext_33=attacking midfielder
+posext_35=winger
+posext_41=forward
+posext_42=striker
+posext_left=left %
+posext_right=right %
+
+#. Misc
+season=Season
+comparedata=Compare data
+weeksingraph=Weeks in graph
+managernotes=Manager notes
+savesnapshot=Save snapshot
+deleteforever=Permanently delete this
+confirmdelete=Confirm deletion
+
+#. skill names
+skn_form=Form
+skn_stamina=Stamina
+skn_pace=Pace
+skn_technique=Technique
+skn_passing=Passing
+skn_keeper=Keeper
+skn_defender=Defender
+skn_playmaker=Playmaker
+skn_scorer=Striker
+skn_experience=Experience
+skn_teamwork=Team-work
+skn_tactdiscip=Tactical discipline
+
+#. Formula Editor
+formmodifier=Form modifier (\%)
+player=Player
+ratingforpos=Rating for position
+withform=with Form
+withoutform=without Form
+set=Set
+tt_set=Set formula to these values
+undo=Undo
+tt_undo=Reset formula to saved values
+reset=Reset
+tt_reset=Reset formula to default. THIS CANNOT BE UNDONE!
+
+#. Credits
+author=Author
+translator=Translator
+
+#. League Table Panel
+ch_team=Team
+ch_matchesplayed=MP
+ch_matchwins=W
+ch_matchdraws=D
+ch_matchlosses=L
+ch_goalsfavour=gF
+ch_goalsagainst=gA
+ch_goaldiff=Diff
+ch_points=Pts
+tt_round=Round
+tt_place=Place
+graph=Graph
+fixture=Fixture
+deletetable=Delete table
+exportxml=Export to XML
+
+#. reports
+trainingreport=Weekly training
+juniorreport=Juniors development
+playerreport=Player record
+generate=Generate
+schoolreport=Junior school report
+flagsreport=Flag Collection Report
+
+#. SokkerMon Importer
+unrecogskill=Unrecognized skill level: %
+
+#. Flags Plugin
+fp_flag=flag$flags
+fp_player=player$players
+fp_visited=Visited Countries
+fp_hosted=Hosted Countries
+fp_tripto=Trips to %
+fp_visitsfrom=Visits from %
+fp_currentpflags=Current Players Flags
+fp_formerpflags=Former Players Lost Flags
+fp_currentpfrom=Current players from %
+fp_formerpfrom=Former players from %
+fp_newflags=New Flags
+fp_newvisited=New visited countries
+fp_newhosted=New hosted countries
+fp_notvisitedyet=Countries not yet visited
+fp_nothostedyet=Countries not yet hosted
+fp_addflags=add these
+fp_removeflags=remove these
+fp_updateflags=Update flags
+tt_fp_updateflags=Flags will be updated according to matches data in DB
+
+#. Match IDs list importer
+inputmatchids=Input Match IDs
+typematchidshere=Type a match ID here and press ENTER
+dragmatcheshere=Drag (or copy-paste) your online.sokker.org matches page text in here
+
+#. Text Editing
+cut=Cut
+copy=Copy
+paste=Paste
+bold=Bold
+italic=Italic
+underline=Underline
+
+#. Player stats Panel
+filter_allskills=All skills
+filter_overall=Overall growth
+
+#. Updater
+newversion=New version % available!
+langupdates=Language updates available!
+update=Update
+dl_updatingso=Updating SO
+restart=Restart
+restartmsg=Please restart SO for changes to take effect
+
+#. Training Panel
+trainerjob=Job
+job0=none
+job1=Head coach
+job2=Assistant
+job3=Junior team
+ch_trainerskill=GENERAL
+changetraining=Permanently change training orders
+tt_changetraining=Double-click to change training for this week
+datastatus=Data from %
+datasetmanually=Data was set manually
+week=Week
+order=Order
+trainlevel=Training Level
+residuallevel=Residual Level
+assistantstotal=Assistants general appraisal sum
+minutestrained=Minutes trained
+orderplayed=Order played
+
+#. Matches Panel
+competition=Competition
+weather=Weather
+opponent=Opponent
+spectators=Spectators
+score=Score
+victory=Victory
+draw=Draw
+defeat=Defeat
+national=National
+internat=International
+local=Home
+visitor=Visitor
+official=Official
+friendly=Friendly
+league=League
+cup=Cup
+quali=Qualification
+totalmatches=Total matches
+matcheswon=Matches won
+matchesdrawn=Matches drawn
+matcheslost=Matches lost
+goalsfavour=Goals scored
+goalsagainst=Goals against
+goaldiff=Goal difference
+shots=Shots
+fouls=Fouls
+yellowcards=Yellow cards
+redcards=Red cards
+shootefficiency=Shooting efficiency
+avgattendance=Avg. attendance
+avgpossession=Possession avg.
+avgplayinhalf=Play in half avg.
+avgscoring=Scoring avg.
+avgpassing=Passing avg.
+avgdefending=Defending avg.
+datebegin=Begin
+dateend=End
+

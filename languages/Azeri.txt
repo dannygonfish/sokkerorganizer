@@ -1,0 +1,399 @@
+# Azeri language file
+langver=0.91
+translator_name=Rasim Hajiverdi
+englishname=azerbaijani
+
+
+#. Menus
+data=Data
+config=Konfiq
+downloadall=Ham\u0131s\u0131n\u0131 y\u00fckl\u0259m\u0259k
+downloadbasic=\u018fsas datan\u0131 y\u00fckl\u0259m\u0259k
+tt_downloadbasic=Komanda infosu, Oyun\u00e7ular, M\u0259\u015fq\u00e7il\u0259r, Meydan\u00e7a
+downloadleaguem=Liqa ve oyunlar\u0131 y\u00fckl\u0259m\u0259k
+downloadhistoric=Tar\u0131x\u0131 mat\u00e7lar\u0131 y\u00fckl\u0259m\u0259k
+import=Import...
+importxml=XML fayl(ar)
+importhtml=HTML fayl(ar)
+importext=ba\u015fqa proqramdan...
+sendtontdb=Datan\u0131 \u201cSoMTDB\u201d saytlara g\u00f6nd\u0259rm\u0259k
+options=Opsiyalar
+exit=\u00c7\u0131x\u0131\u015f
+formulas=D\u00fcsturlar
+info=Info
+credits=Kreditl\u0259r
+reports=Bildiri\u015fl\u0259r
+utils=Tools
+curconvert=Konverter
+checknewversion=So yeni versiyas\u0131n\u0131n yoxlamaq
+
+#. Tabs
+squad=Komanda
+lineup=\u018fsas heyyat r\u0259hbari
+playerstats=Oyun\u015fularin g\u00f6st\u0259ricil\u0259ri
+datamanager=Data R\u0259hb\u0259ri
+settings=Qurulmalar
+juniorschool=G\u0259ncl\u0259r m\u0259kt\u0259bi
+stadium=Stadion
+leaguetable=Liqan\u0131n Tablosu
+flagcollection=Bayraq kolleksiyas\u0131
+training=M\u0259\u015fq
+matches=Mat\u00e7lar
+
+#. Table Column Headers
+ch_name=\u0130sim
+ch_age=Ya\u015f
+ch_bestposition=B.Poz
+ch_form=FORM
+ch_tactdiscip=K.D.
+ch_experience=T\u0259cr
+ch_teamwork=K.\u0130.
+ch_stamina=QVT
+ch_pace=SRT
+ch_technique=TEX
+ch_passing=PAS
+ch_keeper=QP\u00c7
+ch_defender=MDF
+ch_playmaker=OYNQ
+ch_scorer=QOL
+ch_matches=Mat\u00e7lar
+ch_goals=Qollar
+ch_assists=Asistl\u0259r
+ch_state=State
+ch_value=Qiym\u0259t
+ch_salary=Maa\u015f
+ch_id=\u0130D
+ch_weeks=H\u0259ft\u0131l\u0259r
+ch_skill=G\u00f6st\u0259ricil\u0259r
+ch_skillup_count=Art\u0131mlar
+ch_average_weeks_per_skillup=Orta.H\u0259ft\u0259l\u0259r/art\u0131m
+ch_projected_level=Proyekt. s\u0259viyy\u0259
+ch_initial_weeks=\u018fvval. H\u0259ft\u0259
+ch_initial_skill=\u018fvv\u0259l. g\u00f6st\u0259rici
+ch_weeks_since_pop=Art\u0131m yoxdur:
+ch_money_spent=Pul x\u0259rcl\u0259nib
+ch_date=Tar\u0131x
+ch_rating=Reytinq
+ch_position=Poz
+ch_order=\u018fmr
+ch_time=Vaxt
+ch_shots=Z\u0259rb\u0259l\u0259r
+ch_fouls=C\u0259rim\u0259l\u0259r
+ch_offpercent=H\u00fcc\%
+ch_defpercent=M\u00fcd \%
+ch_squad=Komanda
+ch_playedinlastmastch=OyAO
+ch_sendtontdb=MTDB g\u00f6nd\u0259rm\u0259k
+
+#. Table Header ToolTip
+tt_tableheader=T\u0131kla n\u00f6vl\u0259m\u0259k \u00fc\u00e7\u00fcn; Shift-T\u0131kla t\u0259rsin\u0259 n\u00f6vl\u0259m\u0259k \u00fc\u00e7\u00fcn; Control-T\u0131kla ikinci s\u0259viyy\u0259li n\u00f6vl\u0259m\u0259k \u00fc\u00e7\u00fcn
+tt_ch_weeks=\u018fsas komandaya qosulmaq m\u00fcdd\u0259ti
+tt_ch_skill=G\u0259ncin s\u0259viyy\u0259si. M\u0259xaric olan g\u00f6st\u0259ricilarin toplanmasi t\u0259xmin\u0259n 3 d\u0259f\u0259sidir bu h\u0259cmin.
+tt_ch_skillup_count=G\u00f6st\u0259ricinin artmas\u0131n\u0131n say\u011fac\u0131
+tt_ch_average_weeks_per_skillup=H\u0259ft\u0259ya g\u00f6st\u0259ricinin artmas\u0131
+tt_ch_projected_level=Hesablanm\u0131\u015f m\u0259xaric s\u0259viyy\u0259 hesaba g\u00f6t\u00fcr\u0259rak avg.h\u0259ft\u0259l\u0259r/art\u0131m ilk art\u0131mdan, indiki s\u0259viyy\u0259 il\u0259 m\u00fcqais\u0259d\u0259
+tt_ch_initial_weeks=H\u0259ft\u0259l\u0259rin ilk say\u0131
+tt_ch_initial_skill=\u0130lk g\u00f6st\u0259rici, indi ki g\u00f6st\u0259rici il\u0259 m\u00fcqais\u0259
+tt_ch_weeks_since_pop=Ax\u0131r\u0131nc\u0131 d\u0259f\u0259 g\u00f6st\u0259ricinin artmas\u0131ndan h\u0259ft\u0259 say\u0131
+tt_ch_money_spent=Bu g\u0259nc\u0259 x\u0259rcl\u0259nmi\u015f pulun say\u0131
+
+#. Connection
+connecting=Baglanma...
+login=Loqin
+username=\u0130stifad\u0259\u00e7inin ismi
+password=\u015fifr\u0259
+downloadingxml= XML Y\u00fckl\u0259nmasi
+beginsession=F\u0259silin \u0259vv\u0259li
+dl_league=Liqan\u0131n Tablosu
+dl_training=M\u0259\u015fqlarin Datasi
+dl_economy=Finans\u0131n Datas\u0131
+dl_matches=Mat\u00e7lar\u0131n Datas\u0131
+dl_matchid=Mat\u00e7 %
+dl_team=Komandan\u0131n Datas\u0131
+dl_players=Oyun\u00e7ular
+dl_juniors=G\u0259ncl\u0259r
+logoff=\u00c7\u0131x\u0131s
+useproxy=HTTP proxini istifad\u0259 etm\u0259k
+proxyhost=Proxy hostname (ya IP)
+proxyport=Proxy port
+useproxyauth=Use HTTP proxy authentification
+proxyusername=Proxy istifad\u0259\u00e7inin ismi
+proxypassword=Proxy \u015fifr\u0259
+
+#. Errors
+err_unknownhost=Nam\u0259lum Host. Q\u0259rar q\u0259bul etm\u0259k olmur %.
+err_invaliddate=Zay data
+err_loginfailed=LOQ\u0130N D\u00dcZ DEY\u0130L!
+err_nocountryset=Ba\u015flamam\u0131\u015fdan \u0259vv\u0259l \u0259min olun ki \u00f6lk\u0259ni se\u00e7misiniz opsiyalarda.
+err_nocurrencyrate=indiki pul vahidi \u00fc\u00e7\u00fcn % \u00e7evirm\u0259 yoxdur.
+
+#. Dialog titles
+error=S\u0259hv
+inputdate=Data daxili
+
+#. Country Names
+
+#. Skill and supporter levels
+skill_0=f\u0259lak\u0259t
+skill_1=b\u0259rbad
+skill_2=yet\u0259rsiz
+skill_3=pis
+skill_4=z\u0259if
+skill_5=kafi
+skill_6=yet\u0259rli
+skill_7=yax\u015f\u0131
+skill_8=keyfiyy\u0259tli
+skill_9=\u00e7ox yax\u015f\u0131
+skill_10=\u00fcst\u00fcn
+skill_11=m\u00fck\u0259mm\u0259l
+skill_12=m\u00f6ht\u0259\u015f\u0259m
+skill_13=inan\u0131lmaz
+skill_14=g\u00f6rk\u0259mli
+skill_15=sehirli
+skill_16=f\u00f6vq\u0259lad\u0259
+skill_17=\u0259fs\u0259n\u0259vi
+mood_1= hidd\u0259tlidirl\u0259r
+mood_2= \u00fcm\u00fcdl\u0259rini itirirl\u0259r
+mood_3= depressiyaya d\u00fc\u015f\u00fcbl\u0259r
+mood_4= klublar\u0131na inan\u0131rlar
+mood_5= m\u0259mnundurlar
+mood_6= klublar\u0131n\u0131n performans\u0131ndan \u00e7ox raz\u0131d\u0131rlar
+mood_7= klublar\u0131n\u0131 d\u0259lic\u0259sin\u0259 sevirl\u0259r
+
+#. Squad Summary Panel
+averageage=Orta ya\u015f:
+averageform=Orta forma:
+totalplayers=B\u00fct\u00fcn oyun\u00e7ular:
+natplayers=Milli oyun\u00e7ular:
+fgnplayers=Xarici oyun\u00e7ular:
+totalsalary=B\u00fct\u00fcn maa\u015flar:
+averagesalary=Orta maa\u015f:
+totalvalue=B\u00fct\u00fcn h\u0259cm:
+averagevalue=Orta h\u0259cm:
+money=Pul:
+rank=Ranq xallar\u0131:
+fans=Az\u0259rke\u015fl\u0259r:
+fanclubmood=Az\u0259rke\u015f klubun ahval ruhiy\u0259si:
+
+#. Options dialog
+language=Dil
+country=\u00d6lk\u0259
+currencyrate=\u0130ndiki d\u0259yi\u015fikliyin g\u00f6st\u0259ricisi
+currencysymbol=\u0130ndiki simvol
+lowskill=A\u015fa\u011f\u0131 g\u00f6st\u0259ricinin son x\u0259tti
+tt_lowskill=G\u00f6st\u0259ricinin artmas\u0131 bu s\u0259viyy\u0259y\u0259 (daxil olaraq) "a\u015fa\u011f\u0131" \u2013ya kimi
+highskill= Yuxar\u0131 g\u00f6st\u0259ricinin son x\u0259tti
+tt_highskill=G\u00f6st\u0259ricil\u0259r bu s\u0259viyy\u0259d\u0259n \u201cyuxar\u0131\u201d-ya kimi
+seasonreference=F\u0259sil
+seasonreferencestart=F\u0259sil ba\u015flay\u0131r
+tt_seasonreference=F\u0259sil taqvim \u00fc\u00e7\u00fcn.
+tt_seasonreferencestart=F\u0259silin ba\u015flama tarixi. F\u0259sil bu vaxt ba\u015flay\u0131r sizin \u00f6lk\u0259d\u0259.
+autosendtontdb= Avto-g\u00f6nd\u0259rm\u0259 oyun\u00e7ular\u0131 millinin bazas\u0131na
+tt_autosendtontdb=Avtomatik g\u00f6nd\u0259rm\u0259k se\u00e7ilmi\u015f oyun\u00e7ular\u0131n datas\u0131n millinin bazas\u0131na
+autochecknewversion=Yeni versiyan\u0131 yoxlamaq proqram a\u00e7\u0131lan zaman
+tt_autochecknewversion=SO yeni versiyas\u0131n\u0131n avtomatik yoxlanmas\u0131 proqram a\u00e7\u0131lan zaman
+
+#. Position's short names
+pos_20=MDF
+pos_30=YMD
+pos_40=H\u00dcC
+pos_10=QP
+pos_21=QM
+pos_22=OM
+pos_23=LB
+pos_31=DY
+pos_32=OY
+pos_33=HY
+pos_35=QN
+pos_41=HC
+pos_42=QL
+pos_left=SL%
+pos_right=S\u011e%
+
+#. Position's long (extended) names
+posext_20=m\u00fcdafi\u0259\u00e7i
+posext_30=yar\u0131mm\u00fcdafi\u0259\u00e7i
+posext_40=h\u00fccum ed\u0259n
+posext_10=qap\u0131\u00e7\u0131
+posext_21=qanad m\u00fcdafi\u0259\u00e7i
+posext_22=orta m\u00fcdafi\u0259\u00e7i
+posext_23=libero
+posext_31=defans yar\u0131mm\u00fcdafi\u0259\u00e7i
+posext_32=orta yar\u0131mm\u00fcdafi\u0259\u00e7i
+posext_33=h\u00fccum ed\u0259n yar\u0131mm\u00fcdafi\u0259\u00e7i
+posext_35=qanad
+posext_41=n\u00fccum\u00e7u
+posext_42=qol\u00e7u
+posext_left=sol %
+posext_right=sa\u011f %
+
+#. Misc
+season=F\u0259sil
+comparedata=Datan\u0131n m\u00fcqais\u0259si
+weeksingraph=H\u0259ftal\u0259r qrafikd\u0259
+managernotes=Yaz\u0131lar\u0131n r\u0259hb\u0259ri
+savesnapshot=Yadda\u015fa salmaq
+deleteforever=H\u0259mi\u015f\u0259lik pozmaq bunu
+confirmdelete=Pozma\u011f\u0131n t\u0259sdiqi
+
+#. skill names
+skn_form=Forma
+skn_stamina=Q\u00fcvv\u0259t
+skn_pace=S\u00fcr\u0259t
+skn_technique=Texnika
+skn_passing=Pas
+skn_keeper=Qap\u0131\u00e7\u0131
+skn_defender=M\u00fcdafi\u0259\u00e7i
+skn_playmaker=Oyunqurucu
+skn_scorer=H\u00fccum\u00e7u
+skn_experience=T\u0259cr\u00fcb\u0259
+skn_teamwork=Komanda i\u015fi
+skn_tactdiscip=Taktik nizam-intizam
+
+#. Formula Editor
+formmodifier=Forman\u0131n modifikatoru (\%)
+player=Oyun\u00e7u
+ratingforpos=Pozisiyaya uy\u011fun reytinq
+withform=Forma il\u0259
+withoutform=Formas\u0131z
+set=D\u00fcz\u0259ltm\u0259k
+tt_set=D\u00fcsturu bu saya uy\u00f6un d\u00fcz\u0259ltm\u0259k
+undo=Qaytarmaq
+tt_undo=Reset d\u00fcsturu yadda\u015fa saxlanm\u0131\u015f saya
+reset=Reset
+tt_reset=D\u00fcsturu qaytarmaq ilkin v\u0259ziyy\u0259t\u0259. BUNU QAYTARMAQ OLMAZ!
+
+#. Credits
+author=M\u00fc\u0259llif
+translator=T\u0259rc\u00fcm\u0259\u00e7i
+
+#. League Table Panel
+ch_team=Komanda
+ch_matchesplayed=MO
+ch_matchwins=Q
+ch_matchdraws=H
+ch_matchlosses=M
+ch_goalsfavour=Vq
+ch_goalsagainst=Bq
+ch_goaldiff=F\u0259rq
+ch_points=Xal
+tt_round=Raund
+tt_place=Yer
+graph=Qrafik
+fixture=Hesablar
+deletetable=Tablonu pozmaq
+exportxml=Eksport XML
+
+#. reports
+trainingreport=H\u0259ft\u0259lik m\u0259\u015fq
+juniorreport=G\u0259ncl\u0259rin inki\u015faf\u0131
+playerreport=Oyun\u00e7unun m\u0259ruz\u0259si
+generate=\u00c7ag\u0131rmaq
+schoolreport=G\u0259ncl\u0259r m\u0259kt\u0259bin m\u0259ruz\u0259si
+flagsreport=Bayraq M\u0259lumat\u0131
+
+#. SokkerMon Importer
+unrecogskill=Nam\u0259lum g\u00f6st\u0259rici s\u0259viyy\u0259si: %
+
+#. Flags Plugin
+fp_flag=bayraq$bayraqlar
+fp_player=oyun\u00e7u$pyun\u00e7ular
+fp_visited=Qonaq olan \u00f6lk\u0259l\u0259r
+fp_hosted=Qonaq q\u0259bul ed\u0259n \u00f6lk\u0259l\u0259r
+fp_tripto=Qonaq ged\u0259n %
+fp_visitsfrom=Qonaq g\u0259l\u0259n %
+fp_currentpflags=\u0130ndiki oyun\u00e7ular\u0131n bayraqlar\u0131
+fp_formerpflags=Ke\u00e7mi\u015f oyun\u00e7ular\u0131n itirilmi\u015f bayraqlar\u0131
+fp_currentpfrom=\u0130ndiki oyun\u00e7ular %
+fp_formerpfrom=Ke\u00e7mi\u015f oyun\u00e7ular %
+fp_newflags=Yeni bayraqlar
+fp_newvisited=qonaq olan yeni \u00f6lk\u0259
+fp_newhosted=Qonaq q\u0259bul ed\u0259n yeni \u00f6lk\u0259
+fp_notvisitedyet=Qonaq olmayan \u00f6lk\u0259l\u0259r
+fp_nothostedyet=Qonaq q\u0259bul etm\u0259y\u0259n \u00f6lk\u0259l\u0259r
+fp_addflags=\u0259lava et bunu
+fp_removeflags=poz bunu
+fp_updateflags=Bayraqlar\u0131n yenil\u0259nm\u0259si
+tt_fp_updateflags=Bayraqlar yenil\u0259n\u0259c\u0259k mat\u015f data il\u0259 birlikd\u0259
+
+#. Match IDs list importer
+inputmatchids= Matc\u0131n \u0130D-sini daxil edin
+typematchidshere=Matc\u0131n \u0130D-sini bura yaz\u0131n v\u0259 ENTER bas\u0131n
+dragmatcheshere=C\u0259kin (ya k\u00f6\u00e7\u00fcr\u00fcn) sizin online.sokker.org mat\u00e7lar\u0131n tekst s\u0259hif\u0259l\u0259rini bura
+
+#. Text Editing
+cut=K\u0259sm\u0259k
+copy=Kopi
+paste=Qoymaq
+bold=Qal\u0131n
+italic=Yan\u0259ki
+underline=Alt x\u0259tt
+
+#. Player stats Panel
+filter_allskills=B\u00fct\u00fcn g\u00f6st\u0259ricil\u0259r
+filter_overall=Tam inki\u015faf
+
+#. Updater
+newversion=Yeni versiya % i\u015fl\u0259yir!
+langupdates=Dil yenil\u0259nm\u0259si i\u015fl\u0259yir!
+update=Yenil\u0259nm\u0259
+dl_updatingso=Yenil\u0259nm\u0259 SO
+restart=Restart
+restartmsg=D\u0259yi\u015fiklik olmas\u0131 \u00fc\u00e7\u00fcn SO restart edin
+
+#. Training Panel
+trainerjob=\u0130\u015f
+job0=yoxdur
+job1=Ba\u015f m\u0259\u015fq\u00e7i
+job2=K\u00f6m\u0259k\u00e7i
+job3=G\u0259ncl\u0259r komandas\u0131
+ch_trainerskill=\u018fSAS
+changetraining=Permanently change training orders
+tt_changetraining=\u0130ki d\u0259f\u0259 klik bu h\u0259ft\u0259nin m\u0259\u015fqini d\u0259yi\u015fm\u0259k \u00fc\u00e7\u00fcn
+datastatus=Data % vaxtdan
+datasetmanually=Data \u0259ln\u0259n d\u00fcz\u0259ldilmi\u015fdir
+week=H\u0259ft\u0259
+order=Q\u0259rar
+trainlevel=M\u0259\u015fq olunmu\u015f s\u0259viyy\u0259
+residuallevel=Qal\u0131q s\u0259viyy\u0259
+assistantstotal=K\u00f6m\u0259k\u00e7il\u0259rin tam qiym\u0259tl\u0259ndirm\u0259si
+minutestrained=M\u0259\u015fq d\u0259qiq\u0259l\u0259ri
+orderplayed=Order played
+
+#. Matches Panel
+competition=Yar\u0131\u015f
+weather=Hava
+opponent=R\u0259qib
+spectators=Tama\u015fa\u00e7\u0131
+score=Hesab
+victory=Q\u0259l\u0259b\u0259
+draw= He\u00e7-he\u00e7\u0259
+defeat= M\u0259\u011flubiyy\u0259t
+national=Milli
+internat=Beyn\u0259lxalq
+local=Ev
+visitor=Qonaq
+official=R\u0259smi
+friendly=Yolda\u015fliq
+league=Liqa
+cup=Kubok
+quali=Kvalifikasiya
+totalmatches=B\u00fct\u00fcn mat\u00e7lar
+matcheswon=Q\u0259l\u0259b\u0259
+matchesdrawn=He\u00e7-he\u00e7\u0259
+matcheslost=M\u0259\u011flubiyy\u0259t
+goalsfavour=Vurulmu\u015f qollar
+goalsagainst=Burax\u0131lm\u0131\u015f qollar
+goaldiff=Qol f\u0259rqi
+shots=Z\u0259rb\u0259l\u0259r
+fouls=C\u0259rim\u0259l\u0259r
+yellowcards=Sar\u0131 kartlar
+redcards=Q\u0131rm\u0131z\u0131 kartlar
+shootefficiency=Z\u0259rb\u0259l\u0259rin effektliyi
+avgattendance=Orta h\u00fccum
+avgpossession=Orta topa hakimlik
+avgplayinhalf=Orta oyun yar\u0131m hiss\u0259da
+avgscoring=Orta qol\u00e7uluq
+avgpassing=Orta pas
+avgdefending=Orta m\u00fcdafi\u0259.
+

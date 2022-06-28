@@ -1,0 +1,490 @@
+#! Deutsch text file
+langver=0.91
+translator_name=Andreas Schoofs (Gocher-Star), Thomas Boillat (Baslx), Felix Depken (FreundderSonne)
+englishname=german
+
+#. Menus
+data=Datei
+config=Konfiguration
+downloadall=Alles herunterladen
+downloadbasic=Hauptdaten herunterladen
+tt_downloadbasic=Mannschaftsinformationen, Spieler, Trainer, Stadion
+downloadleaguem=Liga und Spiele herunterladen
+downloadhistoric=Alte Spiele herunterladen
+import=Importieren...
+importxml=XML-Datei importieren
+importhtml=HTML-Dateien
+importext=von einem anderen Tool
+sendtontdb=Sende die Daten an die "SoNTDB"
+options=Optionen
+exit=Beenden
+formulas=Formeln
+info=Info
+credits=Danksagungen
+reports=Berichte
+utils=Programme
+curconvert=W\u00e4hrungsumrechner
+checknewversion=\u00dcberpr\u00fcfe auf neue SO Version
+
+#. Tabs
+squad=Mannschaft
+lineup=Aufstellung
+playerstats=Spielerstatus
+datamanager=Datenmanager
+settings=Einstellungen
+juniorschool=Jugendschule
+stadium=Stadion
+leaguetable=Ligatabelle
+flagcollection=Flaggensammlung
+training=Training
+matches=Spiele
+
+#. Table Column Headers
+ch_name=Name
+ch_age=Alter
+ch_bestposition=Beste Position
+ch_form=Form
+ch_tactdiscip=Taktische Disz.
+ch_experience=Erfahrung
+ch_teamwork=Teamwork
+ch_stamina=Kondition
+ch_pace=Schnelligkeit
+ch_technique=Technik
+ch_passing=Pa\u00dfspiel
+ch_keeper=Torwart
+ch_defender=Verteidigung
+ch_playmaker=Spielaufbau
+ch_scorer=Sturm
+ch_matches=Spiele
+ch_goals=Tore
+ch_assists=Vorlagen
+ch_state=Spielerstatus
+ch_value=Wert
+ch_salary=Gehalt
+ch_id=ID
+ch_weeks=verbleibende Wochen
+ch_skill=F\u00e4higkeit
+ch_skillup_count=Skill-Ups
+ch_average_weeks_per_skillup=durchsch. Wochenanzahl/Skill-Up
+ch_projected_level=geplanter Skill
+ch_initial_weeks=Wochenanzahl am Anfang
+ch_initial_skill=Anfangsskill
+ch_weeks_since_pop=kein Skill-Up seit:
+ch_money_spent=investiertes Geld
+ch_date=Datum
+ch_rating=Bewertung
+ch_position=Position
+ch_order=Anweisung
+ch_time=Spielzeit
+ch_shots=Sch\u00fcsse
+ch_fouls=Fouls
+ch_offpercent=Off \%
+ch_defpercent=Def \%
+ch_squad=Kader
+ch_playedinlastmastch=Sp.i.l.M.
+ch_sendtontdb=An die NMDB senden
+
+#. Table Header ToolTip
+tt_tableheader=Klicke um zu sortieren; Umschalt+Klick um in umgekehrter Reihenfolge zu sortieren; STRG+Klick um zweites Sortierkriterium hinzuzuf\u00fcgen.
+tt_ch_weeks=Wochen bis der Jugendspieler ins Profiteam kommt
+tt_ch_skill=Jugendskill den er im Moment besitzt - Die Summe seiner sp\u00e4teren Skills ist sch\u00e4tzungweise dreimal so hoch
+tt_ch_skillup_count=Anzahl der Skill-Ups
+tt_ch_average_weeks_per_skillup=durchschnittliche Dauer f\u00fcr Skill-Ups
+tt_ch_projected_level=Berechnung des Skills mit dem der Jugendspieler herauskommt
+tt_ch_initial_weeks=Wochenanzahl mit dem er in die Jugendschule kam
+tt_ch_initial_skill=Der Skill mit dem er in die Jugendschule kam
+tt_ch_weeks_since_pop=verstrichene Wochen seit letztem Skillup
+tt_ch_money_spent=Die Kosten die man bisher in den Jugendspieler gesteckt hat (1.000 \u20ac pro Woche)
+
+#. Connection
+connecting=verbinde...
+login=Anmeldung...
+username=Benutzername
+password=Passwort
+downloadingxml=XML-Dateien werden heruntergeladen
+beginsession=Beginne Sitzung
+dl_league=Ligatabelle
+dl_training=Training
+dl_economy=Finanzen
+dl_matches=Spieldaten
+dl_matchid=Spiel-ID
+dl_team=Mannschaftsdaten
+dl_players=Spieler
+dl_juniors=Jugendspieler
+logoff=Abmelden
+useproxy=Mit einem HTTP Proxy
+proxyhost=Proxyname (oder IP-Adresse)
+proxyport=Proxy port
+useproxyauth=Benutze HTTP Proxy Authentifizierung
+proxyusername=Proxy Benutzername
+proxypassword=Proxy Password
+
+#. Errors
+err_unknownhost=Unbekannter Host. Konnte % nicht kl\u00e4ren.
+err_invaliddate=Ung\u00fcltiges Datum
+err_nocountryset= Kein Land in der L\u00e4nderwahl gew\u00e4hlt.
+err_nocurrencyrate=Keinen W\u00e4hrungswert gew\u00e4hlt.
+err_loginfailed=Login war nicht erfolgreich!
+
+#. Dialog titles
+error=Fehler
+inputdate=Datumseingabe
+
+#. Country Names
+c_71=Andorra
+c_19=Argentinien
+c_6=Australien
+c_79=Aserbaidschan
+c_46=Wei\u00dfrussland
+c_28=Belgien
+c_57=Bolivien
+c_47=Bosnien-Herzegowina
+c_21=Brasilien
+c_54=Bulgarien
+c_80=Kamerun
+c_5=Kanada
+c_13=Tschechien
+c_42=Chile
+c_36=Kolumbien
+c_70=Costa Rica
+c_75=Montenegro
+c_40=Wales
+c_78=S\u00fcdkorea
+c_29=D\u00e4nemark
+c_15=Deutschland
+c_58=Ecuador
+c_33=Estland
+c_3=England
+c_17=Spanien
+c_16=Frankreich
+c_66=Armenien
+c_49=Griechenland
+c_68=Honduras
+c_60=Hong Kong
+c_76=Kenia
+c_34=Kroatien
+c_51=Indien
+c_65=Indonesien
+c_32=Irland
+c_63=Island
+c_52=Israel
+c_10=Italien
+c_23=Litauen
+c_8=Ungarn
+c_56=Makedonien
+c_59=Malaysia
+c_67=Malta
+c_18=Mexiko
+c_69=Moldawien
+c_12=Niederlande
+c_2=Neuseeland
+c_38=Nigeria
+c_62=Japan
+c_27=Norwegen
+c_30=\u00d6sterreich
+c_37=Peru
+c_1=Polen
+c_20=Portugal
+c_61=Dominikanische Republik
+c_9=Rum\u00e4nien
+c_43=Russland
+c_24=Schweiz 
+c_7=Schottland
+c_53=Albanien
+c_26=Slovenien
+c_14=Slowakei
+c_22=S\u00fcdafrika
+c_39=Serbien
+c_25=Finnland
+c_31=Schweden
+c_90=Thailand
+c_41=T\u00fcrkei
+c_35=Uruguay
+c_4=USA
+c_44=Venezuela
+c_68=Honduras
+c_66=Armenien
+c_50=Ghana
+c_45=Lettland
+c_56=Mazedonien
+c_64=Ukraine
+c_82=China
+c_26=Slowenien
+c_48=\u00c4gypten
+c_55=Luxemburg
+c_73=Panama
+c_81=Senegal
+c_83=Singapur
+c_84=Vietnam
+c_85=Zypern
+c_86=Iran
+c_87=Tunesien
+c_88=Saudi-Arabien
+c_89=Marokko
+
+#. Skill and supporter levels
+skill_0=tragisch
+skill_1=hoffnungslos
+skill_2=ungen\u00fcgend
+skill_3=armselig
+skill_4=schwach
+skill_5=durchschnittlich
+skill_6=akzeptabel
+skill_7=gut
+skill_8=zuverl\u00e4ssig
+skill_9=sehr gut
+skill_10=ausgezeichnet
+skill_11=eindrucksvoll
+skill_12=\u00fcberragend
+skill_13=unglaublich
+skill_14=bravour\u00f6s
+skill_15=magisch
+skill_16=\u00fcberirdisch
+skill_17=g\u00f6ttlich
+mood_1=sind w\u00fctend
+mood_2=sind hoffnungslos
+mood_3=sind deprimiert
+mood_4=glauben an ihr Team
+mood_5=sind zufrieden
+mood_6=sind hocherfreut \u00fcber die Leistung
+mood_7=sind verr\u00fcckt nach deinem Verein
+
+#. Squad Summary Panel
+averageage=Durchschnittsalter:
+averageform=Durchschnittsform:
+totalplayers=Spieleranzahl:
+natplayers=Inl\u00e4ndische Spieler:
+fgnplayers=Ausl\u00e4ndische Spieler:
+totalsalary=Gesamtgehalt:
+averagesalary=Durchschnittsgehalt:
+totalvalue=Gesamtwert:
+averagevalue=Durchschnittswert:
+money=Kontostand:
+rank=Ranglistenpunkte:
+fans=Fans:
+fanclubmood=Fanclubstimmung:
+
+#. Options dialog
+language=Sprache
+country=Nation
+currencyrate=W\u00e4hrungskurs
+currencysymbol=W\u00e4hrung
+lowskill=unterer Grenzwert
+tt_lowskill=Eingeben ab wann ein Skill als "niedrig" markiert werden soll
+highskill=oberer Grenzwert
+tt_highskill=Eingeben ab wann ein SKill als "hoch" markiert werden soll
+seasonreference=Bezugssaison
+seasonreferencestart=Beginn der Bezugssaison
+tt_seasonreference=Referenzsaison f\u00fcr den Kalendar. Die Zahl stellt die Sokkersaison in deinem Land dar. Das Startdatum gibst du unten ein. (Nie manuell \u00e4ndern!!)
+tt_seasonreferencestart=Startdatum der Bezugssaison. Die Bezugssaison in deinem Land beginnt an diesem Tag.
+autosendtontdb=Automatisches Verschicken der Spielerdaten an die NMDB
+tt_autosendtontdb=Automatisches Verschicken der Spielerdaten an die entsprechende URL der NMDB (setze sie in "resources/ntdb_urls.txt" ein)
+autochecknewversion=Beim Starten auf neue Version \u00fcberpr\u00fcfen
+tt_autochecknewversion=Beim Starten wird automatisch auf neue SO-Version \u00fcberpr\u00fcft 
+
+#. Position's short names
+pos_20=VT
+pos_30=MIT
+pos_40=ST\u00dc
+pos_10=TW
+pos_21=AV
+pos_22=IV
+pos_23=LIB
+pos_31=DM
+pos_32=ZM
+pos_33=OM
+pos_35=FL
+pos_41=DST
+pos_42=ST
+pos_left=L%
+pos_right=R%
+
+#. Position's long (extended) names
+posext_20=Verteidiger
+posext_30=Mittelfeldspieler
+posext_40=St\u00fcrmer
+posext_10=Torwart
+posext_21=Aussenverteidiger
+posext_22=Innenverteidiger
+posext_23=Libero
+posext_31=defensiver Mittelfeldspieler
+posext_32=zentraler Mittelfeldspieler
+posext_33=offensiver Mittelfeldspieler
+posext_35=Fl\u00fcgelspieler
+posext_41=defensiver St\u00fcrmer
+posext_42=St\u00fcrmer
+posext_left=% Links
+posext_right=% Rechts
+
+#. Misc
+season=Saison
+comparedata=Daten vergleichen
+weeksingraph=Wochen im Diagramm darstellen
+managernotes=Managernotizen
+savesnapshot=Bild speichern
+deleteforever=Dauerhaft l\u00f6schen
+confirmdelete=L\u00f6schen best\u00e4tigen
+
+#. Skill names
+skn_form=Form
+skn_stamina=Kondition
+skn_pace=Schnelligkeit
+skn_technique=Technik
+skn_passing=Pa\u00dfspiel
+skn_keeper=Torwart
+skn_defender=Verteidigung
+skn_playmaker=Spielaufbau
+skn_scorer=Sturm
+skn_experience=Erfahrung
+skn_teamwork=Teamwork
+skn_tactdiscip=Taktische Disziplin
+
+#. Formula Editor
+formmodifier=Formeinfluss \u00e4ndern (in %)
+player=Spieler
+ratingforpos=Ratings f\u00fcr seine Position
+withform=mit Form
+withoutform=ohne Form
+set=\u00c4ndern
+undo=Widerrufen
+reset=Zur\u00fccksetzen
+tt_set=Die Formeln \u00e4ndern
+tt_undo=Zur\u00fcck zu den zuletzt gespeicherten Formeln
+tt_reset=Zur\u00fcck zu den Standard-Formeln
+
+#. Credits
+author=Autor
+translator=\u00dcbersetzer
+
+#. League Table Panel
+ch_team=Mannschaft
+ch_matchesplayed=Sp
+ch_matchwins=S
+ch_matchdraws=U
+ch_matchlosses=N
+ch_goalsfavour=T
+ch_goalsagainst=GT
+ch_goaldiff=Tordiff.
+ch_points=Pkt.
+tt_round=Spieltag
+tt_place=Platz
+graph=Grafik
+fixture=Spielplan
+deletetable=Tabelle l\u00f6schen
+exportxml=in XML exportieren
+
+#. Reports
+trainingreport=w\u00f6chentliches Training
+juniorreport=Jugendentwicklung
+playerreport=Spielerdaten
+schoolreport=Darstellung Jugendschule
+generate=Generiere
+flagsreport=Bericht der Flaggensammlung
+
+#. SokkerMon Importer
+unrecogskill=nicht anerkannter Skilllevel: %
+
+#. Flags Plugin
+fp_flag=Flagge$Flaggen
+fp_player=Spieler$Spieler
+fp_visited=Besuchte L\u00e4nder
+fp_hosted=Eingeladene L\u00e4nder
+fp_tripto=Reisen nach %
+fp_visitsfrom=Besuche aus %
+fp_currentpflags=Aktuelle Spielerflaggen
+fp_formerpflags=Flaggen von ehemaligen Spielern
+fp_currentpfrom=Aktuelle Spieler aus %
+fp_formerpfrom=Ehemalige Spieler aus %
+fp_newflags=Neue Flagge(n)
+fp_newvisited=Neu besuchte L\u00e4nder
+fp_newhosted=Neu eingeladene L\u00e4nder
+fp_notvisitedyet=Noch nicht besuchte L\u00e4nder
+fp_nothostedyet=Noch nicht eingeladene L\u00e4nder
+fp_addflags=F\u00fcge diese Flagge(n) hinzu
+fp_removeflags=Entferne diese Flagge(n)
+fp_updateflags=Flaggensammlung aktualisieren
+tt_fp_updateflags=Die Flaggensammlung wird auf der Basis deiner Spiele in der DB aktualisiert
+
+#. Match IDs list importer
+inputmatchids=F\u00fcge hier die Spiel-IDs ein
+typematchidshere=Tippe hier die Spiel-ID ein und dr\u00fccke ENTER
+dragmatcheshere=Ziehe (oder per copy-paste) den Text von deiner Spiel\u00fcbersichtseite von online.sokker.org hier rein
+
+#. Text Editing
+cut=Ausschneiden
+copy=Kopieren
+paste=Einf\u00fcgen
+bold=fett
+italic=kursiv
+underline=unterstreichen
+
+#. Player stats Panel
+filter_allskills=Alle Skills
+filter_overall=Gesamte Entwicklung
+
+#. Updater
+newversion=Neue Version % verf\u00fcgbar!
+langupdates=Sprach-Update verf\u00fcgbar!
+update=Aktualisieren
+dl_updatingso=SO wird aktualisiert
+restart=Neustarten
+restartmsg=Bitte SO neustarten damit die \u00c4nderungen wirksam werden
+
+#. Training Panel
+trainerjob=Trainerstelle
+job0=nicht vorhanden
+job1=Cheftrainer
+job2=Assistenztrainer
+job3=Jugendtrainer
+ch_trainerskill=Allgemeinf\u00e4higkeit
+changetraining=\u00c4nderung der festen Trainings
+tt_changetraining=Doppelklick um Training f\u00fcr diese Woche zu \u00e4ndern.
+datastatus=Daten vom %
+datasetmanually=Daten wurden manuell gesetzt
+week=Woche
+order=Mannschaftsteil
+trainlevel=Trainerf\u00e4higkeit
+residuallevel=Allgemeintraining
+assistantstotal=Summe der Co-Trainer-Allgemeinf\u00e4higkeit
+minutestrained=gespielte Minuten
+orderplayed=gespielte Ausrichtung
+
+#. Matches Panel
+competition=Wettbewerb
+weather=Wetter
+opponent=Gegner
+spectators=Zuschauer
+score=Ergebnis
+victory=Sieg
+draw=Unentschieden
+defeat=Niederlage
+national=National
+internat=International
+local=Heimspiele
+visitor=Ausw\u00e4rtsspiele
+official=Pflichtspiele
+friendly=Freundschaftsspiele
+league=Liga
+cup=Pokal
+quali=Relegation
+totalmatches=Anzahl Spiele
+matcheswon=Gewonnene Spiele
+matchesdrawn=Unentschieden
+matcheslost=Verlorene Spiele
+goalsfavour=erzielte Tore
+goalsagainst=erhaltene Tore
+goaldiff=Tordifferenz
+shots=Sch\u00fcsse
+fouls=Fouls
+yellowcards=Gelbe Karten
+redcards=Rote Karten
+shootefficiency=Chancenverwertung
+avgattendance=Besucherzahl
+avgpossession=Ballbesitz
+avgplayinhalf=Spielanteil in eigener H\u00e4lfte
+avgscoring=Angriff
+avgpassing=Passen
+avgdefending=Verteidigung
+datebegin=Anfang
+dateend=Ende
+

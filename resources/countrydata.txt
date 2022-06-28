@@ -1,0 +1,298 @@
+# Format:
+# {country_ID}={currency_symbol};{exchange_rate};{season};{season_start_date}
+# exchange_rate is a number with decimal point '.' if necessary: X.XX
+# season_start_date format: dd-MM-yyyy
+
+#Al Maghrib (Morocco)
+89=\u062f\u0631\u0647\u0645;3.125;1;08-07-2007
+
+#al Jaza'ir (Argelia)
+105=\u062f\u062c;20;1;10-05-2009
+
+#Andorra
+71=\u20ac;0.25;1;06-08-2006
+
+#Argentina
+19=u$s;0.250;7;06-08-2006
+
+#as-Sa'udiyya (Saudi Arabia)
+88=\u0631\u064a\u0627\u0644;1.28;1;08-07-2007
+
+#Australia
+6=AU$;0.4;7;06-08-2006
+
+#Azerbaycan
+79=m;0.3125;1;18-03-2007
+
+#Belarus
+46=\u043a \u0440\u0443\u0431.;0.8;3;06-08-2006
+
+#België
+28=\u20ac;0.25;6;06-08-2006
+
+#Bolivia
+57=Bs;2.5;2;06-08-2006
+
+#Bosna i Hercegovina
+47=KM;0.5;3;06-08-2006
+
+#Brasil
+21=R$;1;7;06-08-2006
+
+#Bulgaria   cyrillic small letter EL + cyrillic small letter VE
+54=\u043b\u0432.;0.5;2;06-08-2006
+
+#Cameroon
+80=k. Fr;0.16;1;18-03-2007
+
+#Canada
+5=C$;0.4;7;06-08-2006
+
+#Ceská republika
+13=K\u010d;7.5;7;06-08-2006
+
+#Chile
+42=k.$;0.2;4;06-08-2006
+
+#Colombia
+36=k.$;0.8;5;06-08-2006
+
+#Costa Rica
+70=k \u00a2;0.16;1;06-08-2006
+
+#Crna Gora
+75=\u20ac;0.25;1;18-03-2007
+
+#Cuba
+97=$MN;0.4;1;17-02-2008
+
+#Cymru
+40=\u00a3;0.15;4;06-08-2006
+
+#Daehan Minguk
+78=k. \u20a9;0.3125;1;18-03-2007
+
+#Danmark
+29=kr.;2;6;06-08-2006
+
+#Deutschland
+15=\u20ac;0.25;7;06-08-2006
+
+#Ecuador
+58=U$S;0.25;2;06-08-2006
+
+#Eesti
+33=kr;4;6;06-08-2006
+
+#El Salvador
+92=$;0.25;1;28-10-2007
+
+#England
+3=\u00a3;0.15;7;06-08-2006
+
+#España
+17=\u20ac;0.25;7;06-08-2006
+
+#France
+16=\u20ac;0.25;7;06-08-2006
+
+#Ghana
+50=k.\u00a2;3.125;1;18-03-2007
+
+#Guatemala
+77=Q;2.5;1;18-03-2007
+
+#Hayastan
+66=\u0534\u0580\u0561\u0574;0.125;1;06-08-2006
+
+#Hellas
+49=\u20ac;0.25;2;06-08-2006
+
+#Honduras
+68=L;5;1;06-08-2006
+
+#Hong Kong
+60=HK$;2.5;2;06-08-2006
+
+#Hrvatska
+34=kn;2;6;06-08-2006
+
+#India  \u20a8 = Rs  | SK official=Rs.
+51=\u20a8;12.5;2;06-08-2006
+
+#Indonesia
+65=k Rp;2.5;1;06-08-2006
+
+#Iran
+86=k.\u0631\u064a\u0627\u0644;4;1;08-07-2007
+
+#Ireland
+32=\u20ac;0.25;5;06-08-2006
+
+#Ísland
+63=kr;20;2;06-08-2006
+
+#Israel
+52=\u20aa;1.5;2;06-08-2006
+
+#Italia
+10=\u20ac;0.25;7;06-08-2006
+
+#Jamaica
+11=J$;25;1;28-10-2007
+
+#Kazakhstán
+103=T;40;1;10-05-2009
+
+#Kenya
+76=Sh;25;1;18-03-2007
+
+#Kypros
+85=\u20ac;0.25;1;08-07-2007
+
+#Latvija
+45=Ls;0.2;1;18-03-2007
+
+#Lëtzebuerg
+55=\u20ac;0.25;1;08-07-2007
+
+#Lietuva
+23=Lt;1;7;06-08-2006
+
+#Magyarország
+8=Ft;50;4;06-08-2006
+
+#Makedonija
+56=\u0434\u0435\u043d.;20;1;06-08-2006
+
+#Malaysia
+59=RM;1.25;2;06-08-2006
+
+#Malta
+67=\u20ac;0.25;1;06-08-2006
+
+#México
+18=$ MN;3;7;06-08-2006
+
+#Misr (Egypt)
+48=E\u00a3;2;1;08-07-2007
+
+#Moldova
+69=lei;4;1;06-08-2006
+
+#Nederland
+12=\u20ac;0.25;7;06-08-2006
+
+#New Zealand
+2=NZ$;0.4;8;06-08-2006
+
+#Nicaragua
+100=C$;5;1;18-01-2009
+
+#Nigeria
+38=\u20a6;0.45;5;06-08-2006
+
+#Nippon
+62=\u00a5;40;2;06-08-2006
+
+#Norge
+27=kr.;2;7;06-08-2006
+
+#Österreich
+30=\u20ac;0.25;6;06-08-2006
+
+#O'zbekiston
+104=k so\u2018m;0.4;1;10-05-2009
+
+#Panamá
+73=$;0.25;1;18-03-2007
+
+#Paraguay
+72=k G;2;1;26-11-2006
+
+#Perú
+37=sol;1;5;06-08-2006
+
+#Pilipinas
+96=P;1.6;1;18-01-2009
+
+#Polska
+1=z\u0142;1;10;06-08-2006
+
+#Portugal
+20=\u20ac;0.25;7;06-08-2006
+
+#Prathet Thai
+90=\u0e3f;12.5;1;28-10-2007
+
+#República Dominicana
+61=RD$;10;2;06-08-2006
+
+#România
+9=lei;1;5;06-08-2006
+
+#Rossiya   py6.
+43=\u0440\u0443\u0431.;8;4;06-08-2006
+
+#Sakartvelo
+#106=\u10da;0.5;1;10-05-2009
+
+#Schweiz 
+24=CHF;0.4;7;06-08-2006
+
+#Scotland
+7=\u00a3;0.15;7;06-08-2006
+
+#Sénégal
+81=k. Fr;0.16;1;18-03-2007
+
+#Shqipëria
+53=lek;25;1;06-08-2006
+
+#Singapore
+83=S$;0.5;1;08-07-2007
+
+#Slovenija
+26=\u20ac;0.25;7;06-08-2006
+
+#Slovensko
+14=\u20ac;0.25;4;06-08-2006
+
+#South Africa
+22=R;2;7;06-08-2006
+
+#Srbija
+39=din;20;5;06-08-2006
+
+#Suomi
+25=\u20ac;0.25;7;06-08-2006
+
+#Sverige
+31=kr;2;6;06-08-2006
+
+#Tunis
+87=\u062f.\u062a;0.5;1;08-07-2007
+
+#Türkiye
+41=TL;0.4;4;06-08-2006
+
+#U.A.E.
+99=\u062f.\u0625;1.6;1;18-01-2009
+
+#Ukraina
+64=\u0433\u0440\u043d.;1.6;1;18-03-2007
+
+#Uruguay
+35=$U;8;5;06-08-2006
+
+#USA
+4=$;0.25;7;06-08-2006
+
+#Venezuela
+44=k Bs.;0.8;3;06-08-2006
+
+#Viet Nam
+84=k.\u20ab;5;1;08-07-2007
+
+#Zhöngguó (China)
+82=\u00a5;2.5;1;18-03-2007

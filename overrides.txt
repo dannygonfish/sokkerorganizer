@@ -1,0 +1,13 @@
+#! This file must be in the same location as so.jar in order to work.
+#! it will only be read at startup, so if you modify it and have SO
+#! running, you will need to restart it.
+#! uncomment the overrides to activate them (remove the starting #).
+
+#. fully qualified base URL for version.xml
+#UPDATE_BASE_URL=http://sk.danny.cl/so/
+
+#. absolute pathname for new location of .obj savefiles
+# backslashes (\) must be escaped with another backslash (like \\)
+#. ex.: D:\\My stuff\\games\\sokker\\SO\\data
+#DIRNAME_DATA=data
+

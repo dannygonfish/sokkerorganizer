@@ -1,0 +1,422 @@
+#French text file
+langver=0.83
+translator_name=Philippe MARTEL
+englishname=french
+
+#. Menus
+data=Donn\u00e9es
+config=Configuration
+downloadall=Tout t\u00e9l\u00e9charger
+tt_downloadbasic=Info \u00e9quipes, joueurs, entraineurs, stade
+import=Import...
+importxml=Fichiers XML
+importhtml=Fichiers HTML
+options=Options
+exit=Quitter
+formulas=Formules
+info=Info
+credits=Credits
+reports=Rapports
+downloadbasic=T\u00e9l\u00e9charge les donn\u00e9es de base
+downloadleaguem=T\u00e9l\u00e9charge Ligue et Matchs
+downloadhistoric= T\u00e9l\u00e9charge l\u2019historique des Matchs
+importext=Depuis un programme externe...
+sendtontdb=Envoie les donn\u00e9es aux sites "SoNTDB"
+utils=Outils
+curconvert=Convertisseur de monnaie
+checknewversion=V\u00e9rifie pour une nouvelle version de SO
+
+#Tabs
+squad=Equipe
+lineup=Composition
+playerstats=Stats des joueurs
+datamanager=Donn\u00e9es du manager
+settings=Param\u00e8tres
+juniorschool=Ecole des Cadets
+stadium=Stade
+leaguetable=Classement de Ligue
+flagcollection=Collection de drapeau
+matches=Matches
+
+#Table Column Headers
+ch_name=Nom
+ch_age=Age
+ch_bestposition=B.Pos
+ch_form=Forme
+ch_stamina=ENDU
+ch_pace=VIT
+ch_technique=TECH
+ch_passing=PASS
+ch_keeper=GARd
+ch_defender=DFNS
+ch_playmaker=CONS
+ch_scorer=BUT
+ch_matches=Matches
+ch_goals=BUTS
+ch_assists=Passes D\u00e9cisives
+ch_state=Etat
+ch_value=Valeur
+ch_salary=Salaire
+ch_id=ID
+ch_weeks=Semaine
+ch_skill=Caract\u00e9ristique
+ch_skillup_count=Pops
+ch_average_weeks_per_skillup=Moy.Semaine/pop
+ch_projected_level=Niveau pr\u00e9vu
+ch_initial_weeks=Init. Semaines
+ch_initial_skill=Caract\u00e9ristique Initiale
+ch_weeks_since_pop=Nbre de semaine depuis pop :
+ch_money_spent=Argent d\u00e9pens\u00e9
+ch_tactdiscip=T.D.
+ch_experience=Exp
+ch_teamwork=T.E.
+ch_date=Date
+ch_rating=\u00c9valuation
+ch_position=Pos
+ch_order=Order
+ch_time=Time
+ch_shots=Tirs
+ch_fouls=Fouls
+ch_offpercent=Off %
+ch_defpercent=Def %
+ch_squad=Groupe
+ch_playedinlastmastch=PiLM
+ch_sendtontdb=Envoie \u00e0 NTDB
+
+#Table Header ToolTip
+tt_tableheader=Click pour trier; Maj-Click pour trier dans l'ordre inverse; 
+Control-Click pour trier avec un deuxi\u00e8me crit\u00e8re
+tt_ch_weeks=Temps restant avant de rejoindre l'\u00e9quipe
+tt_ch_skill=Junior level. La somme de ses caract\u00e9ristiques serait \u00e9gale \u00e0 3 fois cette valeur.
+tt_ch_skillup_count=Compteur de up
+tt_ch_average_weeks_per_skillup=Nbre moyen de semaine entre chaque up
+tt_ch_projected_level=Niveau estim\u00e9 en utilisant le nbre moyen de semaine 
+entre chaque up depuis le premier up
+tt_ch_initial_weeks=Semaine Initiale
+tt_ch_initial_skill=Caract\u00e9ristique Initiale, compar\u00e9e \u00e0 la caract\u00e9ristique actuelle
+tt_ch_weeks_since_pop=Semaines depuis le dernier pop
+tt_ch_money_spent=Argent d\u00e9pens\u00e9 pour ce cadet
+
+#Connection
+connecting=Connexion...
+login=Login
+username=Username
+password=Password
+downloadingxml=T\u00e9l\u00e9chargement du XML
+beginsession=D\u00e9but de la Session
+dl_league=Ligue
+dl_training=Entrainement
+dl_economy=Economie
+dl_matches=Matches
+dl_matchid=Match %
+logoff=D\u00e9connexion
+dl_team=Donn\u00e9es de l\u2019\u00e9quipe
+dl_players=Joueurs
+dl_juniors=Juniors
+useproxy=Utilise un proxy HTTP
+proxyhost=Nom Proxy (ou IP)
+proxyport= port Proxy
+useproxyauth=Utilise une authentification proxy HTTP
+proxyusername=Nom utilisateur Proxy
+proxypassword=Mot de passe Proxy
+
+#Errors
+err_unknownhost=Unknown Host. Could not resolve %.
+err_invaliddate=Date Invalide.
+err_loginfailed=Echec de l'Identification!
+err_nocountryset= avant de continuer, assurez-vous d\u2019avoir correctement plac\u00e9 votre pays dans les Options
+err_nocurrencyrate=Aucun taux de conversion de monnaie n\u2019est d\u00e9fini pour %.
+
+#Dialog titles
+error=Erreur
+inputdate=Entrer la date
+
+#Country Names
+c_71=Andorre
+c_19=Argentine
+c_6=Australie
+c_46=Bi\u00e9lorussie
+c_28=Belgique
+c_57=Bolivie
+c_47=Bosnie Herz\u00e9govine
+c_21=Br\u00e9sil
+c_54=Bulgarie
+c_5=Canada
+c_13=R\u00e8p. Tch\u00e8que
+c_42=Chili
+c_36=Colombie
+c_70=Costa Rica
+c_40=Pays de Galles
+c_29=Danemark
+c_15=Allemagne
+c_58=Equateur
+c_33=Estonie
+c_3=Angleterre
+c_17=Espagne
+c_16=France
+c_66=Hayastan
+c_49=Gr\u00e8ce
+c_68=Honduras
+c_60=Hong Kong
+c_34=Croatie
+c_51=Inde
+c_65=Indon\u00e9sie
+c_32=Irlande
+c_63=Islande
+c_52=Isra\u00ebl
+c_10=Italie
+c_23=Lituanie
+c_8=Hongrie
+c_56=Mac\u00e9doine
+c_59=Malaysie
+c_67=Malte
+c_18=Mexique
+c_69=Moldavie
+c_12=Pays-Bas
+c_2=Nouvelle Z\u00e9lande
+c_38=Nig\u00e9ria
+c_62=Japon
+c_27=Norv\u00e8ge
+c_30=Autriche
+c_37=P\u00e9rou
+c_1=Pologne
+c_20=Portugal
+c_61=R\u00e9publique Dominicaine
+c_9=Roumanie
+c_43=Russie
+c_24=Suisse
+c_7=Ecosse
+c_53=Albanie
+c_26=Slov\u00e9nie
+c_14=Slovaquie
+c_22=Afrique du Sud
+c_39=Serbie
+c_25=Finlande
+c_31=Su\u00e8de
+c_41=Turquie
+c_35=Uruguay
+c_4=Etats Unis
+c_44=V\u00e9n\u00e9zu\u00e9la
+c_50=Ghana
+c_45=Lettonie
+c_64=Ukraine
+#c_11=Jamaique
+#c_55=Luxembourg
+
+#Skill and supporter levels
+skill_0=tragique
+skill_1=d\u00e9sesp\u00e9rant
+skill_2=d\u00e9cevant
+skill_3=m\u00e9diocre
+skill_4=faible
+skill_5=moyen
+skill_6=ad\u00e9quat
+skill_7=bon
+skill_8=honorable
+skill_9=tr\u00e8s bon
+skill_10=excellent
+skill_11=formidable
+skill_12=exceptionnel
+skill_13=incroyable
+skill_14=brillant
+skill_15=magique
+skill_16=extra-terrestre
+skill_17=divin
+mood_1=sont furieux
+mood_2=perdent espoir
+mood_3=sont d\u00e9moralis\u00e9s
+mood_4=croient en leur club
+mood_5=sont satisfaits
+mood_6=sont enchant\u00e9s par la performance de leur club
+mood_7=sont fou-amoureux de leur club
+
+#Squad Summary Panel
+averageage=Age moyen:
+averageform=Forme moyenne:
+totalplayers=Total de joueurs:
+natplayers=Joueurs Nationaux:
+fgnplayers=Joueurs Etrangers:
+totalsalary=Masse salariale:
+averagesalary=Salaire moyen:
+totalvalue=Valeur de l'\u00e9quipe:
+averagevalue=Valeur moyenne:
+money=Monnaie:
+rank=points Rankking:
+fans=Supporters:
+fanclubmood=Humeur des supporters:
+
+#Options dialog
+language=Langue
+country=Pays
+currencyrate=Taux de change
+currencysymbol=Symbole mon\u00e9taire
+lowskill=Comp\u00e9tences: seuil bas
+tt_lowskill=Comp\u00e9tences jusqu'\u00e0 ce niveau (inclus) sont "basses"
+highskill=Comp\u00e9tences: limite haute
+tt_highskill=Comp\u00e9tences depuis ce niveau (inclus) sont "hautes"
+seasonreference=Saison de r\u00e9f\u00e9rence
+seasonreferencestart=D\u00e9but saison de r\u00e9f\u00e9rence
+autosendtontdb=Envoie auto des donn\u00e9es joueurs \u00e0 NTDB.
+tt_autosendtontdb=Envoie auto des donn\u00e9es des joueurs s\u00e9lectionn\u00e9s \u00e0 l\u2019URL NTDB correspondante (r\u00e9glages dans resources/ntdb_urls.txt)
+autochecknewversion=V\u00e9rifie pour nouvelle version au d\u00e9marrage
+tt_autochecknewversion=V\u00e9rifie Automatiquement pour une nouvelle version de SO au d\u00e9marrage du programme
+
+#Position's short names
+pos_20=DEF
+pos_30=MID
+pos_40=ATT
+pos_10=GB
+pos_21=DL
+pos_22=DC
+pos_23=LI
+pos_31=MD
+pos_32=MC
+pos_33=MO
+pos_35=AI
+pos_41=AT
+pos_42=BU
+pos_left=G%
+pos_right=D%
+
+#Position's long (extended) names
+posext_20=d\u00e9fense
+posext_30=milieu
+posext_40=attaquant
+posext_10=gardien de but
+posext_21=d\u00e9fenseur lat\u00e9ral
+posext_22=d\u00e9fenseur central
+posext_23=lib\u00e9ro
+posext_31=milieu d\u00e9fensif
+posext_32=milieu central
+posext_33=milieu offensif
+posext_35=ailier
+posext_41=attaquant repli\u00e9
+posext_42=attaquant
+posext_left=gauche %
+posext_right=droite %
+
+#misc
+season=Saison
+comparedata=Comparaison des donn\u00e9es
+weeksingraph=Graphique Semaine
+newversion=Nouvelle version % disponible!
+managernotes= Notes Manager
+savesnapshot=Sauvegarde l\u2019\u00e9cran
+deleteforever=Effacer ceci d\u00e9finitivement
+confirmdelete=Confirme l'effacement
+
+#skill names
+skn_form=Forme
+skn_stamina=Endurance
+skn_pace=Vitesse
+skn_technique=Technique
+skn_passing=Passe
+skn_keeper=Gardien
+skn_defender=D\u00e9fense
+skn_playmaker=Construction
+skn_scorer=Buteur
+skn_experience=Experience
+skn_teamwork=Travail en equipe
+skn_tactdiscip=Discipline tactique
+
+#Formula Editor
+formmodifier=Influence de la forme (\%)
+player=Joueur
+ratingforpos=Note pour la position
+withform=Impact de la forme
+withoutform=Sans impact de la forme
+set=Set
+tt_set=Set formula to these values
+undo=Undo
+tt_undo=Reset formula to saved values
+reset=Reset
+tt_reset=Reset formula to default. IMPOSSIBLE!
+
+#Credits
+author=Auteur
+translator=Traducteur
+
+#League Table Panel
+ch_matchesplayed=MJ
+ch_matchwins=V
+ch_matchdraws=N
+ch_matchlosses=D
+ch_goalsfavour=BP
+ch_goalsagainst=BC
+ch_goaldiff=Diff
+ch_points=Pts
+tt_round=Journ\u00e9e
+tt_place=Place
+graph=Graphique
+fixture=Fixture
+ch_team=Equipe
+
+# reports
+trainingreport=Suivi de l'Entrainement
+juniorreport=Rapport Juniors
+playerreport=Rapport Joueur
+generate=G\u00e9n\u00e8re
+
+#. SokkerMon Importer
+unrecogskill= Niveau de comp\u00e9tence non reconnu: %
+
+#. Flags Plugin
+fp_flag=drapeau$drapeaux
+fp_player=Joueur$Joueurs
+fp_visited=Pays visit\u00e9s
+fp_hosted=Pays recus
+fp_tripto=D\u00e9placement \u00e0 %
+fp_visitsfrom=Visites de %
+fp_currentpflags=Drapeau des joueurs actuels
+fp_formerpflags=Drapeux d\u2019anciens joueurs perdus
+fp_currentpfrom=Joueurs actuels de %
+fp_formerpfrom=Anciens joueurs de %
+fp_newflags=Nouveaux Drapeaux
+fp_newvisited=Nouveaux pays visit\u00e9s
+fp_newhosted=Nouveaux pays recus
+fp_notvisitedyet=Pays pas encore visit\u00e9s
+fp_nothostedyet=Pays pas encore recus
+fp_addflags=Ajoute ceux-ci
+fp_removeflags=Retire ceux-ci
+fp_updateflags=Mise \u00e0 jour des drapeaux
+tt_fp_updateflags=Les drapeaux seront mis \u00e0 jour suivant les donn\u00e9es des matchs dans la DB
+
+#. Match IDs list importer
+inputmatchids=Entrez le Match IDs
+typematchidshere=Entrez ici le match ID et apputez sur ENTREE
+dragmatcheshere=Glisser (ou copier-coller) vos page de texte des matches online.sokker.org ici
+
+#. Text Editing
+cut=Couper
+copy=Copier
+paste=Coller
+bold=Gras
+italic=Italique
+underline=Soulign\u00e9
+
+#. Matches Panel
+competition=Comp\u00e9tition
+weather=M\u00e9teo
+opponent=Adversaire
+spectators=Spectateurs
+score=Score
+victory=Victoire
+draw=Nul
+defeat=D\u00e9faite
+national=National
+internat=International
+local=Domicile
+visitor=Visiteur
+official=Officiel
+friendly=Amical
+league=Ligue
+cup=Coupe
+quali=Qualification
+
+#. Training Panel
+trainlevel=Niveau Entrainement
+residuallevel=Niveau g\u00e9n\u00e9ral
+assistantstotal=Somme d'\u00e9val. des assitants
+minutestrained=Minutes entrain\u00e9es
+orderplayed=Ordre jou\u00e9
+

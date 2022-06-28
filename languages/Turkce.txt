@@ -1,0 +1,470 @@
+# Turkish text file
+langver=0.94
+translator_name=Utku KARAKO\u00c7 (dtranquillity), mecpyp
+englishname=turkish
+
+#Menus
+data=Veri
+config=Ayarlar
+downloadall=Tamam\u0131n\u0131 indir
+tt_downloadbasic=Tak\u0131m bilgisi, Oyuncular, Antren\u00f6rler, Stadyum
+downloadbasic=Temel Verileri \u0130ndir
+downloadleaguem=Lig ve Ma\u00e7lar\u0131 \u0130ndir
+downloadhistoric=Daha Eski Ma\u00e7lar\u0131 \u0130ndir
+import=Dosya Al...
+importxml=XML dosya(lar\u0131)
+importhtml=HTML dosya
+importext=Harici programdan al...
+sendtontdb=Veriler SoMTVT g\u00f6nderildi
+options=Se\u00e7enekler
+exit=\u00c7\u0131k\u0131\u015f
+formulas=Form\u00fcller
+info=Bilgi
+credits=Krediler
+reports=Raporlar
+utils=Ara\u00e7lar
+curconvert=\u00c7apraz Kurlar
+checknewversion=Yeni SO versiyonu i\u00e7in kontrol et.
+
+#Tabs
+squad=Kadro
+lineup=Dizili\u015f Yard\u0131mc\u0131s\u0131
+playerstats=Oyuncu \u0130statistikleri
+datamanager=Veri Y\u00f6neticisi
+settings=Ayarlar
+juniorschool=Gen\u00e7 Oyuncu Okulu
+stadium=Stadyum
+leaguetable=Lig Tablosu
+flagcollection=Bayrak Koleksiyonu
+training=Antrenman
+matches=Ma\u00e7lar
+
+#Table Column Headers
+ch_name=Ad\u0131
+ch_age=Ya\u015f\u0131
+ch_bestposition=E.\u0130.Pozisyonu
+ch_form=FORM
+ch_tactdiscip=T.D.
+ch_experience=Tecr.
+ch_teamwork=T.\u00c7.
+ch_stamina=KOND
+ch_pace=HIZ
+ch_technique=TEKN\u0130K
+ch_passing=PAS
+ch_keeper=KLC
+ch_defender=DFNS
+ch_playmaker=OKRC
+ch_scorer=GLC
+ch_matches=Ma\u00e7alr
+ch_goals=Goller
+ch_assists=Asistler
+ch_state=Durumu
+ch_value=De\u011feri
+ch_salary=Maa\u015f\u0131
+ch_id=ID
+ch_weeks=Hafta
+ch_skill=Yetenek
+ch_skillup_count=Yetenek art\u0131\u015f\u0131
+ch_average_weeks_per_skillup=Ortalama yetenek
+ch_projected_level=Kat\u0131laca\u011f\u0131 tahmini yetenek 
+ch_initial_weeks=Ba\u015flang\u0131\u00e7 Hafta Say\u0131s\u0131
+ch_initial_skill=Ba\u015flang\u0131\u00e7 Yetene\u011fi
+ch_weeks_since_pop=Bu kadar haftad\u0131r yetene\u011fi artmad\u0131:
+ch_money_spent=Harcanan para
+ch_date=Tarih
+ch_rating=Reyting
+ch_position=Mevki
+ch_order=Talimat
+ch_time=Zaman
+ch_shots=\u015eut
+ch_fouls=Faul
+ch_offpercent=Off \%
+ch_defpercent=Def \%
+ch_squad=Tak\u0131m
+ch_playedinlastmastch=SMO
+ch_sendtontdb=MTVT\u2019na g\u00f6nderildi
+
+#Table Header ToolTip
+tt_tableheader=S\u0131ralamak i\u00e7in t\u0131klay\u0131n; Ters s\u0131ralamak i\u00e7in Shift'e bas\u0131l\u0131 tutup t\u0131klay\u0131n; ikinci s\u0131ramala kriteri i\u00e7in Control'e bas\u0131l\u0131 tutup t\u0131klay\u0131n\u0131z.
+tt_ch_weeks=As tak\u0131ma kat\u0131lmak i\u00e7in kalan zaman
+tt_ch_skill=Gen\u00e7 oyuncu seviyesi. Gelecek olan yeteneklerinin toplam\u0131 yakla\u015f\u0131k olarak bu de\u011ferin 3 kat\u0131 olacakt\u0131r.
+tt_ch_skillup_count=Ka\u00e7 kez yetenek atlad\u0131\u011f\u0131
+tt_ch_average_weeks_per_skillup=Yetenek art\u0131\u015f\u0131 ba\u015f\u0131na ge\u00e7en ortalama hafta say\u0131s\u0131
+tt_ch_projected_level=\u0130lk haftadan beri ka\u00e7 haftada bir yetenek art\u0131\u015f\u0131 g\u00f6sterdi\u011fini g\u00f6z \u00f6n\u00fcnde bulundurarak \u015fimdiki seviyesine g\u00f6re okuldan \u00e7\u0131k\u0131p as tak\u0131ma kat\u0131laca\u011f\u0131nda tahmini yetenek seviyesi
+tt_ch_initial_weeks=Okula se\u00e7ildi\u011finde ba\u015flang\u0131\u00e7ta ka\u00e7 haftas\u0131n\u0131n bulundu\u011fu
+tt_ch_initial_skill=Okula se\u00e7ildi\u011finde ba\u015flang\u0131\u00e7taki yetenek seviyesi, \u015fimdikine k\u0131yasla
+tt_ch_weeks_since_pop=Son yetenek art\u0131\u015f\u0131ndan bu yana ka\u00e7 haftad\u0131r atlamad\u0131\u011f\u0131
+tt_ch_money_spent=Bu gen\u00e7 oyuncunun tak\u0131ma toplam masraf\u0131
+
+#Connection
+connecting=Ba\u011flan\u0131yor...
+login=Ba\u011flan
+username=Kullan\u0131c\u0131 Ad\u0131
+password=\u015eifre
+downloadingxml=XML indiriyor
+beginsession=Oturum A\u00e7
+dl_league=Lig Tablosu
+dl_training=Antrenman Verileri
+dl_economy=Ekonomi Verileri
+dl_matches=Ma\u00e7 Verileri
+dl_matchid=Ma\u00e7 %
+dl_team=Tak\u0131m Verisi
+dl_players=Oyuncular
+dl_juniors=Gen\u00e7ler
+logoff=\u00c7\u0131k\u0131\u015f
+useproxy=HTTP proxy kullan\u0131ls\u0131n
+proxyhost=Proxy sunucu ad\u0131 (veya IP)
+proxyport=Proxy portu
+useproxyauth=HTTP proxy do\u011frulamas\u0131
+proxypassword=Proxy \u015fifresi
+proxyusername=Proxy Kullan\u0131c\u0131 Ad\u0131
+
+#Errors
+err_unknownhost=Bilinmeyen ba\u011flant\u0131 hatas\u0131. % \u00c7\u00f6z\u00fcmlenemiyor
+err_invaliddate=Ge\u00e7ersiz tarih
+err_loginfailed=BA\u011eLANMA BA\u015eARISIZ!
+err_nocountryset=Bunu yapmadan \u00f6nce tercihlerdeki \u00fclke ayarlar\u0131n\u0131n do\u011frulu\u011fundan emin olunuz.
+err_nocurrencyrate= % i\u00e7in \u00e7apraz kur tan\u0131ms\u0131z.
+
+#Dialog titles
+error=Hata
+inputdate=Girdi Tarihi
+
+#Country Names
+c_71=Andora
+c_19=Arjantin
+c_6=Avustralya
+c_46=Beyaz Rusya
+c_28=Bel\u00e7ika
+c_57=Bolivya
+c_47=Bosna Hersek
+c_21=Brezilya
+c_54=Bulgaristan
+c_5=Kanada
+c_13=\u00c7ek Cumhuriyeti
+c_42=\u015eili
+c_36=Kolombiya
+c_70=Kostarika
+c_40=Galler
+c_29=Danimarka
+c_15=Almanya
+c_58=Ekvator
+c_33=Estonya
+c_3=\u0130ngiltere
+c_17=\u0130spanya
+c_16=Fransa
+c_66=Ermenistan
+c_49=Yunanistan
+c_68=Honduras
+c_60=Hong Kong
+c_34=H\u0131rvatistan
+c_51=Hindistan
+c_65=Endonezya
+c_32=\u0130rlanda
+c_63=\u0130zlanda
+c_52=\u0130srail
+c_10=\u0130talya
+c_23=Litvanya
+c_8=Macaristan
+c_56=Makedonya
+c_59=Malezya
+c_67=Malta
+c_18=Meksika
+c_69=Moldova
+c_12=Hollanda
+c_2=Yeni Zelanda
+c_38=Nijerya
+c_62=Japonya
+c_27=Norve\u00e7
+c_30=Avusturya
+c_37=Peru
+c_1=Polonya
+c_20=Portekiz
+c_61=Dominik Cumhuriyeti
+c_9=Romanya
+c_43=Rusya
+c_24=\u0130svi\u00e7re
+c_7=\u0130sko\u00e7ya
+c_53=Arnavutluk
+c_26=Slovenya
+c_14=Slovakya
+c_22=G\u00fcney Afrika
+c_39=S\u0131rbistan
+c_25=Finlandiya
+c_31=\u0130sve\u00e7
+c_41=T\u00fcrkiye
+c_35=Uruguay
+c_4=ABD
+c_44=Venez\u00fcela
+c_50=Gana
+c_45=Letonya
+c_64=Ukrayna
+#c_11=Jamaika
+#c_55=L\u00fcksemburg
+
+#Skill and supporter levels
+skill_0=felaket
+skill_1=berbat
+skill_2=yetersiz
+skill_3=k\u00f6t\u00fc
+skill_4=zay\u0131f
+skill_5=vasat
+skill_6=yeterli
+skill_7=iyi
+skill_8=kaliteli
+skill_9=\u00e7ok iyi
+skill_10=\u00fcst\u00fcn
+skill_11=m\u00fckemmel
+skill_12=muhte\u015fem
+skill_13=ola\u011fan\u00fcst\u00fc
+skill_14=g\u00f6rkemli
+skill_15=sihirli
+skill_16=d\u00fcnya d\u0131\u015f\u0131
+skill_17=tanr\u0131sal
+mood_1=\u00f6fkeli
+mood_2=sab\u0131rlar\u0131n\u0131 kaybediyor
+mood_3=keyifsiz
+mood_4=kluplerine inan\u0131yorlar
+mood_5=ho\u015fnut
+mood_6=kluplerinin performans\u0131ndan \u00e7ok memnunlar
+mood_7=sevin\u00e7ten \u00e7\u0131ld\u0131rm\u0131\u015flar
+
+#Squad Summary Panel
+averageage=Ortalama Ya\u015f:
+averageform=Ortalama Form:
+totalplayers=Toplam Oyuncu Say\u0131s\u0131:
+natplayers=Yerli Oyuncu Say\u0131s\u0131:
+fgnplayers=Yabanc\u0131 Oyuncu Say\u0131s\u0131:
+totalsalary=Toplam Maa\u015f:
+averagesalary=Ortalama Maa\u015f:
+totalvalue=Toplam De\u011fer:
+averagevalue=Ortalama De\u011fer:
+money=Nakit:
+rank=Reyting Puan\u0131:
+fans=Taraftar Say\u0131s\u0131:
+fanclubmood=Taraftarlar\u0131n Tutumu:
+
+#Options dialog
+language=Dil
+country=\u00dclke
+currencyrate=Para birimi \u00e7evirim oran\u0131
+currencysymbol=Para birimi sembol\u00fc
+lowskill=D\u00fc\u015f\u00fck Yetenek D\u00fczeyi
+tt_lowskill=Bu d\u00fczeye dek olan yetenekler (bu seviye dahil) "d\u00fc\u015f\u00fck" olarak de\u011ferlendirilir
+highskill=Y\u00fcksek Yetenek D\u00fczeyi
+tt_highskill=Bu d\u00fczey ve yukar\u0131s\u0131ndaki yetenekler  "y\u00fcksek" olarak de\u011ferlendirilir
+seasonreference=Reference season
+seasonreferencestart=Ref. season start
+tt_seasonreference=Takvimler i\u00e7in referans sezonudur. Buradaki girilen rakam, a\u015fa\u011f\u0131da belirtilen tarihte ba\u015flayan \u00fclkenizdeki Sokker sezonunu temsil eder.
+tt_seasonreferencestart=Referans sezonunun ba\u015flang\u0131\u00e7 tarihidir. \u00dclkenizde referans sezonu bu tarihte ba\u015flar.
+autosendtontdb=Oyuncular\u0131 MTVT\u2019na otomatik olarak g\u00f6nder.
+tt_autosendtontdb=Se\u00e7ili oyuncular\u0131n verisini kendi MTVT\u2019na g\u00f6nder. (URL ayarlar\u0131 resources/ntdb_urls.txt i\u00e7inde yap\u0131lmaktad\u0131r)
+autochecknewversion=A\u00e7\u0131l\u0131\u015fta yeni versiyon i\u00e7in kontrol et.
+tt_autochecknewversion=Program a\u00e7\u0131l\u0131\u015f\u0131nda yeni SO versiyonu i\u00e7in otomatik olarak kontrol et.
+
+#Position's short names
+pos_20=DEF
+pos_30=MID
+pos_40=ATT
+pos_10=GK
+pos_21=WB
+pos_22=CB
+pos_23=SW
+pos_31=DM
+pos_32=CM
+pos_33=AM
+pos_35=WM
+pos_41=FW
+pos_42=ST
+pos_left=%L
+pos_right=%R
+
+#Position's long (extended) names
+posext_20=defans
+posext_30=ortasaha
+posext_40=h\u00fccum oyuncusu
+posext_10=kaleci
+posext_21=bek
+posext_22=stoper
+posext_23=sweeper
+posext_31=defenansif ortasaha
+posext_32=merkez ortasaha (g\u00f6bek)
+posext_33=ofansif ortasaha
+posext_35=kanat
+posext_41=forvet
+posext_42=golc\u00fc
+posext_left=%sa\u011f
+posext_right=%sol
+
+#misc
+season=Sezon
+comparedata=Verileri kar\u015f\u0131la\u015ft\u0131r
+weeksingraph=Grafikteki hafta say\u0131s\u0131
+managernotes=Tak\u0131m Sahibinin Notlar\u0131
+savesnapshot=Ekran G\u00f6r\u00fcnt\u00fcs\u00fcn\u00fc Kaydet
+deleteforever=Kal\u0131c\u0131 \u015eekilde Sil
+confirmdelete=Silme \u0130\u015flemini Onayla
+
+#skill names
+skn_form=Form
+skn_stamina=Kondisyon
+skn_pace=H\u0131z
+skn_technique=Teknik
+skn_passing=Pas
+skn_keeper=Kalecilik
+skn_defender=Defans
+skn_playmaker=Oyunkuruculuk
+skn_scorer=Golc\u00fcl\u00fck
+skn_experience=Tecr\u00fcbe
+skn_teamwork=Tak\u0131m-\u00e7al\u0131\u015fmas\u0131
+skn_tactdiscip=Taktik disiplin
+
+#Formula Editor
+formmodifier=Form Etkisi Ne Kadar Olsun (%\)
+player=Oyuncu
+ratingforpos=Pozisyon Notu
+withform=Formla birlikte
+withoutform=Form hari\u00e7
+set=Ayarla
+tt_set=Form\u00fcl\u00fc bu de\u011ferlere ayarla
+undo=Geri Al
+tt_undo=Form\u00fcl\u00fc kaydedilen de\u011ferlere g\u00f6re yeniden ayarlamak i\u00e7in son yapt\u0131\u011f\u0131n i\u015flemi geri al
+reset=S\u0131f\u0131rla
+tt_reset=Form\u00fcl\u00fc varsay\u0131lan de\u011ferlere s\u0131f\u0131rla. BU GER\u0130YE ALINAMAZ!
+
+#Credits
+author=Yazan
+translator=\u00c7evirmen
+
+#League Table Panel
+ch_team=Tak\u0131m
+ch_matchesplayed=O
+ch_matchwins=G
+ch_matchdraws=B
+ch_matchlosses=K
+ch_goalsfavour=A
+ch_goalsagainst=Y
+ch_goaldiff=Av.
+ch_points=P
+tt_round=Tur
+tt_place=Yer
+graph=Grafik
+fixture=Fikst\u00fcr
+deletetable=Tabloyu Sil
+exportxml=XMLe D\u00f6n\u00fc\u015ft\u00fcr
+
+# reports
+trainingreport=Antrenman G\u00fcncellemesi
+juniorreport=Gen\u00e7lerin Geli\u015fimi
+playerreport=Oyuncu Kay\u0131tlar\u0131
+schoolreport=Altyap\u0131 Raporu
+generate=Olu\u015ftur
+flagsreport=Toplanm\u0131\u015f Bayrak Raporu
+
+#SokkerMon Importer
+unrecogskill=Tan\u0131ms\u0131z Yetenek Seviyesi: %
+
+#. Flags Plugin
+fp_flag=bayrak$bayraklar
+fp_player=oyuncu$oyuncular
+fp_visited=Ziyaret Edilmi\u015f \u00dclkeler
+fp_hosted=Ziyaret Etmi\u015f \u00dclkeler
+fp_tripto= % Seyahati
+fp_visitsfrom= % Misafiriniz
+fp_currentpflags=Mevcut Oyuncular Bayraklar\u0131
+fp_formerpflags=Eski Oyuncular Kaybedilmi\u015f Bayraklar
+fp_currentpfrom= % Yabanc\u0131 Oyuncular
+fp_formerpfrom= % Eski Yabanc\u0131 Oyuncular
+fp_newflags=Yeni Bayraklar
+fp_newvisited=Ziyaret edilen yeni \u00fclkeler
+fp_newhosted=Ziyaret eden yeni \u00fclkeler
+fp_notvisitedyet=Hen\u00fcz ziyaret edilmemi\u015f \u00fclkeler
+fp_nothostedyet=Hen\u00fcz ziyaret etmemi\u015f \u00fclkeler
+fp_addflags=bunlar\u0131 ekle
+fp_removeflags=bunlar\u0131 \u00e7\u0131kart
+fp_updateflags=bayraklar\u0131 g\u00fcncelle
+tt_fp_updateflags=Bayraklar veri taban\u0131ndaki ma\u00e7lara g\u00f6re g\u00fcncellenecektir
+
+#. Match IDs list importer
+inputmatchids=Ma\u00e7 IDsini girin
+typematchidshere=Ma\u00e7 IDsini buraya yaz\u0131p ENTER tu\u015funa bas\u0131n
+dragmatcheshere=online.sokker.org ma\u00e7lar\u0131 sayfas\u0131 metnini buraya s\u00fcr\u00fckle-b\u0131rak (veya kopyala-yap\u0131\u015ft\u0131r)
+
+#. Text Editing
+cut=Kes
+copy=Kopyala
+paste=Yap\u0131\u015ft\u0131r
+bold=Koyu
+italic=\u0130talik
+underline=Alt \u00c7izgi
+
+#. Player stats Panel
+filter_allskills=T\u00fcm Yetenekler
+filter_overall=Toplam Art\u0131\u015f
+
+#. Updater
+newversion=Yeni % versiyonu indirilebilir!
+langupdates=Yeni Dil G\u00fcncellemeleri Var!
+update=G\u00fcncelle
+dl_updatingso=SO G\u00fcncelleniyor
+restart=Yeniden Ba\u015flat
+restartmsg=De\u011fi\u015fikliklerin Etkinle\u015ftirilmesi \u0130\u00e7in L\u00fctfen Yeniden Ba\u015flat\u0131n.
+
+#. Training Panel
+trainerjob=Antren\u00f6rler
+job0=atanmad\u0131
+job1=Ba\u015f Antren\u00f6r
+job2=Yard\u0131mc\u0131
+job3=Altyap\u0131
+ch_trainerskill=GENEL
+changetraining=Antrenman\u0131 kal\u0131c\u0131 olarak de\u011fi\u015ftirmek
+tt_changetraining=Bir haftal\u0131k antrenman\u0131 de\u011fi\u015ftirmek i\u00e7in \u00e7ift t\u0131klay\u0131n
+datastatus=Veriler %'dan al\u0131nd\u0131
+datasetmanually=Veriler elle Girildi
+week=Hafta
+order=Emir
+trainlevel=Antrenman Seviyesi
+residuallevel=Rastgele Antrenman Seviyesi
+assistantstotal=Yard\u0131mc\u0131lar\u0131n ortalama genel seviyesi
+minutestrained=Antrenman s\u00fcresi
+orderplayed=Oynad\u0131\u011f\u0131 mevkii
+
+#. Matches Panel
+competition=Kr\u015f\u0131la\u015fma
+weather=Hava Dururumu
+opponent=Rakip
+spectators=Seyirciler
+score=Skor
+victory=Galibiyet
+draw=Beraberlik
+defeat=Ma\u011fl\u00fcbiyet
+national=Milli
+internat=Uluslararas\u0131
+local=Ev Sahibi
+visitor=Misafir
+official=Resmi
+friendly=Haz\u0131rl\u0131k
+league=Lig
+cup=Kupa
+quali=Baraj
+totalmatches=Toplam Ma\u00e7
+matcheswon=Galibiyet
+matchesdrawn=Beraberlik
+matcheslost=Ma\u011fl\u00fcbiyet
+goalsfavour=At\u0131lan
+goalsagainst=Yenen
+goaldiff=Averaj
+shots=\u015eutlar
+fouls=Fauller
+yellowcards=Sar\u0131 Kartlar
+redcards=K\u0131rm\u0131z\u0131 Kartlar
+shootefficiency=\u015eutlardaki Ba\u015far\u0131 Oran\u0131
+avgattendance=Ortalama Seyirci
+avgpossession=Topa Sahip Olma Ortalamas\u0131
+avgplayinhalf=Yar\u0131alanda Oynama Ortalamas\u0131
+avgscoring=Gol Ortalamas\u0131
+avgpassing=Pas Ortalamas\u0131
+avgdefending=Defans Ortalamas\u0131
+datebegin=Ba\u015flang\u0131\u00e7 Tarihi
+dateend=Biti\u015f Tarihi
+

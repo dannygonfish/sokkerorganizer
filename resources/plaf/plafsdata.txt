@@ -1,0 +1,5 @@
+#jar file = L&F name, L&F Class name
+
+nimrodlf.jar=NimROD,com.nilo.plaf.nimrod.NimRODLookAndFeel
+substance.jar=Substance,org.jvnet.substance.SubstanceLookAndFeel
+synthetica.jar=Synthetica,de.javasoft.plaf.synthetica.SyntheticaStandardLookAndFeel

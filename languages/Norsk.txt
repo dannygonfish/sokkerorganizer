@@ -1,0 +1,263 @@
+# Norwegian text file
+langver=0.6
+translator_name=Kristian Fredriksen
+englishname=norwegian
+
+#Menus
+data=Data
+config=Oppsett
+downloadall=Last ned alt
+tt_downloadbasic=Laginfo, Spillere, Trenere, Stadion
+import=Importer...
+importxml=XML-fil(er)
+importhtml=HTML-fil(er)
+importext=fra eksternt program...
+options=Alternativer
+exit=Avslutt
+formulas=Formler
+info=Info
+credits=Credits
+reports=Rapport
+utils=Verkt\u00f8y
+curconvert=Valutakalkulator
+
+#Tabs
+squad=Stall
+lineup=Lagoppstillingshjelper
+playerstats=Spillerstatistikk
+datamanager=Data Manager
+settings=Innstillinger
+juniorschool=Juniorskole
+stadium=Stadion
+leaguetable=Serietabell
+flagcollection=Flaggsamling
+
+#Table Column Headers
+ch_name=Navn
+ch_age=Alder
+ch_bestposition=B.Pos
+ch_form=FORM
+ch_stamina=UTHO
+ch_pace=HURT
+ch_technique=TEKN
+ch_passing=PASN
+ch_keeper=KEEP
+ch_defender=FORS
+ch_playmaker=BALL
+ch_scorer=SKYT
+ch_matches=Kamper
+ch_goals=M\u00e5l
+ch_assists=M\u00e5lgivende
+ch_state=Status
+ch_value=Verdi
+ch_salary=L\u00f8nn
+ch_id=ID
+ch_weeks=Uker
+ch_skill=Ferdighet
+ch_skillup_count=Pops
+ch_average_weeks_per_skillup=Snitt uker/pop
+ch_projected_level=Beregnet sluttniv\u00e5
+ch_initial_weeks=F\u00f8rste uker
+ch_initial_skill=F\u00f8rste niv\u00e5
+ch_weeks_since_pop=Ingen \u00f8kning p\u00e5:
+ch_money_spent=Penger brukt
+
+#Table Header ToolTip
+tt_tableheader=Trykk for \u00e5 sortere; Shift+klikk for \u00e5 sortere i omvendt rekkef\u00f8lge; Control+klikk for \u00e5 legge til et sekund\u00e6rt sorteringskriterie
+tt_ch_initial_skill=Opprinnelig niv\u00e5, sammenlignet med n\u00e5v\u00e6rende niv\u00e5
+tt_ch_skillup_count=Pop-teller
+tt_ch_weeks=Tid igjen til \u00e5 bli a-lagsspiller
+tt_ch_weeks_since_pop=Uker siden siste \u00f8kning
+tt_ch_money_spent=Total pengesum brukt p\u00e5 denne junioren
+tt_ch_skill=Juniorniv\u00e5. Summen av hans skills vil bli rundt regnet tre ganger dette tallet.
+tt_ch_average_weeks_per_skillup=Snitt uker pr. pop
+tt_ch_initial_weeks=Opprinnelige uker
+tt_ch_projected_level=Beregnet sluttniv\u00e5 med tanke p\u00e5 gjennomsnittlig uker/pop fra f\u00f8rste \u00f8kning, sammenlignet med n\u00e5v\u00e6rende niv\u00e5
+
+#Connection
+connecting=Kobler til...
+login=Logg inn
+username=Brukernavn
+password=Passord
+downloadingxml=Laster ned XML
+beginsession=Start sesjon
+dl_league=Ligatabell
+dl_training=Treningsdata
+dl_economy=\u00d8konomidata
+dl_matches=Kampdata
+dl_matchid=Kamp %
+logoff=Logg av
+useproxy=Bruk en HTTP-proxy
+proxyhost=Proxy hostname (eller IP)
+proxyport=Proxy-port
+useproxyauth=Bruk HTTP-proxy verifisering
+proxyusername=Proxy username
+proxypassword=Proxy-passord
+
+#Errors
+err_unknownhost=Unknown host. Could not resolve %.
+err_invaliddate=Invalid date.
+err_loginfailed=INNLOGGING MISLYKKET!
+err_nocountryset=F\u00f8r du gj\u00f8r dette, forsikre deg om at du har riktig nasjonsinnstillinger i Alternativene.
+err_nocurrencyrate=Det er ikke definert noen valutarate for %.
+
+#Dialog titles
+error=Error
+inputdate=Input date
+
+#Country Names
+
+#Skill and supporter levels
+skill_0=tragisk
+skill_1=h\u00e5pl\u00f8s
+skill_2=utilstrekkelig
+skill_3=d\u00e5rlig
+skill_4=svak
+skill_5=middelm\u00e5dig
+skill_6=godkjent
+skill_7=god
+skill_8=solid
+skill_9=veldig god
+skill_10=fremragende
+skill_11=formidabel
+skill_12=glimrende
+skill_13=utrolig
+skill_14=briljant
+skill_15=magisk
+skill_16=utenomjordisk
+skill_17=guddommelig
+mood_1=er rasende
+mood_2=mister h\u00e5pet
+mood_3=er deprimerte
+mood_4=har troen p\u00e5 klubben
+mood_5=er forn\u00f8yde
+mood_6=er henrykt med klubbens spill
+mood_7=er vilt forelsket i klubben sin
+
+#Squad Summary Panel
+averageage=Snittalder:
+averageform=Snittform:
+totalplayers=Antall spillere:
+natplayers=Spillere fra ditt land:
+fgnplayers=Utlendinger:
+totalsalary=Total l\u00f8nn:
+averagesalary=Snittl\u00f8nn:
+totalvalue=Total verdi:
+averagevalue=Snittverdi:
+
+#Options dialog
+language=Spr\u00e5l
+country=Land
+currencyrate=Myntenhetens vekslingskurs
+currencysymbol=Myntenhetssymbol
+lowskill=Grense for lave niv\u00e5er
+tt_lowskill=Skills p\u00e5 og under dette niv\u00e5et regnes som "lave"
+highskill=Grense for h\u00f8ye niv\u00e5er
+tt_highskill=Skills fra og med dette niv\u00e5et regnes som "h\u00f8ye"
+seasonreference=Referansesesong
+tt_seasonreference=Referansesesong for kalenderne. Nummeret du fyller inn Sokker-sesongen i ditt land som begynte den angitte datoen.
+seasonreferencestart=Referansesesongens start
+tt_seasonreferencestart=Startdato for referansesesongen. Referansesesongen begynte p\u00e5 denne datoen.
+
+#Position's short names
+pos_20=DEF
+pos_30=MID
+pos_40=ATT
+pos_10=GK
+pos_21=WB
+pos_22=CB
+pos_23=SW
+pos_31=DM
+pos_32=CM
+pos_33=AM
+pos_35=WM
+pos_41=FW
+pos_42=ST
+pos_left=L%
+pos_right=R%
+
+#Position's long (extended) names
+posext_20=forsvarer
+posext_30=midtbanespiller
+posext_40=angrepsspiller
+posext_10=m\u00e5lvakt
+posext_21=back
+posext_22=midtstopper
+posext_23=sweeper
+posext_31=defensiv midtbanesp.
+posext_32=sentral midtbanesp.
+posext_33=offensiv midtbanesp.
+posext_35=ving
+posext_41=angriper
+posext_42=spydspiss
+posext_left=venstre %
+posext_right=h\u00f8yre %
+
+#misc
+season=Sesong
+comparedata=Sammenlign data
+weeksingraph=Uker i graf
+
+#skill names
+skn_form=Form
+skn_stamina=Utholdenhet
+skn_pace=Hurtighet
+skn_technique=Teknikk
+skn_passing=Pasninger
+skn_keeper=Keeper
+skn_defender=Forsvarer
+skn_playmaker=Ballfordeling
+skn_scorer=M\u00e5lscorer
+
+#Formula Editor
+formmodifier=Form-modifier (\%)
+player=Spiller
+ratingforpos=Rating for posisjon
+withform=Med Form
+withoutform=uten Form
+set=Still
+tt_set=Sett formelen til disse verdier
+undo=Angre
+tt_undo=Tilbakestill formel til lagra verdier
+reset=Tilbakestill
+tt_reset=Tilbakestill formel til standardverdier. DETTE KAN IKKE OMGJ\u00d8RES!
+
+#Credits
+translator=Oversetter
+author=Opphavsmann
+
+#League Table Panel
+ch_team=Lag
+ch_matchesplayed=Spilt
+ch_matchwins=V
+ch_matchdraws=U
+ch_matchlosses=T
+ch_goalsfavour=for
+ch_goalsagainst=mot
+ch_goaldiff=M\u00e5lf.
+ch_points=Png
+tt_round=Runde
+tt_place=Plassering
+graph=Graf
+fixture=Kamp
+
+# reports
+trainingreport=Ukentlig trening
+juniorreport=Juniorutvikling
+playerreport=Spillersammendrag
+generate=Generer
+
+#SokkerMon Importer
+unrecogskill=Ukjent ferdighetsniv\u00e5: %
+
+#. Flags Plugin
+fp_flag=flagg$flagg
+fp_player=spiller$spillere
+fp_visited=Bes\u00f8kte land
+fp_hosted=Land p\u00e5 bes\u00f8k
+fp_tripto=Turer til %
+fp_visitsfrom=Bes\u00f8k fra %
+fp_currentpflags=N\u00e5v\u00e6rende spilleres flagg
+fp_formerpflags=Tidligere spilleres flagg
+fp_currentpfrom=N\u00e5v\u00e6rende spillere fra %
+fp_formerpfrom=Tidligere spillere fra %

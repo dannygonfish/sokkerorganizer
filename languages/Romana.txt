@@ -1,0 +1,400 @@
+# Rom\u00e2n\u00e3 text file
+langver=0.91
+translator_name=Lauren\u0163iu V\u00eelcu
+englishname=romanian
+
+#Menus
+data=Data
+config=Configura\u0163ie
+downloadall=Descarc\u0103 tot
+tt_downloadbasic=Informa\u0163ii echip\u0103, juc\u0103tori, antrenori, stadion
+downloadbasic=Descarc\u0103 date principale
+downloadleaguem=Descarc\u0103 date lig\u0103 \u015fi meciuri
+downloadhistoric=Descarc\u0103 meciuri vechi
+import=Import\u0103...
+importxml=Fi\u015fier(e) XML
+importhtml=Fi\u015fier(e) HTML
+importext=dintr-un program extern...
+sendtontdb=Trimite datele la "SoNTDB"
+options=Op\u0163iuni
+exit=Ie\u015fire
+formulas=Formul\u0103
+info=Info
+credits=Mul\u0163umiri
+reports=Rapoarte
+utils=Utile
+curconvert=Convertor valutar
+checknewversion=Verific\u0103 existen\u0163a unei noi versiuni de SO
+
+#Tabs
+squad=Echipa
+lineup=Manager forma\u0163ie
+playerstats=Calificative juc\u0103tori
+datamanager=Data Manager
+settings=Set\u0103ri
+juniorschool=\u015ecola de juniori
+stadium=Stadion
+leaguetable=Clasament
+flagcollection=Colec\u0163ie de steaguri
+training=Antrenament
+matches=Meciuri
+
+#Table Column Headers
+ch_name=Nume
+ch_age=V\u00e2rsta
+ch_bestposition=POZ
+ch_form=FORMA
+ch_tactdiscip=T.D.
+ch_experience=Exp
+ch_teamwork=M.E.
+ch_stamina=REZ
+ch_pace=VIT
+ch_technique=TEH
+ch_passing=PAS
+ch_keeper=PORT
+ch_defender=AP\u0102R
+ch_playmaker=CONS
+ch_scorer=ATAC
+ch_matches=Meciuri
+ch_goals=Goluri
+ch_assists=Pase de gol
+ch_state=Stare
+ch_value=Valoare
+ch_salary=Salariu
+ch_id=ID
+ch_weeks=S\u0103pt\u0103m\u00e2ni
+ch_skill=Caracteristica
+ch_skillup_count=Cre\u015fteri
+ch_average_weeks_per_skillup=Medie s\u0103pt./cre\u015ftere
+ch_projected_level=Nivel preconizat
+ch_initial_weeks=S\u0103pt. ini\u0163iale
+ch_initial_skill=Caracteristici ini\u0163iale
+ch_weeks_since_pop=F\u0103r\u0103 cre\u015fteri de:
+ch_money_spent=Bani cheltui\u0163i
+ch_date=Data
+ch_rating=Calificativ
+ch_position=Pos
+ch_order=Ordin
+ch_time=Timp
+ch_shots=\u015euturi
+ch_fouls=Faulturi
+ch_offpercent=Off \%
+ch_defpercent=Def \%
+ch_squad=Echipa
+ch_playedinlastmastch=J\u00eeML
+ch_sendtontdb=trimite la NTDB
+
+#Table Header ToolTip
+tt_tableheader=Click pt. ordonare; Shift-Click pt. ordonare \u00een sens invers; \nCTRL-Click pt. a adauga al 2-lea criteriu de ordonare
+tt_ch_weeks=Timp r\u0103mas p\u00e2n\u0103 la intrarea in echipa mare
+tt_ch_skill=Nivel junior. Suma caracteristicilor va fi de aproximativ 3 ori mai mare dec\u00e2t acest\u0103 valoare.
+tt_ch_skillup_count=Num\u0103r cre\u015fteri
+tt_ch_average_weeks_per_skillup=Medie num\u0103r s\u0103pt\u00e2mani per cre\u015ftere
+tt_ch_projected_level=Estimare nivel de ie\u015fire consider\u00e2nd media s\u0103pt/cre\u015ftere de la caracteristic\u0103 ini\u0163ial\u0103, comparat\u0103 cu cea curent\u0103
+tt_ch_initial_weeks=S\u0103pt. ini\u0163iale
+tt_ch_initial_skill=Caracteristica ini\u0163ial\u0103, comparat\u0103 cu cea curent\u0103
+tt_ch_weeks_since_pop=S\u0103pt. de la ultima cre\u015ftere
+tt_ch_money_spent=Bani investi\u0163i \u00een acest junior
+
+#Connection
+connecting=Conectare...
+login=Login
+username=Nume utilizator
+password=Parola
+downloadingxml=Desc\u0103rcare XML
+beginsession=\u00cenceputul Sezonului
+dl_league=Clasament
+dl_training=Antrenament
+dl_economy=Economia
+dl_matches=Meciuri
+dl_matchid=Meci %
+dl_team=Date echip\u0103
+dl_players=Juc\u0103tori
+dl_juniors=Juniori
+logoff=Log off
+useproxy=Folose\u015fte un proxy HTTP
+proxyhost=Adresa proxy (sau IP)
+proxyport=Port proxy
+useproxyauth=Folose\u015fte autentificare HTTP
+proxyusername=Utilizator proxy
+proxypassword=Parol\u0103 Proxy
+
+#Errors
+err_unknownhost=Server necunoscut. Nu poate rezolva %.
+err_invaliddate=Date invalide.
+err_loginfailed=CONECTARE NEREUSIT\u0102!
+err_nocountryset=\u00cenainte de a face asta verifica\u0163i c\u0103 a\u0163i setat corect tara \u00een Op\u0163iuni.
+err_nocurrencyrate=Rat\u0103 valutar\u0103 nedefinit\u0103 pentru %.
+
+#Dialog titles
+error=Eroare
+inputdate=Introducere date
+
+#Country Names
+
+#Skill and supporter levels
+skill_0=tragic
+skill_1=f\u0103r\u0103 speran\u0163\u0103
+skill_2=insuficient
+skill_3=foarte slab
+skill_4=slab
+skill_5=mediu
+skill_6=adecvat
+skill_7=bun
+skill_8=solid
+skill_9=foarte bun
+skill_10=excelent
+skill_11=formidabil
+skill_12=remarcabil
+skill_13=incredibil
+skill_14=briliant
+skill_15=magic
+skill_16=extraterestru
+skill_17=divin
+mood_1=sunt furio\u015fi
+mood_2=\u015fi-au pierdut speran\u0163a
+mood_3=sunt deprima\u0163i
+mood_4=cred \u00een clubul lor
+mood_5=sunt satisf\u0103cu\u0163i
+mood_6=sunt \u00eenc\u00e2nta\u0163i de performan\u0163ele clubului
+mood_7=sunt indr\u0103gosti\u0163i nebune\u015fte de club
+
+#Squad Summary Panel
+averageage=V\u00e2rsta medie:
+averageform=Forma medie:
+totalplayers=Num\u0103r juc\u0103tori:
+natplayers=Juc\u0103tori rom\u00e2ni:
+fgnplayers=Juc\u0103tori str\u0103ini:
+totalsalary=Salariu total:
+averagesalary=Salariu mediu:
+totalvalue=Valoare total\u0103:
+averagevalue=Valoare medie:
+money=Bani:
+rank=Pozi\u0163ie - puncte:
+fans=Suporteri:
+fanclubmood=Starea de spirit a suporterilor:
+
+#Options dialog
+language=Limba
+country=\u0162ara
+currencyrate=Rata de schimb
+currencysymbol=Simbol moned\u0103
+lowskill=Prag caracteristic\u0103 scazut\u0103
+tt_lowskill=Caracteristicile sub acest nivel(inclusiv) sunt considerate "mici"
+highskill=Prag caracteristic\u0103 ridicat\u0103
+tt_highskill=Caracteristicile peste acest nivel sunt considerate "mari"
+seasonreference=Sezon
+seasonreferencestart=\u00cenceputul sezonului
+tt_seasonreference=Sezon de referin\u0163\u0103 pt. calendar. Num\u0103rul introdus reprezint\u0103 sezonul Sokker \u00een \u0163ara dvs. care \u00eencepe la data indicat\u0103 mai jos.
+tt_seasonreferencestart=\u00cenceputul sezonului. Sezonul de referint\u0103 \u00eencepe la aceast\u0103 dat\u0103 \u00een \u0163ara dvs.
+autosendtontdb=Trimite automat datele juc\u0103torilor la NTDB.
+tt_autosendtontdb=Trimitere automat\u0103 a datelor juc\u0103torilor selecta\u0163i la adresa URL a Bazei de date a Echipei Na\u0163ionale (NTDB) - setat\u0103 \u00een resources/ntdb_urls.txt
+autochecknewversion=Verific\u0103 existen\u0163a unei noi versiuni la pornire
+tt_autochecknewversion=Verific\u0103 automat existen\u0163a unei noi versiuni de SO la pornire
+
+#Position's short names
+pos_20=AP
+pos_30=MIJ
+pos_40=AT
+pos_10=GK
+pos_21=AP-L
+pos_22=AP-C
+pos_23=AP-LIB
+pos_31=MIJ-DEF
+pos_32=MIJ-C
+pos_33=MIJ-OFF
+pos_35=EXT
+pos_41=AT-C
+pos_42=AT-L
+pos_left=S%
+pos_right=D%
+
+#Position's long (extended) names
+posext_20=ap\u0103r\u0103tor
+posext_30=mijloca\u015f
+posext_40=atacant
+posext_10=portar
+posext_21=funda\u015f lateral
+posext_22=funda\u015f central
+posext_23=lib\u00e9ro
+posext_31=mijloca\u015f defensiv
+posext_32=mijloca\u015f (central)
+posext_33=mijloca\u015f ofensiv
+posext_35=extrem\u0103
+posext_41=atacant central
+posext_42=atacant lateral
+posext_left=st\u00e2nga %
+posext_right=dreapta %
+
+#misc
+season=Sezon
+comparedata=Compar\u0103 datele
+weeksingraph=S\u0103pt\u0103m\u00e2ni \u00een grafic
+managernotes=Noti\u0163e manager
+savesnapshot=Salveaz\u0103 instantaneu
+deleteforever=\u015eterge permanent
+confirmdelete=Confirm\u0103 \u015ftergerea
+
+#skill names
+skn_form=Forma
+skn_stamina=Rezisten\u0163a
+skn_pace=Viteza
+skn_technique=Tehnica
+skn_passing=Pase
+skn_keeper=Portar
+skn_defender=Ap\u0103rare
+skn_playmaker=Construc\u0163ie
+skn_scorer=Atac
+skn_experience=Experien\u0163\u0103
+skn_teamwork=Munc\u0103 de echip\u0103
+skn_tactdiscip=Disciplin\u0103 tactic\u0103
+
+#Formula Editor
+formmodifier=Modificator de form\u0103 (\%)
+player=Juc\u0103tor
+ratingforpos=Evaluare pt. pozi\u0163ie
+withform=cu form\u0103
+withoutform=f\u0103r\u0103 form\u0103
+set=Set
+tt_set=Seteaz\u0103 formula la aceste valori
+undo=Undo
+tt_undo=Reseteaz\u0103 formula la valorile salvate
+reset=Reset
+tt_reset=Reseteaz\u0103 la formula standard. ATEN\u0162IE ACEST\u0102 OPERA\u0162IE NU SE POATE ANULA!
+
+#Credits
+author=Autor
+translator=Traduc\u0103tor
+
+#League Table Panel
+ch_team=Echipa
+ch_matchesplayed=MJ
+ch_matchwins=V
+ch_matchdraws=E
+ch_matchlosses=\u00ce
+ch_goalsfavour=gM
+ch_goalsagainst=gP
+ch_goaldiff=Dif
+ch_points=Pct
+tt_round=Etapa
+tt_place=Loc
+graph=Grafic
+fixture=Etape
+deletetable=\u015eterge clasamentul
+exportxml=Export\u0103 XML-ul
+
+# reports
+trainingreport=Antrenament s\u0103pt\u0103m\u00e2nal
+juniorreport=Cre\u015ftere juniori
+playerreport=Calit\u0103\u0163i juc\u0103tor
+schoolreport=Raport \u015fcoal\u0103 juniori
+generate=Genereaz\u0103
+flagsreport=Raport colec\u0163ie de steaguri
+
+#SokkerMon Importer
+unrecogskill=Nivel caracteristic\u0103 necunoscut: %
+
+#. Flags Plugin
+fp_flag=steag$steaguri
+fp_player=juc\u0103tor$juc\u0103tori
+fp_visited=\u0162\u0103ri vizitate
+fp_hosted=\u0162\u0103ri vizitatoare
+fp_tripto=Deplas\u0103ri \u00een %
+fp_visitsfrom=Vizite din %
+fp_currentpflags=Steaguri juc\u0103tori
+fp_formerpflags=Steaguri fo\u015fti juc\u0103tori
+fp_currentpfrom=Juc\u0103tori din %
+fp_formerpfrom=Fo\u015fti juc\u0103tori din %
+fp_newflags=Steaguri noi
+fp_newvisited=Noi \u0163\u0103ri vizitate
+fp_newhosted=Noi \u0163\u0103ri g\u0103zduite
+fp_notvisitedyet=\u0162\u0103ri nevizitate \u00eenc\u0103
+fp_nothostedyet=\u0162\u0103ri neg\u0103zduite \u00eenc\u0103
+fp_addflags=adaug\u0103 aceste
+fp_removeflags=\u015fterge aceste
+fp_updateflags=Actualizeaz\u0103 steagurile
+tt_fp_updateflags=Steagurile vor fi actualizate \u00een concordan\u0163\u0103 cu meciurile din baza de date
+
+#. Match IDs list importer
+inputmatchids= Introduce\u0163i ID-uri de meciuri
+typematchidshere=Introduce\u0163i aici ID-ul unui meci \u015fi apas\u0103 ENTER
+dragmatcheshere=Trage sau copiaz\u0103 (copy-paste) aici pagina text a meciului din www.sokker.org
+
+#. Text Editing
+cut=Taie
+copy=Copiaz\u0103
+paste=Adaug\u0103
+bold=Gros
+italic=Cursiv
+underline=Subliniat
+
+#. Player stats Panel
+filter_allskills=Toate caracteristicile
+filter_overall=Cre\u015ftere general\u0103
+
+#. Updater
+newversion=Noua versiune % este disponibil\u0103!
+langupdates=Traducerea actualizat\u0103 este disponibil\u0103!
+update=Actualizeaz\u0103
+dl_updatingso=Actualizeaz\u0103 SO
+restart=Reporne\u015fte
+restartmsg=V\u0103 rug\u0103m s\u0103 reporni\u0163i SO pentru ca schimb\u0103riile s\u0103 aib\u0103 efect
+
+#. Training Panel
+trainerjob=Func\u0163ie
+job0=nimic
+job1=Antrenor principal
+job2=Secund
+job3=Echipa de juniori
+ch_trainerskill=GENERAL
+changetraining=Schimbare permanent\u0103 a ordinelor de antrenament
+tt_changetraining=Dublu-click pentru a schimba antrenamentul din aceast\u0103 s\u0103pt\u0103m\u00e2n\u0103
+datastatus=Data din %
+datasetmanually=Data a fost setat\u0103 manual
+week=S\u0103pt\u0103m\u00e2na
+order=Ordine
+trainlevel=Nivel antrenament
+residuallevel=Nivel antrenament rezidual
+assistantstotal=Suma caracteristicilor generale a asistentiilor
+minutestrained=Minute antrenament
+orderplayed=Ordine jucate
+
+#. Matches Panel
+competition=Competi\u0163ie
+weather=Vremea
+opponent=Adversar
+spectators=Spectatori
+score=Scor
+victory=Victorie
+draw=Egal
+defeat=Infr\u00e2ngere
+national=Na\u0163ional
+internat=Interna\u0163ional
+local=Gazd\u0103
+visitor=Oaspete
+official=Oficial
+friendly=Amical
+league=Lig\u0103
+cup=Cup\u0103
+quali=Baraj
+totalmatches=Total meciuri
+matcheswon=Meciuri c\u00e2\u015ftigate
+matchesdrawn=Meciuri egale
+matcheslost=Meciuri pierdute
+goalsfavour=Goluri \u00eenscrise
+goalsagainst=Goluri primite
+goaldiff=Diferen\u0163\u0103 goluri
+shots=\u015euturi
+fouls=Faulturi
+yellowcards=Cartona\u015fe galbene
+redcards=Cartona\u015fe ro\u015fii
+shootefficiency=Eficien\u0163a \u015futurilor
+avgattendance=Spectatori (media)
+avgpossession=Posesia (media)
+avgplayinhalf=Zona de joc (media)
+avgscoring=Atac (media)
+avgpassing=Pase (media)
+avgdefending=Ap\u0103rare (media)
+datebegin=\u00cencep\u00e2nd cu
+dateend=P\u00e2na la
+

@@ -1,0 +1,488 @@
+#! Finnish text file
+langver=0.851
+translator_name=Citizen
+englishname=Finnish
+
+#. Menus
+data=Tiedot
+config=Asetukset
+downloadall=Lataa kaikki
+downloadbasic=Lataa perustiedot
+tt_downloadbasic=Joukkuetiedot, Pelaajat, Valmentajat, Areena
+downloadleaguem=Lataa sarja- ja joukkuetiedot
+downloadhistoric=Lataa vanhoja otteluita
+import=Tuo...
+importxml=XML tiedostoja
+importhtml=HTML tiedostoja
+importext=Muusta ohjelmasta...
+sendtontdb=Vie tiedot SO-Maajoukkue tietokantaan
+options=Maa-asetukset
+exit=Sulje
+formulas=Kaavat
+info=Info
+credits=Kiitokset
+reports=Raportit
+utils=Ty\u00f6kalut
+curconvert=Valuuttalaskin
+checknewversion=Etsi uutta SO versiota
+
+#. Tabs
+squad=Joukkue
+lineup=Kokoonpano editori
+playerstats=Pelaajan tiedot
+datamanager=Data Manager
+settings=Asetukset
+juniorschool=Juniorikoulu
+stadium=Stadioni
+leaguetable=Sarjataulukko
+flagcollection=Lippukokoelma
+training=Harjoittelu
+matches=Ottelut
+
+#. Table Column Headers
+ch_name=Nimi
+ch_age=Ik\u00e4
+ch_bestposition=Suositus
+ch_form=Kunto
+ch_tactdiscip=Taktiikkataito
+ch_experience=Kokemus
+ch_teamwork=Tiimity\u00f6skentely
+ch_stamina=Kest\u00e4vyys
+ch_pace=Nopeus
+ch_technique=Tekniikka
+ch_passing=Sy\u00f6tt\u00e4minen
+ch_keeper=Maalivahti
+ch_defender=Puolustus
+ch_playmaker=Pelinrakennus
+ch_scorer=Hy\u00f6kk\u00e4ys
+ch_matches=Ottelut
+ch_goals=Maalit
+ch_assists=Sy\u00f6t\u00f6t
+ch_state=Status
+ch_value=Arvo
+ch_salary=Palkka
+ch_id=ID
+ch_weeks=Viikot
+ch_skill=Taito
+ch_skillup_count=Taidonnousut
+ch_average_weeks_per_skillup=Viikot / nousu
+ch_projected_level=Tavoitetaso
+ch_initial_weeks=Koulutusviikot
+ch_initial_skill=L\u00e4ht\u00f6taso
+ch_weeks_since_pop=Vk:ja tasonnousutta
+ch_money_spent=Sijoitus yht.
+ch_date=Aika
+ch_rating=Pelitaso
+ch_position=Paikka
+ch_order=K\u00e4skyt
+ch_time=Peliaika
+ch_shots=Laukaukset
+ch_fouls=Kortit
+ch_offpercent=Hy\u00f6kk\u00e4ys%
+ch_defpercent=Puolustus%
+ch_squad=Joukkue
+ch_playedinlastmastch=Pelattupaikka
+ch_sendtontdb=L\u00e4het\u00e4 MJ:lle
+
+#. Table Header ToolTip
+tt_tableheader=Napauta nouseva / laskeva lajittelu
+tt_ch_weeks=Aika valmistumiseen
+tt_ch_skill=Juniorin taso. Taitojen yhteistaso koulutuksen lopussa on noin 3 kertaa t\u00e4m\u00e4 arvo
+tt_ch_skillup_count=Tason nousut
+tt_ch_average_weeks_per_skillup=Arvio tasonnousulle
+tt_ch_projected_level=Arvioitu lopputaso, arviotuna jo saavutettujen nousujen perusteella
+tt_ch_initial_weeks=Koulutusaika
+tt_ch_initial_skill=L\u00e4ht\u00f6taso verrattuna nykytasoon
+tt_ch_weeks_since_pop=Viikkoja viime noususta
+tt_ch_money_spent=Sijoitus junioriin
+
+#. Connection
+connecting=Yhdistet\u00e4\u00e4n...
+login=Kirjaudu
+username=K\u00e4ytt\u00e4j\u00e4tunnus
+password=Salasana
+downloadingxml=Ladataan XML tiedosto
+beginsession=Aloita istunto
+dl_league=Sarjataulukko
+dl_training=Harjoitus data
+dl_economy=Talous Data
+dl_matches=Ottelu Data
+dl_matchid=Ottelu %
+dl_team=Joukkue Data
+dl_players=Pelaajat
+dl_juniors=Juniorit
+logoff=Lopetus
+useproxy=K\u00e4yt\u00e4 HTTP v\u00e4lityspalvelinta
+proxyhost=V\u00e4lityspalvelimen nimi tai IP
+proxyport=Portti
+useproxyauth=k\u00e4yt\u00e4 v\u00e4lityspalvelimen tunnistusta
+proxyusername=V\u00e4lityspalvelimen k\u00e4ytt\u00e4j\u00e4tunnus
+proxypassword=V\u00e4lityspalvelimen salasana
+
+#. Errors
+err_unknownhost=Tuntematon is\u00e4nt\u00e4, ei voitu selvitt\u00e4\u00e4 %.
+err_invaliddate=V\u00e4\u00e4r\u00e4 p\u00e4iv\u00e4m\u00e4\u00e4r\u00e4
+err_loginfailed=KIRJAUTUMINEN EP\u00c4ONNISTUI!
+err_nocountryset=Ennen kuin teet t\u00e4m\u00e4n, tarkista maa-asetukset maa-asetus valinnoista.
+err_nocurrencyrate=Valuutta m\u00e4\u00e4rityksi\u00e4 ei ole tehty % :lle.
+
+#. Dialog titles
+error=Virhe
+inputdate=Sy\u00f6tt\u00f6 p\u00e4iv\u00e4
+
+#. Country Names
+c_1=Puola
+c_2=Uusi-Seelanti
+c_3=Englanti
+c_4=USA
+c_5=Kanada
+c_6=Australia
+c_7=Skotlanti
+c_8=Unkari
+c_9=Romania
+c_10=Italia
+c_11=Jamaika
+c_12=Alankomaat
+c_13=Tsekki
+c_14=Slovakia
+c_15=Saksa
+c_16=Ranska
+c_17=Espanja
+c_18=Meksiko
+c_19=Argentiina
+c_20=Portugali
+c_21=Brasilia
+c_22=Etel\u00e4-Afrikka
+c_23=Latvia
+c_24=Sveitsi
+c_25=Suomi
+c_26=Slovenia
+c_27=Norja
+c_28=Belgia
+c_29=Tanska
+c_30=It\u00e4valta
+c_31=Routsi
+c_32=Irlanti
+c_33=Eesti
+c_34=Kroatia
+c_35=Uruguay
+c_36=Kolumbia
+c_37=Peru
+c_38=Nigeria
+c_39=Serbia
+c_40=Wales
+c_41=Turkki
+c_42=Chile
+c_43=Ven\u00e4j\u00e4
+c_44=Venezuela
+c_45=Liettua
+c_46=Valko-Ven\u00e4j\u00e4
+c_47=Bosnia-Hertsegovina
+c_48=Egypti
+c_49=Kreikka
+c_50=Ghana
+c_51=Intia
+c_52=Israel
+c_53=Albania
+c_54=Bulgaria
+c_55=Luxemburg
+c_56=Makedonian tasavalta
+c_57=Bolivia
+c_58=Equador
+c_59=Malesia
+c_60=Hong Kong
+c_61=Dominikaaninen tasavalta
+c_62=Japani
+c_63=Islanti
+c_64=Ukraina
+c_65=Indonesia
+c_66=Armenia
+c_67=Malta
+c_68=Honduras
+c_69=Moldavia
+c_70=Costa Rica
+c_71=Andorra
+
+c_73=Panama
+
+c_75=Montenegro
+c_76=Kenia
+
+c_78=Etel\u00e4-Korea
+c_79=Azerbaidzhan
+c_80=Kamerun
+c_82=Kiina
+c_81=Senegal
+c_83=Singapore
+c_84=Vietnam
+c_85=Kypros
+c_86=Iran
+c_87=Tunisia
+c_88=Saudi-Arabia
+c_89=Marokko
+c_90=Thaimaa
+c_97=Kuuba
+
+#. Skill and supporter levels
+skill_0=tuhoisa
+skill_1=onneton
+skill_2=kurja
+skill_3=kehno
+skill_4=heikko
+skill_5=v\u00e4ltt\u00e4v\u00e4
+skill_6=kelvollinen
+skill_7=hyv\u00e4
+skill_8=vahva
+skill_9=eritt\u00e4in hyv\u00e4
+skill_10=erinomainen
+skill_11=mahtava
+skill_12=loistava
+skill_13=uskomaton
+skill_14=k\u00e4sitt\u00e4m\u00e4t\u00f6n
+skill_15=maaginen
+skill_16=utopinen
+skill_17=jumalainen
+mood_1=ovat raivoissaan
+mood_2=ovat menett\u00e4m\u00e4ss\u00e4 toivonsa
+mood_3=ovat masentuneita
+mood_4=uskovat joukkueeseensa
+mood_5=ovat tyytyv\u00e4isi\u00e4
+mood_6=ovat ihastuneita joukkueensa suorituksiin
+mood_7=ovat silmitt\u00f6m\u00e4n rakastuneita joukkueeseensa
+
+#. Squad Summary Panel
+averageage=Keski-ik\u00e4:
+averageform=Keskim\u00e4\u00e4r\u00e4inen kunto:
+totalplayers=Pelaajia:
+natplayers=Suomalaiset pelaajat:
+fgnplayers=Ulkomaiset pelaajat:
+totalsalary=Palkat:
+averagesalary=Keskim\u00e4\u00e4r\u00e4inen palkka:
+totalvalue=Kokonaisarvo:
+averagevalue=Arvo keskim\u00e4\u00e4rin:
+money=Varat:
+rank=Sijoituspisteet:
+fans=Fanit:
+fanclubmood=Fanien mieliala:
+
+#. Options dialog
+language=Kieli
+country=Maa
+currencyrate=Valuutta kurssi
+currencysymbol=Valuutta symboli
+lowskill=Riitt\u00e4v\u00e4n taidon alataso
+tt_lowskill=T\u00e4m\u00e4 taitotaso ja sit\u00e4 alemmat taidot, katsotaan "matalaksi"
+highskill=Korkean taidon alataso
+tt_highskill=T\u00e4m\u00e4 taitotaso ja sit\u00e4 korkeammat arvot katsotaan "korkeaksi"
+seasonreference=Vertailu kausi
+seasonreferencestart=Vertailtavan kauden alku.
+tt_seasonreference=Vertailukausi kalentereille. Annettu arvo vastaa Sokker kautta, joka alkaa maassasi merkityst\u00e4 p\u00e4iv\u00e4yksest\u00e4.
+tt_seasonreferencestart=Vertailukauden aloitus p\u00e4iv\u00e4m\u00e4\u00e4r\u00e4. Vertailukausi alkaa merkittyn\u00e4 p\u00e4iv\u00e4n\u00e4 maassasi.
+autosendtontdb=L\u00e4het\u00e4 pelaajatiedot MJ-tietokantaan.
+tt_autosendtontdb=L\u00e4het\u00e4 automaattisesti pelaajien tiedot Maajoukkueen tietokantaan. Aseta MJ:n asetukset tiedostoon (resources/ntdb_urls.txt)
+autochecknewversion=Tarkista versio SO:n K\u00e4ynnistyess\u00e4
+tt_autochecknewversion=Tarkista versio automaattisesti SO:n k\u00e4ynnistyess\u00e4.
+
+#. Position's short names
+pos_20=PA
+pos_30=KK
+pos_40=HY
+pos_10=MV
+pos_21=LP
+pos_22=KP
+pos_23=LIB
+pos_31=PKK
+pos_32=KK
+pos_33=HKK
+pos_35=LH
+pos_41=HY
+pos_42=KHY
+pos_left=V%
+pos_right=O%
+
+#. Position's long (extended) names
+posext_20=Puolustaja
+posext_30=Keskikentt\u00e4
+posext_40=Hy\u00f6kk\u00e4\u00e4j\u00e4
+posext_10=Maalivahti
+posext_21=Laitapuolustaja
+posext_22=Keskupuolustaja
+posext_23=Libero
+posext_31=Puol. keskikentt\u00e4
+posext_32=Keskikentt\u00e4
+posext_33=Hy\u00f6k. keskikentt\u00e4
+posext_35=Laituri
+posext_41=Hy\u00f6kk\u00e4\u00e4j\u00e4
+posext_42=K\u00e4rki
+posext_left=Vasen %
+posext_right=Oikea %
+
+#. Misc
+season=Kausi
+comparedata=Vertaile Taitoja eri aikoina
+weeksingraph=Viikot Grafiikkana
+managernotes=Managerin muistio
+savesnapshot=Tallenna tilanne
+deleteforever=Poista lopullisesti
+confirmdelete=Varmista poisto
+
+#. skill names
+skn_form=Kunto
+skn_stamina=Kest\u00e4vyys
+skn_pace=Nopeus
+skn_technique=Tekniikka
+skn_passing=Sy\u00f6tt\u00e4minen
+skn_keeper=Maalivahti
+skn_defender=Puolustus
+skn_playmaker=Pelinrakennus
+skn_scorer=Hy\u00f6kk\u00e4ys
+skn_experience=kokemus
+skn_teamwork=Yhteisty\u00f6kyky
+skn_tactdiscip=Taktiikkataito
+
+#. Formula Editor
+formmodifier=Kuntokerroin (\%)
+player=Pelaaja
+ratingforpos=Arvio pelipaikalle
+withform=Kunto huomioitu
+withoutform=Kuntoa huomioimatta
+set=Aseta
+tt_set=Aseta kaava n\u00e4ihin arvoihin
+undo=Peruuta
+tt_undo=Palauta kaavan alkuper\u00e4iset arvot
+reset=Palauta
+tt_reset=Palauta alkuper\u00e4iset arvot. Menet\u00e4t omat asetuksesi lopullisesti!
+
+#. Credits
+author=Tekij\u00e4
+translator=K\u00e4\u00e4nt\u00e4j\u00e4
+
+#. League Table Panel
+ch_team=Joukkue
+ch_matchesplayed=Ott.
+ch_matchwins=Voitot
+ch_matchdraws=Tasan
+ch_matchlosses=H\u00e4vi\u00f6t
+ch_goalsfavour=Tehdyt.m.
+ch_goalsagainst=P\u00e4\u00e4stetyt.m.
+ch_goaldiff=Maaliero
+ch_points=Pisteet
+tt_round=Kierros
+tt_place=Sijoitus
+graph=Kaavio
+fixture=Otteluohjelma
+deletetable=Tuhoa taulukko
+exportxml=Vie XML tiedostoksi
+
+#. reports
+trainingreport=Viikottainen harjoittelu
+juniorreport=Juniorien kehitys
+playerreport=Pelaajatiedot
+generate=Suorita
+schoolreport=Juniorikoulun raportti
+
+#. SokkerMon Importer
+unrecogskill=Tunnistamaton taitotaso: %
+
+#. Flags Plugin
+fp_flag=lippu$lippua
+fp_player=pelaaja$pelaajat
+fp_visited=Vieraillut maat
+fp_hosted=Vierailijat
+fp_tripto=Vieraillut kohteet %
+fp_visitsfrom=Vierailijoita %
+fp_currentpflags=Pelaajien liput
+fp_formerpflags=Menetetyt liput
+fp_currentpfrom=Nykyiset pelaajat %
+fp_formerpfrom=Entiset pelaajat %
+fp_newflags=Uudet Liput
+fp_newvisited=Uudet vier. maat
+fp_newhosted=Uudet vierailijat
+fp_notvisitedyet=Ei k\u00e4ydyt maat
+fp_nothostedyet=Vierailija maat
+fp_addflags=Lis\u00e4\u00e4 n\u00e4m\u00e4
+fp_removeflags=Poista n\u00e4m\u00e4
+fp_updateflags=P\u00e4ivit\u00e4 liput
+tt_fp_updateflags=Liput p\u00e4ivitet\u00e4\u00e4n ottelutietojen mukaisesti
+
+#. Match IDs list importer
+inputmatchids=Sy\u00f6t\u00e4 ottelu ID:t
+typematchidshere=Sy\u00f6t\u00e4 ottelu ID t\u00e4h\u00e4n ja paina enteri\u00e4
+dragmatcheshere=Ved\u00e4 (tai leikkaa/ liimaa) ottelujesi otteluteksti t\u00e4h\u00e4n.
+
+#. Text Editing
+cut=Leikkaa
+copy=kopioi
+paste=liit\u00e4
+bold=Lihavoi
+italic=Kursivoi
+underline=Alleviivaa
+
+#. Player stats Panel
+filter_allskills=Kaikki taidot
+filter_overall=kokonais lis\u00e4ys
+
+#. Updater
+newversion=Uusi versio saatavilla
+langupdates=Kielip\u00e4ivityksi\u00e4 saatavilla
+update=P\u00e4ivit\u00e4
+dl_updatingso=P\u00e4ivitet\u00e4\u00e4n SO
+restart=K\u00e4ynnist\u00e4
+restartmsg=Vahvista muutokset k\u00e4ynnist\u00e4m\u00e4ll\u00e4 SO
+
+#. Training Panel
+trainerjob=Teht\u00e4v\u00e4
+job0=Ei mit\u00e4\u00e4n
+job1=P\u00e4\u00e4valmentaja
+job2=Valmentaja
+job3=Juniori joukkue
+ch_trainerskill=Valmennustaito
+changetraining=Muuta harjoitusk\u00e4skyt
+tt_changetraining=Klikkaa harjoittelun vaihtamiseksi
+datastatus=Data % asti
+datasetmanually=Data asetettu manuaalisesti
+week=Viikot
+order=K\u00e4skytys
+trainlevel=Harjoituksen taso
+residuallevel=Harjoitusta j\u00e4ljell\u00e4
+assistantstotal=Apuvalmentajien kokonaistaito
+minutestrained=Harjoitusminuutit
+orderplayed=Pelattu k\u00e4skytys
+
+#. Matches Panel
+competition=Ottelutyyppi
+weather=S\u00e4\u00e4
+opponent=Vastustaja
+spectators=Katsojat
+score=Tulos
+victory=Voitto
+draw=Tasapeli
+defeat=Tappio
+national=Kotimainen
+internat=Kansainv\u00e4linen
+local=Koti
+visitor=Vieras
+official=Sarjaottelu
+friendly=Yst\u00e4vyysottelu
+league=Sarja
+cup=Cup
+quali=Karsinta
+totalmatches=Ottelut yhteens\u00e4
+matcheswon=Voitetut ottelut
+matchesdrawn=Tasapelit
+matcheslost=H\u00e4vityt ottelut
+goalsfavour=Tehdyt maalit
+goalsagainst=P\u00e4\u00e4stetyt maalit
+goaldiff=Maaliero
+shots=Laukaukset
+fouls=Virheet
+yellowcards=Keltaiset kortit
+redcards=Punaiset kortit
+shootefficiency=Maalisuhde
+avgattendance=Katsojia kesk.
+avgpossession=Hallinta kesk.
+avgplayinhalf=Pelattu alueella
+avgscoring=Hy\u00f6kk\u00e4ys keskiarvo
+avgpassing=Sy\u00f6tt\u00e4minen keskiarvo
+avgdefending=Puolustus keskiarvo
+

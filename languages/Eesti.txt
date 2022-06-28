@@ -1,0 +1,466 @@
+#! Estonian text file
+langver=0.83
+translator_name=Ilvezz, energia
+englishname=estonian
+
+#. Menus
+data=Andmed
+config=Konfigureeri
+download=Lae andmed
+downloadall=Lae alla kogu data
+downloadbasic=Lae alla p\u00f5hiline data
+tt_downloadbasic=Klubi, M\u00e4ngijad, Treenerid, Staadion
+downloadleaguem=Lae alla liiga ja m\u00e4ngud
+downloadhistoric=Lae alla vanemad m\u00e4ngud
+importhtml=HTML fail(id)
+importext=V\u00e4lisest programmist...
+import=Import...
+importxml=XML fail(id)
+options=Valikud
+exit=V\u00e4lju
+formulas=Valemid
+credits=Programmist
+info=Info
+reports=Raportid
+utils=Vahendid
+curconvert=Valuuta konverteerija
+checknewversion=Uuenda praegust SO versiooni
+sendtontdb=Saada andmed SoNTDB saitidele
+
+#. Tabs
+squad=Meeskond
+lineup=Koosseisu haldur
+playerstats=M\u00e4ngijate statistika
+datamanager=Andmete haldur
+settings=Seaded
+juniorschool=Noortekool
+stadium=Staadion
+leaguetable=Liigatabel
+flagcollection=Lipukollektsioon
+training=Treening
+matches=M\u00e4ngud
+
+#. Table Column Headers
+ch_name=Nimi
+ch_age=Vanus
+ch_bestposition=Parim pos.
+ch_form=VORM
+ch_stamina=VASTUPIDAVUS
+ch_pace=KIIRUS
+ch_technique=TEHNIKA
+ch_passing=S\u00d6\u00d6TMINE
+ch_keeper=V\u00c4RAVAVAHT
+ch_defender=KAITSJA
+ch_playmaker=M\u00c4NGUJUHT
+ch_scorer=R\u00dcNDAJA
+ch_matches=M\u00e4ngud
+ch_goals=V\u00e4ravad
+ch_assists=Res. s\u00f6\u00f6dud
+ch_state=Seisund
+ch_value=V\u00e4\u00e4rtus
+ch_salary=Palk
+ch_id=ID
+ch_weeks=N\u00e4dalad
+ch_skill=Tase
+ch_skillup_count=Arenemisi
+ch_average_weeks_per_skillup=Andekus n\u00e4dalates
+ch_initial_weeks= Algselt n\u00e4dalaid
+ch_initial_skill=Algne oskus
+ch_tactdiscip=T.D.
+ch_experience=Kogemus
+ch_teamwork=Meeskonnat\u00f6\u00f6
+ch_projected_level=Klubiga liitumisel
+ch_weeks_since_pop=Pole arenenud
+ch_money_spent=Koha eest makstud
+ch_date=Kuup\u00e4ev
+ch_rating=Mark
+ch_position=Pos. nr.
+ch_order=K\u00e4sklus
+ch_time=Aeg
+ch_shots=L\u00f6\u00f6gid
+ch_fouls=Vead
+ch_offpercent=R\u00fcnne
+ch_defpercent=Kaitse
+ch_squad=Rivistus
+ch_playedinlastmastch=MVM
+ch_sendtontdb=SoNTDB
+
+#. Table Header ToolTip
+tt_tableheader=Kliki j\u00e4rjestamiseks; Shift-Click vastupidiseks j\u00e4rjestamiseks; Control-Click teise j\u00e4rjestuskriteeriumi lisamiseks
+tt_ch_weeks=N\u00e4dalaid klubiga liitumiseks
+tt_ch_skill=Noore oskus
+tt_ch_skillup_count=Arenemiste arv
+tt_ch_average_weeks_per_skillup=Keskmiselt n\u00e4dalaid arenemiseks
+tt_ch_projected_level=Eeldatav tase noortekoolist v\u00e4ljudes
+tt_ch_initial_weeks=Algselt n\u00e4dalaid
+tt_ch_initial_skill=Tase noortekooliga liitudes
+tt_ch_weeks_since_pop=N\u00e4dalate arv eelmisest arenemisest
+tt_ch_money_spent=Koha eest makstud raha (n\u00e4dalas 16 000 kr iga noore pealt)
+
+#. Connection
+connecting=\u00dchendan...
+login=Login
+username=Kasutajanimi
+password=Parool
+downloadingxml=Laen XML'i alla...
+beginsession=Alusta laadimist
+dl_league=Liigatabel
+dl_training=Treening
+dl_economy=Finantsseis
+dl_matches=M\u00e4ngud
+dl_matchid=M\u00e4ngu ID
+dl_team=Klubi Data
+dl_players=M\u00e4ngijad
+dl_juniors=Noored
+logoff=Logi v\u00e4lja
+useproxy=Kasuta HTTP proxyt
+proxyhost=Proxy hostija (v\u00f5i IP)
+proxyport=Proxy port
+useproxyauth=Kasuta HTTP proxy autentiseerimist
+proxyusername=Proxy kasutajanimi
+proxypassword=Proxy parool
+
+#. Errors
+err_unknownhost=Tundmatu hostija. \u00dchendus puudub %
+err_invaliddate=Vale kuup\u00e4ev
+err_loginfailed=Sisselogimine eba\u00f5nnestus!
+err_nocountryset=Veendu, et oled \u00f5igesti sisestanud oma riigi konfiguratsiooni alt
+err_nocurrencyrate=Valuuta vahetuskurssi % jaoks pole m\u00e4\u00e4ratud.
+
+#. Dialog titles
+error=Viga
+inputdate=Sisestamise kuup\u00e4ev
+
+#. Country Names
+c_71=Andorra
+c_19=Argentina
+c_6=Austraalia
+c_79=Aserbaid\u017eaan
+c_46=Valgevene
+c_28=Belgia
+c_57=Boliivia
+c_47=Bosnia ja Hertsegoviina
+c_21=Brasiilia
+c_54=Bulgaaria
+c_80=Kamerun
+c_5=Kanada
+c_13=T\u0161ehhi
+c_42=T\u0161iili
+c_36=Colombia
+c_70=Costa Rica
+c_75=Montenegro
+c_40=Wales
+c_78=L\u00f5una-Korea
+c_29=Taani
+c_15=Saksamaa
+c_58=Ecuador
+c_33=Eesti
+c_3=Inglismaa
+c_17=Hispaania
+c_16=Prantsusmaa
+c_50=Ghana
+c_77=Guatemala
+c_66=Armeenia
+c_49=Kreeka
+c_68=Honduras
+c_60=Hongkong
+c_34=Horvaatia
+c_51=India
+c_65=Indoneesia
+c_32=Iirimaa
+c_63=Island
+c_52=Iisrael
+c_10=Itaalia
+c_76=Keenia
+c_45=L\u00e4ti
+c_23=Leedu
+c_8=Ungari
+c_56=Makedoonia
+c_59=Malaisia
+c_67=Malta
+c_18=Mehhiko
+c_69=Moldova
+c_12=Holland
+c_2=Uus-Meremaa
+c_38=Nigeeria
+c_62=Jaapan
+c_27=Norra
+c_30=Austria
+c_73=Panama
+c_72=Paraguay
+c_37=Peruu
+c_1=Poola
+c_20=Portugal
+c_61=Dominikaani Vabariik
+c_9=Rumeenia
+c_43=Venemaa
+c_24=\u0160veits
+c_7=\u0160otimaa
+c_81=Senegal
+c_53=Albaania
+c_26=Sloveenia
+c_14=Slovakkia
+c_22=L\u00f5una-Aafrika Vabariik
+c_39=Serbia
+c_25=Soome
+c_31=Rootsi
+c_41=T\u00fcrgi
+c_64=Ukraina
+c_35=Uruguay
+c_4=USA
+c_44=Venezuela
+c_82=Hiina
+c_89=Maroko
+c_88=Saudi Araabia
+c_86=Iraan
+c_55=Luksemburg
+c_48=Egiptus
+c_83=Singapur
+c_87=Tuneesia
+c_84=Vietnam
+c_85=K\u00fcpros
+
+#. Skill and supporter levels
+skill_0=Traagiline
+skill_1=Lootusetu
+skill_2=Mitterahuldav
+skill_3=Vilets
+skill_4=N\u00f5rk
+skill_5=Puudulik
+skill_6=Piisav
+skill_7=Keskmine
+skill_8=Hea
+skill_9=V\u00e4ga hea
+skill_10=Suurep\u00e4rane
+skill_11=Muljetavaldav
+skill_12=Silmapaistev
+skill_13=H\u00e4mmastav
+skill_14=Hiilgav
+skill_15=Maagiline
+skill_16=\u00dcleloomulik
+skill_17=Jumalik
+mood_1=on vihased
+mood_2=on kaotamas lootust
+mood_3=on masenduses
+mood_4=usuvad oma klubisse
+mood_5=on rahul
+mood_6=on vaimustatud klubi esitusest
+mood_7=on meeletult armunud oma klubisse
+
+#. Squad Summary Panel
+averageage=Keskmine vanus:
+averageform=Keskmine vorm:
+totalplayers=M\u00e4ngijaid kokku:
+natplayers=Rahvusm\u00e4ngijaid:
+fgnplayers=V\u00f5\u00f5rm\u00e4ngijaid:
+totalsalary=Kogupalk:
+averagesalary=Keskmine palk:
+totalvalue=Koguv\u00e4\u00e4rtus:
+averagevalue=Keskmine v\u00e4\u00e4rtus:
+money=Finants:
+rank=Edetabeli punkte:
+fans=F\u00e4nne:
+fanclubmood=F\u00e4nnide tuju:
+
+#. Options dialog
+language=Keel
+country=Riik
+currencyrate=Vahetuskurss
+currencysymbol=Valuuta s\u00fcmbol
+lowskill=Madala oskuse l\u00e4vi
+highskill=K\u00f5rge oskuse l\u00e4vi
+seasonreference=Praegune hooaeg
+seasonreferencestart=Praeguse hooaja algus
+tt_lowskill=Oskused, mida programm n\u00e4itab "madalana"
+tt_highskill=Oskused, mida programm n\u00e4itab "k\u00f5rgena"
+tt_seasonreference=Praegune hooaeg kalendrite jaoks. Number n\u00e4itab Sokkeri hooaega sinu riigis, mis algab allpool oleval kuup\u00e4eval
+tt_seasonreferencestart=Praeguse hooaja algus. Praegune hooaeg algab sel kuup\u00e4eval sinu riigis
+autosendtontdb=Saada m\u00e4ngijate andmed automaatselt RK databaasi
+tt_autosendtontdb=Automaatselt saada valitud m\u00e4ngijad SoNTDB vastavatele lehtedele (m\u00e4\u00e4ratud resources/ntdb_urls.txt)
+autochecknewversion=Kontrolli uut SO versiooni programmi k\u00e4ivitamisel
+tt_autochecknewversion=Kontrollib uut versiooni automaatselt programmi k\u00e4ivitamisel
+
+#. Position's short names
+pos_20=DEF
+pos_30=MID
+pos_40=ATT
+pos_10=GK
+pos_21=WB
+pos_22=CB
+pos_23=SW
+pos_31=DM
+pos_32=CM
+pos_33=AM
+pos_35=WM
+pos_41=FW
+pos_42=ST
+pos_left=L%
+pos_right=R%
+
+#. Position's long (extended) names
+posext_20=Kaitsja
+posext_30=Poolkaitsja
+posext_40=R\u00fcndaja
+posext_10=V\u00e4ravavaht
+posext_21=\u00c4\u00e4rekaitsja
+posext_22=Keskkaitsja
+posext_23=Libero
+posext_31=Kaitsev poolkaitsja
+posext_32=Keskpoolkaitsja
+posext_33=R\u00fcndav poolkaitsja
+posext_35=\u00c4\u00e4r
+posext_41=R\u00fcndaja
+posext_42=Kesktormaja
+posext_left=Vasak %
+posext_right=Parem %
+
+#. misc
+season=Hooaeg
+comparedata=V\u00f5rdle andmeid
+weeksingraph=N\u00e4dalaid graafikuliselt
+newversion=Uus versioon % on saadaval!
+managernotes=Omaniku m\u00e4rkmed
+savesnapshot=Salvesta pilt
+deleteforever=Kustuta see l\u00f5plikult
+confirmdelete=Kinnita kustutamine
+
+#. skill names
+skn_form=Vorm
+skn_stamina=Vastupidavus
+skn_pace=Kiirus
+skn_technique=Tehnika
+skn_passing=S\u00f6\u00f6tmine
+skn_keeper=V\u00e4ravavaht
+skn_defender=Kaitsja
+skn_playmaker=Mangujuht
+skn_scorer=R\u00fcndaja
+skn_experience=Kogemus
+skn_teamwork=Meeskonnat\u00f6\u00f6
+skn_tactdiscip=Taktikaline distsipliin
+
+#. Formula Editor
+formmodifier=Vormi muutuja (\%)
+player=M\u00e4ngija
+ratingforpos=Positsiooni reiting
+withform=Vormiga
+withoutform=Vormita
+set=M\u00e4\u00e4ra
+tt_set=M\u00e4\u00e4ra nende v\u00e4\u00e4rtuste valem
+undo=Undo
+tt_undo=Algseadista valem endistele v\u00e4\u00e4rtusele
+reset=Algseadista
+tt_reset=Algseadista valem vaikimisi valikule
+
+#. Credits
+author=Autor
+translator=T\u00f5lkija(d)
+
+#. League Table Panel
+ch_team=Klubi
+ch_matchesplayed=M\u00e4nge
+ch_matchwins=V\u00f5ite
+ch_matchdraws=Viike
+ch_matchlosses=Kaotusi
+ch_goalsfavour=V\u00e4ravaid l\u00f6\u00f6dud
+ch_goalsagainst=V\u00e4ravaid saadud
+ch_goaldiff=V\u00e4ravatevahe
+ch_points=Punkte
+tt_round=Voor
+tt_place=Koht
+graph=Graafik
+fixture=Ajakava
+deletetable=Kustuta tabel
+exportxml=Ekspordi XML
+
+#. reports
+trainingreport=Treeningu raport
+juniorreport=Noortekooli raport
+playerreport=M\u00e4ngija info
+generate=Genereeri
+
+#. SokkerMon Importer
+unrecogskill=Tundmatu oskuse tase: %
+
+#. Flags Plugin
+fp_flag=lipp$lippu
+fp_player=m\u00e4ngija$m\u00e4ngijad
+fp_visited=K\u00fclastatud riigid
+fp_hosted=V\u00f5\u00f5rustatud riigid
+fp_tripto=K\u00fclastusi %
+fp_visitsfrom=V\u00f5\u00f5rustusi %
+fp_currentpflags=Praegused m\u00e4ngijad
+fp_formerpflags=Endised m\u00e4ngijad
+fp_currentpfrom=Praegu m\u00e4ngijaid %
+fp_formerpfrom=Endisi m\u00e4ngijaid %
+fp_newflags=Uued lipud
+fp_newvisited=Uued k\u00fclastatud riigid
+fp_newhosted=Uued v\u00f5\u00f5rustatud riigid
+fp_notvisitedyet=K\u00fclastamata riigid
+fp_nothostedyet=V\u00f5\u00f5rustamata riigid
+fp_addflags=Lisa need
+fp_removeflags=Eemalda need
+fp_updateflags=Uuenda lippe
+tt_fp_updateflags=Lipud uuenevad vastavalt m\u00e4ngude andmetele databaasis
+
+#. Match IDs list importer
+inputmatchids=Sisesta m\u00e4ngu ID(-d)
+typematchidshere=Kirjuta m\u00e4ngu ID siia ja vajuta Enterit
+dragmatcheshere=Tiri (v\u00f5i kopeeri) enda online.sokker.org m\u00e4ngude lehe tekst siia
+
+#. Text Editing
+cut=L\u00f5ika
+copy=Kopeeri
+paste=Kleebi
+bold=Paks kiri
+italic=Kaldkiri
+underline=Allajoonitud
+
+#. Player stats Panel
+filter_allskills=K\u00f5ik oskused
+filter_overall=\u00dcldine areng
+
+#. Updater
+langupdates=Uued t\u00f5lked saadaval!
+update=Uuendus
+dl_updatingso=Uuendan SO-d
+restart=Taask\u00e4ivita
+restartmsg=Uuenduste n\u00e4gemiseks taask\u00e4ivita SO
+
+#. Training Panel
+trainerjob=M\u00e4\u00e4ratlus
+job0=Puudub
+job1=Peatreener
+job2=Abitreener
+job3=Noortemeeskonna treener
+ch_trainerskill=\u00dcLDINE
+changetraining=Muuda j\u00e4\u00e4davalt treeningu k\u00e4sklusi
+tt_changetraining=Topeltkl\u00f5ps selle n\u00e4dala treeningu muutmiseks
+datastatus=Andmed seisuga %
+datasetmanually=Data m\u00e4\u00e4rati manuaalselt
+week=N\u00e4dal
+order=Formatsioon
+trainlevel=Treenitava oskuse tase peatreeneril
+residuallevel=\u00dcldtreening
+assistantstotal=Abitreenerite \u00fcldoskuste summa
+minutestrained=Minutid
+orderplayed=K\u00e4sklus
+
+#. Matches Panel
+competition=V\u00f5istlus
+weather=Ilm
+opponent=Vastane
+spectators=Publik
+score=Tulemus
+victory=V\u00f5it
+draw=Viik
+defeat=Kaotus
+national=Rahvuslik
+internat=Rahvusvaheline
+local=Kodus
+visitor=V\u00f5\u00f5rsil
+official=Ametlik
+friendly=S\u00f5prusm\u00e4ng
+league=Liiga
+cup=Karikas
+quali=Kvalifikatsioon
+

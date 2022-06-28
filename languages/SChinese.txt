@@ -1,0 +1,398 @@
+#! Simplified Chinese text file
+langver=0.85
+translator_name=tnds
+englishname=simplified_chinese
+
+#. Menus
+data=\u6570\u636e
+config=\u8bbe\u7f6e
+downloadall=\u4e0b\u8f7d\u6240\u6709\u5185\u5bb9
+downloadbasic=\u4e0b\u8f7d\u57fa\u7840\u6570\u636e
+tt_downloadbasic=\u7403\u961f\u4fe1\u606f\uff0c\u7403\u5458\uff0c\u6559\u7ec3\uff0c\u7403\u573a
+downloadleaguem=\u4e0b\u8f7d\u8054\u8d5b\u4fe1\u606f
+downloadhistoric=\u4e0b\u8f7d\u5386\u53f2\u6bd4\u8d5b
+import=\u5bfc\u5165...
+importxml=XML\u6587\u4ef6
+importhtml=HTML\u6587\u4ef6
+importext=\u4ece\u5916\u90e8\u7a0b\u5e8f...
+sendtontdb=\u5c06\u6570\u636e\u53d1\u9001\u5230 "SoNTDB" \u7f51\u7ad9
+options=\u9009\u9879
+exit=\u9000\u51fa
+formulas=\u516c\u5f0f
+info=\u4fe1\u606f
+credits=\u4f5c\u8005
+reports=\u62a5\u544a
+utils=\u5de5\u5177
+curconvert=\u8d27\u5e01\u8f6c\u6362
+checknewversion=\u68c0\u67e5\u66f4\u65b0
+
+#. Tabs
+squad=\u9635\u5bb9
+lineup=\u6392\u9635
+playerstats=\u7403\u5458\u72b6\u6001
+datamanager=\u6570\u636e\u7ba1\u7406\u5668
+settings=\u8bbe\u7f6e
+juniorschool=\u9752\u5e74\u961f
+stadium=\u4f53\u80b2\u573a
+leaguetable=\u8054\u8d5b\u79ef\u5206\u699c
+flagcollection=\u65d7\u5e1c\u6536\u96c6
+training=\u8bad\u7ec3
+matches=\u6bd4\u8d5b
+
+#. Table Column Headers
+ch_name=\u59d3\u540d
+ch_age=\u5e74\u9f84
+ch_bestposition=\u6700\u4f73\u4f4d\u7f6e
+ch_form=\u72b6\u6001
+ch_tactdiscip=\u6218\u672f\u601d\u60f3
+ch_experience=\u7ecf\u9a8c
+ch_teamwork=\u56e2\u961f\u7cbe\u795e
+ch_stamina=\u4f53\u80fd
+ch_pace=\u901f\u5ea6
+ch_technique=\u6280\u672f
+ch_passing=\u4f20\u7403
+ch_keeper=\u5b88\u95e8
+ch_defender=\u9632\u5b88
+ch_playmaker=\u7ec4\u7ec7
+ch_scorer=\u8fdb\u653b
+ch_matches=\u6bd4\u8d5b\u573a\u6570
+ch_goals=\u8fdb\u7403
+ch_assists=\u52a9\u653b
+ch_state=\u72b6\u6001
+ch_value=\u4ef7\u503c
+ch_salary=\u5de5\u8d44
+ch_id=ID
+ch_weeks=\u5468\u6570
+ch_skill=\u6280\u80fd
+ch_skillup_count=\u589e\u51cf
+ch_average_weeks_per_skillup=\u5e73\u5747\u503c
+ch_projected_level=\u76ee\u6807\u7ea7\u522b
+ch_initial_weeks=\u521d\u59cb\u5468\u6570
+ch_initial_skill=\u521d\u59cb\u6280\u80fd
+ch_weeks_since_pop=\u6ca1\u6709\u589e\u957f:
+ch_money_spent=\u82b1\u8d39
+ch_date=\u65e5\u671f
+ch_rating=\u8bc4\u4ef7
+ch_position=\u53f7\u7801
+ch_order=\u4e0a\u573a\u4f4d\u7f6e
+ch_time=\u4e0a\u573a\u65f6\u95f4
+ch_shots=\u5c04\u95e8
+ch_fouls=\u72af\u89c4
+ch_offpercent=\u8fdb\u653b \%
+ch_defpercent=\u9632\u5b88 \%
+ch_squad=\u9635\u5bb9
+ch_playedinlastmastch=\u5728\u4e0a\u4e00\u573a\u6bd4\u8d5b\u4e0a\u573a
+ch_sendtontdb=\u53d1\u9001\u5230NTDB
+
+#. Table Header ToolTip
+tt_tableheader=\u70b9\u51fb\u6392\u5e8f\uff1bShift+\u5355\u51fb\u9006\u5e8f\uff1bCtrl+\u5355\u51fb\u589e\u52a0\u65b0\u7684\u6392\u5e8f\u6761\u4ef6
+tt_ch_weeks=\u664b\u5347\u6210\u5e74\u961f\u8fd8\u9700\u8981\u7684\u65f6\u95f4
+tt_ch_skill=\u9752\u5e74\u961f\u7ea7\u522b\u3002\u4ed6\u7684\u5b9e\u9645\u6280\u80fd\u53ef\u80fd\u662f\u8fd9\u4e2a\u6570\u503c\u76843\u500d\u5de6\u53f3
+tt_ch_skillup_count=\u5347\u7ea7\u6570
+tt_ch_average_weeks_per_skillup=\u5e73\u5747\u6bcf\u5468\u5347\u7ea7\u6570
+tt_ch_projected_level=\u4f30\u8ba1\u7684\u664b\u5347\u540e\u7ea7\u522b
+tt_ch_initial_weeks=\u521d\u59cb\u5468\u6570
+tt_ch_initial_skill=\u521d\u59cb\u6280\u80fd
+tt_ch_weeks_since_pop=\u4e0a\u6b21\u5347\u7ea7\u8ddd\u4eca\u5468\u6570
+tt_ch_money_spent=\u82b1\u8d39\u5728\u8be5\u7403\u5458\u4e0a\u7684\u8d44\u91d1
+
+#. Connection
+connecting=\u8fde\u63a5\u4e2d...
+login=\u767b\u9646
+username=\u7528\u6237\u540d
+password=\u5bc6\u7801
+downloadingxml=\u4e0b\u8f7d XML \u4e2d
+beginsession=\u521d\u59cb\u5316
+dl_league=\u8054\u8d5b\u79ef\u5206\u699c
+dl_training=\u8bad\u7ec3
+dl_economy=\u7ecf\u6d4e\u72b6\u51b5
+dl_matches=\u6bd4\u8d5b\u6570\u636e
+dl_matchid=\u6bd4\u8d5bID %
+dl_team=\u7403\u961f\u6570\u636e
+dl_players=\u7403\u5458
+dl_juniors=\u9752\u5e74\u961f
+logoff=\u6ce8\u9500
+useproxy=\u4f7f\u7528HTTP\u4ee3\u7406
+proxyhost=\u4ee3\u7406\u4e3b\u673a(\u6216 IP)
+proxyport=\u4ee3\u7406\u7aef\u53e3
+useproxyauth=HTTP\u4ee3\u7406\u9700\u8981\u7528\u6237\u540d\u548c\u5bc6\u7801
+proxyusername=\u4ee3\u7406\u7528\u6237\u540d
+proxypassword=\u4ee3\u7406\u5bc6\u7801
+
+#. Errors
+err_unknownhost=\u672a\u77e5\u4e3b\u673a\u3002\u65e0\u6cd5\u89e3\u6790 resolve %.
+err_invaliddate=\u65e5\u671f\u65e0\u6548
+err_loginfailed=\u767b\u9646\u5931\u8d25!
+err_nocountryset=\u4f7f\u7528\u6b64\u529f\u80fd\u524d\u8bf7\u786e\u4fdd\u5728\u9009\u9879\u4e2d\u6b63\u786e\u8bbe\u7f6e\u4e86\u60a8\u7684\u56fd\u5bb6\u5730\u533a\u3002
+err_nocurrencyrate=% \u7684\u8d27\u5e01\u8f6c\u6362\u7387\u6ca1\u6709\u5b9a\u4e49\u3002
+
+#. Dialog titles
+error=\u9519\u8bef
+inputdate=\u8f93\u5165\u65e5\u671f
+
+#! Country names translation may be omitted
+#. Country Names
+
+#. Skill and supporter levels
+skill_0=\u4e00\u7a8d\u4e0d\u901a
+skill_1=\u6beb\u4e0d\u8db3\u8651
+skill_2=\u521d\u5b66\u4e4d\u7ec3
+skill_3=\u7565\u77e5\u4e00\u4e8c
+skill_4=\u534a\u751f\u4e0d\u719f
+skill_5=\u9a6c\u9a6c\u864e\u864e
+skill_6=\u9a7e\u8f7b\u5c31\u719f
+skill_7=\u4e86\u7136\u4e8e\u80f8
+skill_8=\u51fa\u7c7b\u62d4\u8403
+skill_9=\u795e\u4e4e\u5176\u6280
+skill_10=\u51fa\u795e\u5165\u5316
+skill_11=\u4e00\u4ee3\u5b97\u5e08
+skill_12=\u795e\u529f\u76d6\u4e16
+skill_13=\u767b\u5cf0\u9020\u6781
+skill_14=\u9707\u53e4\u94c4\u4eca
+skill_15=\u795e\u51fa\u9b3c\u6ca1
+skill_16=\u8d85\u51e1\u5165\u5723
+skill_17=\u72ec\u5b64\u6c42\u8d25
+mood_1=\u66b4\u8df3\u5982\u96f7
+mood_2=\u6012\u53d1\u51b2\u51a0
+mood_3=\u5927\u5931\u6240\u671b
+mood_4=\u5fc3\u5e73\u6c14\u548c
+mood_5=\u5fc3\u6ee1\u610f\u8db3
+mood_6=\u4e50\u4e0d\u53ef\u652f
+mood_7=\u5982\u75f4\u5982\u9189
+
+#. Squad Summary Panel
+averageage=\u5e73\u5747\u5e74\u9f84:
+averageform=\u5e73\u5747\u72b6\u6001:
+totalplayers=\u7403\u5458\u6570:
+natplayers=\u56fd\u811a\u6570:
+fgnplayers=\u5916\u63f4\u6570:
+totalsalary=\u603b\u5de5\u8d44:
+averagesalary=\u5e73\u5747\u5de5\u8d44:
+totalvalue=\u603b\u4ef7\u503c:
+averagevalue=\u5e73\u5747\u4ef7\u503c:
+money=\u8d44\u91d1:
+rank=\u6392\u540d:
+fans=\u7403\u8ff7:
+fanclubmood=\u7403\u8ff7\u5fc3\u60c5:
+
+#. Options dialog
+language=\u8bed\u8a00
+country=\u56fd\u5bb6
+currencyrate=\u6c47\u7387
+currencysymbol=\u8d27\u5e01\u7b26\u53f7
+lowskill=\u4f4e\u6280\u80fd\u9619\u503c
+tt_lowskill=\u4e0d\u9ad8\u4e8e\u6b64\u6280\u80fd\u7ea7\u522b\u7684\u7ea7\u522b\u5c06\u88ab\u8ba4\u4e3a\u201c\u4f4e\u201d
+highskill=\u9ad8\u6280\u80fd\u9619\u503c
+tt_highskill=\u4e0d\u4f4e\u4e8e\u6b64\u6280\u80fd\u7ea7\u522b\u7684\u7ea7\u522b\u5c06\u88ab\u8ba4\u4e3a\u201c\u9ad8\u201d
+seasonreference=\u5b9a\u4e49\u8d5b\u5b63
+seasonreferencestart=\u8d5b\u5b63\u5f00\u59cb
+tt_seasonreference=\u65e5\u5386\u6240\u5f15\u7528\u7684\u8d5b\u5b63\u3002\u8f93\u5165\u7684\u6570\u5b57\u4ee3\u8868\u4f60\u6240\u5728\u56fd\u5bb6\u8d5b\u5b63\u5f00\u59cb\u65f6\u3002
+tt_seasonreferencestart=\u5f15\u7528\u8d5b\u5b63\u5f00\u59cb\u7684\u65e5\u671f\u3002\u8d5b\u5b63\u5f00\u59cb\u4e8e\u6b64\u6307\u5b9a\u65e5\u671f\u3002
+autosendtontdb=\u81ea\u52a8\u53d1\u9001\u7403\u5458\u6570\u636e\u5230 NTDB.
+tt_autosendtontdb=\u81ea\u52a8\u5c06\u9009\u62e9\u7684\u7403\u5458\u6570\u636e\u53d1\u9001\u5230\u6307\u5b9a\u7684 NTDB \u7f51\u5740 (\u5728resources/ntdb_urls.txt \u6587\u4ef6\u4e2d\u8bbe\u5b9a)
+autochecknewversion=\u542f\u52a8\u65f6\u68c0\u67e5\u65b0\u7248\u672c
+tt_autochecknewversion=\u5728\u7a0b\u5e8f\u542f\u52a8\u65f6\u81ea\u52a8\u68c0\u67e5\u65b0\u7248\u672c
+
+#. Position's short names
+pos_20=\u540e\u573a
+pos_30=\u4e2d\u573a
+pos_40=\u524d\u573a
+pos_10=\u5b88\u95e8\u5458
+pos_21=\u8fb9\u540e\u536b
+pos_22=\u4e2d\u540e\u536b
+pos_23=\u6e05\u9053\u592b
+pos_31=\u540e\u8170
+pos_32=\u4e2d\u524d\u536b
+pos_33=\u524d\u8981
+pos_35=\u8fb9\u524d\u536b
+pos_41=\u524d\u950b
+pos_42=\u4e2d\u950b
+pos_left=\u5de6%
+pos_right=\u53f3%
+
+#. Position's long (extended) names
+posext_20=\u9632\u5b88\u961f\u5458
+posext_30=\u4e2d\u573a\u961f\u5458
+posext_40=\u8fdb\u653b\u961f\u5458
+posext_10=\u5b88\u95e8\u5458
+posext_21=\u8fb9\u540e\u536b
+posext_22=\u4e2d\u540e\u536b
+posext_23=\u6e05\u9053\u592b
+posext_31=\u9632\u5b88\u578b\u4e2d\u573a
+posext_32=\u7ec4\u7ec7\u578b\u4e2d\u573a
+posext_33=\u8fdb\u653b\u578b\u4e2d\u573a
+posext_35=\u8fb9\u524d\u536b
+posext_41=\u524d\u950b
+posext_42=\u4e2d\u950b
+posext_left=\u5de6 %
+posext_right=\u53f3 %
+
+#. Misc
+season=\u8d5b\u5b63
+comparedata=\u6bd4\u8f83\u6570\u636e
+weeksingraph=\u5468\u56fe\u8868
+managernotes=\u6ce8\u91ca
+savesnapshot=\u4fdd\u5b58\u5feb\u7167
+deleteforever=P\u6c38\u4e45\u5220\u9664
+confirmdelete=\u786e\u8ba4\u5220\u9664
+
+#. skill names
+skn_form=\u72b6\u6001
+skn_stamina=\u4f53\u80fd
+skn_pace=\u901f\u5ea6
+skn_technique=\u6280\u672f
+skn_passing=\u4f20\u7403
+skn_keeper=\u5b88\u95e8
+skn_defender=\u9632\u5b88
+skn_playmaker=\u7ec4\u7ec7
+skn_scorer=\u8fdb\u653b
+skn_experience=\u7ecf\u9a8c
+skn_teamwork=\u56e2\u961f\u7cbe\u795e
+skn_tactdiscip=\u6218\u672f\u601d\u60f3
+
+#. Formula Editor
+formmodifier=\u72b6\u6001\u7f16\u8f91 (\%)
+player=\u7403\u5458
+ratingforpos=Rating for position
+withform=w\u8003\u8651\u72b6\u6001
+withoutform=\u5ffd\u7565\u72b6\u6001
+set=\u8bbe\u7f6e
+tt_set=\u516c\u5f0f\u8bbe\u7f6e\u4e3a\u8fd9\u4e9b\u503c
+undo=\u64a4\u9500
+tt_undo=\u91cd\u8bbe\u516c\u5f0f\u503c
+reset=\u91cd\u7f6e
+tt_reset=\u91cd\u7f6e\u516c\u5f0f\u5230\u9ed8\u8ba4\u503c\uff0c\u6b64\u64cd\u4f5c\u4e0d\u53ef\u64a4\u9500\uff01
+
+#. Credits
+author=\u4f5c\u8005
+translator=\u7ffb\u8bd1
+
+#. League Table Panel
+ch_team=\u7403\u961f
+ch_matchesplayed=\u8d5b
+ch_matchwins=\u80dc
+ch_matchdraws=\u5e73
+ch_matchlosses=\u8d1f
+ch_goalsfavour=\u8fdb
+ch_goalsagainst=\u5931
+ch_goaldiff=\u51c0\u80dc
+ch_points=\u79ef\u5206
+tt_round=\u8f6e\u6b21
+tt_place=\u4f4d\u7f6e
+graph=\u56fe\u8868
+fixture=\u8d5b\u7a0b
+deletetable=\u5220\u9664\u8868\u683c
+exportxml=\u5bfc\u51fa\u5230 XML
+
+#. reports
+trainingreport=\u6bcf\u5468\u8bad\u7ec3
+juniorreport=\u9752\u5e74\u7403\u5458
+playerreport=\u7403\u5458\u8bb0\u5f55
+generate\u4ea7\u751f
+schoolreport=\u9752\u5e74\u961f\u62a5\u544a
+
+#. SokkerMon Importer
+unrecogskill=\u672a\u77e5\u7b49\u7ea7: %
+
+#. Flags Plugin
+fp_flag=flag$flags
+fp_player=player$players
+fp_visited=\u5230\u8fc7\u7684\u56fd\u5bb6
+fp_hosted=\u63a5\u5f85\u8fc7\u7684\u56fd\u5bb6
+fp_tripto=\u53bb % \u65c5\u884c
+fp_visitsfrom=\u6765\u81ea % \u7684\u5ba2\u4eba
+fp_currentpflags=\u5f53\u524d\u7403\u5458\u65d7\u5e1c
+fp_formerpflags=\u524d\u7403\u5458\u65d7\u5e1c
+fp_currentpfrom=\u5f53\u524d\u7403\u5458\u6765\u81ea %
+fp_formerpfrom=\u524d\u7403\u5458\u6765\u81ea %
+fp_newflags=\u65b0\u65d7\u5e1c
+fp_newvisited=\u65b0\u5ba2\u573a
+fp_newhosted=\u65b0\u4e3b\u573a
+fp_notvisitedyet=\u5c1a\u672a\u5230\u8fc7\u7684
+fp_nothostedyet=\u5c1a\u672a\u63a5\u5f85\u8fc7\u7684
+fp_addflags=\u6dfb\u52a0
+fp_removeflags=\u5220\u9664
+fp_updateflags=\u66f4\u65b0
+tt_fp_updateflags=\u65d7\u5e1c\u5c06\u4f1a\u6839\u636e\u6570\u636e\u5e93\u4e2d\u7684\u8bb0\u5f55\u66f4\u65b0
+
+#. Match IDs list importer
+inputmatchids=\u8f93\u5165\u6bd4\u8d5bID
+typematchidshere=\u5728\u6b64\u8f93\u5165\u6bd4\u8d5bID\uff0c\u5e76\u56de\u8f66
+dragmatcheshere=\u62d6\u66f3\uff08\u6216\u8005\u590d\u5236-\u7c98\u8d34\uff09 Sokker \u6bd4\u8d5b\u9875\u9762
+
+#. Text Editing
+cut=\u526a\u5207
+copy=\u590d\u5236
+paste=\u7c98\u8d34
+bold=\u7c97\u4f53
+italic=\u659c\u4f53
+underline=\u4e0b\u5212\u7ebf
+
+#. Player stats Panel
+filter_allskills=\u6240\u6709\u6280\u80fd
+filter_overall=\u603b\u4f53\u6210\u957f
+
+#. Updater
+newversion=\u65b0\u7248\u672c\u53ef\u7528\uff01 % 
+langupdates=\u6709\u65b0\u7684\u8bed\u8a00\u5305\u66f4\u65b0\uff01
+update=\u66f4\u65b0
+dl_updatingso=\u66f4\u65b0 SO
+restart=\u91cd\u65b0\u542f\u52a8\u7a0b\u5e8f
+restartmsg=\u8981\u4f7f\u53d8\u52a8\u751f\u6548\uff0c\u60a8\u9700\u8981\u91cd\u65b0\u542f\u52a8 SO 
+
+#. Training Panel
+trainerjob=\u804c\u4f4d
+job0=\u65e0
+job1=\u4e3b\u6559\u7ec3
+job2=\u52a9\u7406\u6559\u7ec3
+job3=\u9752\u5e74\u961f\u6559\u7ec3
+ch_trainerskill=\u901a\u7528
+changetraining=\u6c38\u4e45\u66f4\u65b0\u8bad\u7ec3\u987a\u5e8f
+tt_changetraining=\u53cc\u51fb\u4ee5\u66f4\u6539\u672c\u5468\u8bad\u7ec3
+datastatus=\u81ea % \u7684\u6570\u636e
+datasetmanually=\u6570\u636e\u4e3a\u624b\u52a8\u8bbe\u7f6e
+week=\u5468
+order=\u4f4d\u7f6e
+trainlevel=\u8bad\u7ec3\u7ea7\u522b
+residuallevel=\u5269\u4f59\u7ea7\u522b
+assistantstotal=\u52a9\u7406\u6559\u7ec3\u6559\u7ec3\u6280\u80fd\u7efc\u5408
+minutestrained=\u8bad\u7ec3\u65f6\u95f4
+orderplayed=\u4e0a\u573a\u4f4d\u7f6e
+
+#. Matches Panel
+competition=\u8d5b\u4e8b
+weather=\u5929\u6c14
+opponent=\u5bf9\u624b
+spectators=\u89c2\u4f17
+score=\u6bd4\u5206
+victory=\u80dc\u5229
+draw=\u6218\u5e73
+defeat=\u8d25\u5317
+national=\u56fd\u5185
+internat=\u56fd\u9645
+local=\u4e3b\u573a
+visitor=\u5ba2\u573a
+official=\u5b98\u65b9\u8d5b\u4e8b
+friendly=\u53cb\u8c0a\u8d5b\u4e8b
+league=\u8054\u8d5b
+cup=\u676f\u8d5b
+quali=\u8d44\u683c\u8d5b
+totalmatches=\u603b\u6bd4\u8d5b\u573a\u6b21
+matcheswon=\u83b7\u80dc\u573a\u6b21
+matchesdrawn=\u6218\u5e73\u573a\u6b21
+matcheslost=\u8d25\u5317\u573a\u6b21
+goalsfavour=\u603b\u8fdb\u7403
+goalsagainst=\u603b\u5931\u7403
+goaldiff=\u603b\u51c0\u80dc\u7403
+shots=\u5c04\u95e8
+fouls=\u72af\u89c4
+yellowcards=\u9ec4\u724c
+redcards=\u7ea2\u724c
+shootefficiency=\u5c04\u95e8\u5f97\u5206\u6bd4
+avgattendance=\u573a\u5747\u89c2\u4f17
+avgpossession=\u573a\u5747\u63a7\u7403
+avgplayinhalf=Play in half avg.
+avgscoring=\u5f97\u5206\u6c34\u5e73
+avgpassing=\u4f20\u7403\u6c34\u5e73
+avgdefending=\u9632\u5b88\u6c34\u5e73
+
